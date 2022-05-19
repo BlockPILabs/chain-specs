@@ -1,5 +1,7 @@
 {
   "range": 1,
   "unit": "d",
-  "unit-comment": "y for year,m for month,d for day,h for hour; default for 1d"
+  "unit-comment": "y for year,m for month,d for day,h for hour; default for 1d",
+  "expiredRegulate": 7,
+  "arrearsRegulate": 7
 }
