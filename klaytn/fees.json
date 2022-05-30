@@ -1,0 +1,12 @@
+[
+  {
+    "method":"test_method",
+    "calBase":10,
+    "ruCost":5
+  },
+  {
+    "method":"default",
+    "calBase":1000,
+    "ruCost":1
+  }
+]
