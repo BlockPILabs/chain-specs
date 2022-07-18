@@ -298,7 +298,7 @@
     "method":"klay_getBlockReceipts",
     "calBase":100000000,
     "ruCost":400
-  }
+  },
   {
     "method":"eth_chainID",
     "calBase":100000000,
