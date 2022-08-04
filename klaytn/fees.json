@@ -1,5 +1,5 @@
 {
-    "method_price": [
+    "methodPrice": [
         {
             "method": "default",
             "calBase": 1000,
@@ -596,9 +596,9 @@
             "ruCost": 400
         }
     ],
-    "node_type_rate": {
+    "nodeTypeRate": {
         "default": 1,
-        "full_node": 1,
-        "archive_node": 1.3
+        "fullNode": 1,
+        "archiveNode": 1.3
     }
 }
