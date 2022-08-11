@@ -1,8 +1,8 @@
 [
   {
     "method":"default",
-    "calBase":1000,
-    "ruCost":1
+    "calBase":100000000,
+    "ruCost":25
   },
   {
     "method":"klay_chainID",
