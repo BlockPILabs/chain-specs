@@ -1,12 +1,11 @@
 {
-    "methodPrice": [
-        {
+    "methodPrice": [{
             "method": "default",
             "calBase": 1000,
             "ruCost": 1
         },
         {
-            "method": "klay_chainID",
+            "method": "klay_chainId",
             "calBase": 100000000,
             "ruCost": 0
         },
@@ -301,7 +300,7 @@
             "ruCost": 400
         },
         {
-            "method": "eth_chainID",
+            "method": "eth_chainId",
             "calBase": 100000000,
             "ruCost": 0
         },
