@@ -6,7 +6,7 @@
             "ruCost":25
           },
           {
-            "method":"chainId",
+            "method":"eth_chainId",
             "calBase":100000000,
             "ruCost":0
           },  
