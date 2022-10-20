@@ -1,6 +1,6 @@
 {
-  "commission": 1,
-  "gateway": 4.5,
-  "hypernode": 4.5,
+  "commission": 5,
+  "gateway": 1.5,
+  "hypernode": 3.5,
   "privateGateway": 0
 }
