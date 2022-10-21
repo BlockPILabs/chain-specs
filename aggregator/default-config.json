@@ -1,10 +1,30 @@
 {
+	"max_retries": 3,
 	"request_timeout": 30,
 	"nodes": {
 		"klaytn": [{
-			"name": "blockpi",
+			"name": "blockpi-klaytn",
 			"endpoint": "https://public-rpc.blockpi.me/klaytn",
-			"weight": 100,
+			"weight": 50,
+			"read_only": false,
+			"disabled": false
+		}, {
+			"name": "klaytnapi",
+			"endpoint": "https://public-node-api.klaytnapi.com/v1/cypress",
+			"weight": 50,
+			"read_only": false,
+			"disabled": false
+		}],
+		"polygon": [{
+			"name": "blockpi-polygon",
+			"endpoint": "https://public-rpc.blockpi.io/http/polygon",
+			"weight": 80,
+			"read_only": false,
+			"disabled": false
+		}, {
+			"name": "klaytnapi",
+			"endpoint": "http://168.119.1.188:9645/",
+			"weight": 20,
 			"read_only": false,
 			"disabled": false
 		}]
