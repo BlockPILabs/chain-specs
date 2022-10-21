@@ -1,0 +1,12 @@
+{
+	"request_timeout": 30,
+	"nodes": {
+		"klaytn": [{
+			"name": "blockpi",
+			"endpoint": "https://public-rpc.blockpi.me/klaytn",
+			"weight": 100,
+			"read_only": false,
+			"disabled": false
+		}]
+	}
+}
