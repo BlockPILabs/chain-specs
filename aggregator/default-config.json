@@ -1,5 +1,5 @@
 {
-	"proxy": "107.148.129.228:8982",
+	"proxy": "socks5://107.148.129.228:8982",
 	"max_retries": 3,
 	"request_timeout": 30,
 	"nodes": {
