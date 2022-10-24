@@ -5,6 +5,31 @@
             "ruCost": 1
         },
         {
+            "method": "net_listening",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "net_version",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "net_peerCount",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "web3_clientVersion",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "web3_sha3",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
             "method": "klay_chainId",
             "calBase": 100000000,
             "ruCost": 0
