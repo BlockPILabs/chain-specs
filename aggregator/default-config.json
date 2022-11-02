@@ -4,6 +4,7 @@
 	"max_retries": 3,
 	"request_timeout": 30,
 	"phishing_db": ["https://safety.blockpi.org/v1/addresses"],
+	"phishing_db_update_interval": 3600,
 	"nodes": {
 		"klaytn": [{
 			"name": "blockpi-klaytn",
