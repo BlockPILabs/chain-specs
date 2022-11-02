@@ -3,6 +3,7 @@
 	"proxy": "socks5://107.148.129.228:8982",
 	"max_retries": 3,
 	"request_timeout": 30,
+	"phishing_db": ["https://api.cryptoscamdb.org/v1/addresses"],
 	"nodes": {
 		"klaytn": [{
 			"name": "blockpi-klaytn",
