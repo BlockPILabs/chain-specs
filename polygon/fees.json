@@ -1,8 +1,8 @@
 {
     "methodPrice": [{
             "method": "default",
-            "calBase": 100000000,
-            "ruCost": 25
+            "calBase": 250,
+            "ruCost": 5
         },
         {
             "method": "net_listening",
