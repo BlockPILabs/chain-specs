@@ -632,6 +632,16 @@
             "method": "debug_traceBlockByHash",
             "calBase": 100000000,
             "ruCost": 500
+        },
+        {
+            "method": "txpool_inspect",
+            "calBase": 100000000,
+            "rucost": 10
+        },
+        {
+            "method": "txpool_status",
+            "calBase": 100000000,
+            "rucost": 10
         }
     ],
     "nodeTypeRate": {
