@@ -4,7 +4,7 @@
             "calBase": 250,
             "ruCost": 5
         }, {
-            "method": "GET,/v1/accounts/{address}/transactions",
+            "method": "GET,/v1/accounts/{address}",
             "calBase": 100000000,
             "ruCost": 20
         },
