@@ -1,0 +1,6 @@
+{
+    "methods":{
+        "debug_traceBlockByHash":"erigon"
+    },
+    "default":"bor"
+}
