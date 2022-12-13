@@ -373,6 +373,11 @@
             "method": "txpool_status",
             "calBase": 100000000,
             "rucost": 10
+        },
+        {
+            "method": "eth_getProof",
+            "calBase": 100000000,
+            "rucost": 50
         }
     ],
     "nodeTypeRate": {
