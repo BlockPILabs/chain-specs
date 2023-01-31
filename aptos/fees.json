@@ -1,0 +1,117 @@
+{
+    "methodPrice": [{
+            "method": "default",
+            "calBase": 250,
+            "ruCost": 5
+        }, {
+            "method": "GET,/v1/accounts/{address}",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/resources",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/modules",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/resource/{resource_type}",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/module/{module_name}",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "GET,/v1/blocks/by_height/{block_height}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/blocks/by_version/{version}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/events/{creation_number}",
+            "calBase": 100000000,
+            "ruCost": 120
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/events/{event_handle}/{field_name}",
+            "calBase": 100000000,
+            "ruCost": 120
+        },
+        {
+            "method": "GET,/v1/-/healthy",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "GET,/v1/",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "POST,/v1/tables/{table_handle}/item",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "GET,/v1/transactions",
+            "calBase": 100000000,
+            "ruCost": 120
+        },
+        {
+            "method": "POST,/v1/transactions",
+            "calBase": 100000000,
+            "ruCost": 45
+        },
+        {
+            "method": "GET,/v1/transactions/by_hash/{txn_hash}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/transactions/by_version/{txn_version}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/transactions",
+            "calBase": 100000000,
+            "ruCost": 120
+        },
+        {
+            "method": "POST,/v1/transactions/batch",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "POST,/v1/transactions/simulate",
+            "calBase": 100000000,
+            "ruCost": 45
+        },
+        {
+            "method": "POST,/v1/transactions/encode_submission",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "GET,/v1/estimate_gas_price",
+            "calBase": 100000000,
+            "ruCost": 20
+        }
+    ],
+    "nodeTypeRate": {
+        "default": 1,
+        "fullNode": 1,
+        "archiveNode": 1.3
+    }
+}
