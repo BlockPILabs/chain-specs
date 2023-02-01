@@ -567,12 +567,12 @@
         {
             "method": "eth_getBlockByHash",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 20
         },
         {
             "method": "eth_getBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 15
         },
         {
             "method": "eth_getFilterLogs",
