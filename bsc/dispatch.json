@@ -1,3 +1,8 @@
 {
+    "methods":{
+         "eth_getLogs":"erigon",
+        "debug_traceBlockByHash":"erigon",
+        "debug_traceTransaction":"erigon"
+    },
     "default":"Geth"
 }
