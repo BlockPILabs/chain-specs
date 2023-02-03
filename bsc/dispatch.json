@@ -1,6 +1,7 @@
 {
     "methods":{
-         "eth_getLogs":"erigon"
+         "eth_getLogs":"erigon",
+         "eth_getBlockReceipts":"erigon"
     },
     "default":"Geth"
 }
