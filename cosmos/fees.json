@@ -2,8 +2,8 @@
     "methodPrice": [
         {
             "method": "default",
-            "calBase": 500,
-            "ruCost": 1
+            "calBase": 250,
+            "ruCost": 5
         },
         {
             "method": "GET,/blocks/{height}",
