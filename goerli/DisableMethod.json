@@ -48,5 +48,6 @@
   "debug_writeMemProfile",
   "debug_writeMutexProfile",
   "trace_callMany",
-  "trace_replayBlockTransactions"
+  "trace_replayBlockTransactions",
+  "debug_setTrieFlushInterval"
 ]
