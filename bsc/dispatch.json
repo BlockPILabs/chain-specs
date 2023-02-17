@@ -1,8 +1,9 @@
 {
     "methods":{
          "eth_getLogs":"erigon",
-        "debug_traceBlockByHash":"erigon",
-        "debug_traceTransaction":"erigon"
+         "eth_getBlockReceipts":"erigon",
+         "eth_newBlockFilter":"erigon",
+         "eth_newPendingTransactionFilter":"erigon"
     },
     "default":"Geth"
 }
