@@ -1,0 +1,5 @@
+[
+  "txpool_content",
+  "txpool_status",
+  "txpool_inspect"
+]
