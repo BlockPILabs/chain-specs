@@ -302,7 +302,7 @@
         {
             "method": "klay_getTransactionReceipt",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 15
         },
         {
             "method": "klay_getTransactionReceiptBySenderTxHash",
@@ -597,7 +597,7 @@
         {
             "method": "eth_getTransactionReceipt",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 15
         },
         {
             "method": "eth_getTransactionReceiptBySenderTxHash",
