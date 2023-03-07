@@ -479,6 +479,102 @@
             "method": "GET,/validatorsets/latest",
             "calBase": 100000000,
             "ruCost": 455
+        },
+        {
+            "method": "health",
+            "calBase": 100000000,
+            "ruCost": 5
+        },{
+            "method": "status",
+            "calBase": 100000000,
+            "ruCost": 25
+        },{
+            "method": "net_info",
+            "calBase": 100000000,
+            "ruCost": 350
+        },{
+            "method": "blockchain",
+            "calBase": 100000000,
+            "ruCost": 500
+        },{
+            "method": "block",
+            "calBase": 100000000,
+            "ruCost": 1500
+        },{
+            "method": "block_by_hash",
+            "calBase": 100000000,
+            "ruCost": 1600
+        },{
+            "method": "block_results",
+            "calBase": 100000000,
+            "ruCost": 4000
+        },{
+            "method": "commit",
+            "calBase": 100000000,
+            "ruCost": 650
+        },{
+            "method": "validators",
+            "calBase": 100000000,
+            "ruCost": 130
+        },{
+            "method": "genesis",
+            "calBase": 100000000,
+            "ruCost": 5
+        },{
+            "method": "dump_consensus_state",
+            "calBase": 100000000,
+            "ruCost": 2400
+        },{
+            "method": "consensus_state",
+            "calBase": 100000000,
+            "ruCost": 140
+        },{
+            "method": "consensus_params",
+            "calBase": 100000000,
+            "ruCost": 10
+        },{
+            "method": "unconfirmed_txs",
+            "calBase": 100000000,
+            "ruCost": 800
+        },{
+            "method": "tx_search",
+            "calBase": 100000000,
+            "ruCost": 3800
+        },{
+            "method": "tx",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },{
+            "method": "broadcast_evidence",
+            "calBase": 100000000,
+            "ruCost": 5
+        },{
+            "method": "broadcast_tx_sync",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "broadcast_tx_async",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "broadcast_tx_commit",
+            "calBase": 100000000,
+            "ruCost": 15
+        },{
+            "method": "check_tx",
+            "calBase": 100000000,
+            "ruCost": 10
+        },{
+            "method": "abci_query",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "abci_info",
+            "calBase": 100000000,
+            "ruCost": 10
         }
     ],
     "nodeTypeRate": {
