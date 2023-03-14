@@ -12,7 +12,7 @@
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 500
         },
         {
             "method": "net_peerCount",
