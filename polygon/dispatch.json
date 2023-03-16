@@ -3,6 +3,5 @@
         "debug_traceBlockByHash":"erigon",
         "debug_traceTransaction":"erigon"
     },
-    "default":"bor",
-    "default_archive":"erigon"
+    "default":"bor"
 }
