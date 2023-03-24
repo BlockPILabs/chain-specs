@@ -12,5 +12,7 @@
         "trace_rawTransaction":"erigon",
         "trace_replayTransaction":"erigon"
     },
-    "default":"Geth"
+    "default":"Geth",
+    "default_archive":"erigon"
+
 }
