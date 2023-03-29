@@ -10,7 +10,10 @@
         "trace_transaction":"erigon",
         "trace_filter":"erigon",
         "trace_rawTransaction":"erigon",
-        "trace_replayTransaction":"erigon"
+        "trace_replayTransaction":"erigon",
+        "debug_traceBlockByHash":"erigon",
+        "debug_traceBlockByNumber":"erigon",
+        "debug_traceTransaction":"erigon"
     },
     "default":"Geth",
     "default_archive":"erigon"
