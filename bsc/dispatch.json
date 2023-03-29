@@ -11,7 +11,9 @@
         "trace_filter":"erigon",
         "trace_rawTransaction":"erigon",
         "trace_replayTransaction":"erigon",
-        "web3_clientVersion":"Geth"
+        "debug_traceBlockByHash":"erigon",
+        "debug_traceBlockByNumber":"erigon",
+        "debug_traceTransaction":"erigon"
     },
     "default":"Geth",
     "default_archive":"erigon"
