@@ -2,96 +2,86 @@
   {
     "chain": "aptos",
     "id": "1",
-    "host": "aptos"
+    "hosts": ["aptos"]
   },
   {
     "chain": "arbitrum",
     "id": "42161",
-    "host": "arbitrum"
+    "hosts": ["arbitrum"]
   },
   {
     "chain": "avalanche",
     "id": "43114",
-    "host": "avalanche"
+    "hosts": ["avalanche"]
   },
   {
     "chain": "bsc",
     "id": "56",
-    "host": "bsc"
+    "hosts": ["bsc"]
   },
   {
     "chain": "cosmos",
     "id": "cosmoshub-4",
-    "host": "cosmos"
+    "hosts": ["cosmos"]
   },
   {
     "chain": "cronos",
     "id": "25",
-    "host": "cronos"
+    "hosts": ["cronos"]
   },
   {
     "chain": "fantom",
     "id": "250",
-    "host": "fantom"
+    "hosts": ["fantom"]
   },
   {
     "chain": "gnosis",
     "id": "100",
-    "host": "gnosis"
+    "hosts": ["gnosis"]
   },
   {
     "chain": "goerli",
     "id": "5",
-    "host": "goerli"
-  },
-  {
-    "chain": "goerli",
-    "id": "5",
-    "host": "ethereum-goerli"
+    "hosts": ["goerli","ethereum-goerli"]
   },
   {
     "chain": "klaytn",
     "id": "8217",
-    "host": "klaytn"
+    "hosts": ["klaytn"]
   },
   {
     "chain": "klaytn-baobab",
     "id": "1001",
-    "host": "klaytn-baobab"
+    "hosts": ["klaytn-baobab"]
   },
   {
     "chain": "oasys",
     "id": "248",
-    "host": "oasys"
+    "hosts": ["oasys"]
   },
   {
     "chain": "optimism",
     "id": "10",
-    "host": "optimism"
+    "host": ["optimism"]
   },
   {
     "chain": "polygon",
     "id": "137",
-    "host": "polygon"
+    "hosts": ["polygon"]
   },
   {
     "chain": "polygon-mumbai",
     "id": "80001",
-    "host": "polygon-mumbai"
+    "hosts": ["polygon-mumbai"]
   },
   {
     "chain": "scroll-testnet",
     "id": "534353",
-    "host": "scroll-testnet"
+    "hosts": ["scroll-testnet"]
   },
   {
     "chain": "sepolia",
     "id": "11155111",
-    "host": "sepolia"
-  },
-  {
-    "chain": "sepolia",
-    "id": "11155111",
-    "host": "ethereum-sepolia"
+    "hosts": ["sepolia","ethereum-sepolia"]
   }
 ]
