@@ -1,0 +1,97 @@
+[
+  {
+    "chain": "aptos",
+    "id": "1",
+    "host": "aptos"
+  },
+  {
+    "chain": "arbitrum",
+    "id": "42161",
+    "host": "arbitrum"
+  },
+  {
+    "chain": "avalanche",
+    "id": "43114",
+    "host": "avalanche"
+  },
+  {
+    "chain": "bsc",
+    "id": "56",
+    "host": "bsc"
+  },
+  {
+    "chain": "cosmos",
+    "id": "cosmoshub-4",
+    "host": "cosmos"
+  },
+  {
+    "chain": "cronos",
+    "id": "25",
+    "host": "cronos"
+  },
+  {
+    "chain": "fantom",
+    "id": "250",
+    "host": "fantom"
+  },
+  {
+    "chain": "gnosis",
+    "id": "100",
+    "host": "gnosis"
+  },
+  {
+    "chain": "goerli",
+    "id": "5",
+    "host": "goerli"
+  },
+  {
+    "chain": "goerli",
+    "id": "5",
+    "host": "ethereum-goerli"
+  },
+  {
+    "chain": "klaytn",
+    "id": "8217",
+    "host": "klaytn"
+  },
+  {
+    "chain": "klaytn-baobab",
+    "id": "1001",
+    "host": "klaytn-baobab"
+  },
+  {
+    "chain": "oasys",
+    "id": "248",
+    "host": "oasys"
+  },
+  {
+    "chain": "optimism",
+    "id": "10",
+    "host": "optimism"
+  },
+  {
+    "chain": "polygon",
+    "id": "137",
+    "host": "polygon"
+  },
+  {
+    "chain": "polygon-mumbai",
+    "id": "80001",
+    "host": "polygon-mumbai"
+  },
+  {
+    "chain": "scroll-testnet",
+    "id": "534353",
+    "host": "scroll-testnet"
+  },
+  {
+    "chain": "sepolia",
+    "id": "11155111",
+    "host": "sepolia"
+  },
+  {
+    "chain": "sepolia",
+    "id": "11155111",
+    "host": "ethereum-sepolia"
+  }
+]
