@@ -30,6 +30,11 @@
     "hosts": ["cronos"]
   },
   {
+    "chain": "ethereum",
+    "id": "1",
+    "hosts": ["ethereum"]
+  },
+  {
     "chain": "fantom",
     "id": "250",
     "hosts": ["fantom"]
