@@ -12,7 +12,7 @@
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 500
+            "ruCost": 0
         },
         {
             "method": "net_peerCount",
@@ -52,7 +52,7 @@
         {
             "method": "eth_blockNumber",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 10
         },
         {
             "method": "eth_accountCreated",

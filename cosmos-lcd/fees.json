@@ -6,6 +6,131 @@
             "ruCost": 5
         },
         {
+            "method": "GET,/health",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "GET,/broadcast_evidence",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "GET,/num_unconfirmed_txs",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "GET,/genesis",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "GET,/abci_query",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/abci_info",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/check_tx",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/consensus_params",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/broadcast_tx_sync",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/broadcast_tx_async",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "GET,/broadcast_tx_commit",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "GET,/status",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "GET,/validators",
+            "calBase": 100000000,
+            "ruCost": 130
+        },
+        {
+            "method": "GET,/consensus_state",
+            "calBase": 100000000,
+            "ruCost": 140
+        },
+        {
+            "method": "GET,/net_info",
+            "calBase": 100000000,
+            "ruCost": 350
+        },
+        {
+            "method": "GET,/blockchain",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "GET,/commit",
+            "calBase": 100000000,
+            "ruCost": 650
+        },
+        {
+            "method": "GET,/unconfirmed_txs",
+            "calBase": 100000000,
+            "ruCost": 800
+        },
+        {
+            "method": "GET,/tx",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },
+        {
+            "method": "GET,/block_search",
+            "calBase": 100000000,
+            "ruCost": 1500
+        },
+        {
+            "method": "GET,/block",
+            "calBase": 100000000,
+            "ruCost": 1500
+        },
+        {
+            "method": "GET,/block_by_hash",
+            "calBase": 100000000,
+            "ruCost": 1600
+        },
+        {
+            "method": "GET,/dump_consensus_state",
+            "calBase": 100000000,
+            "ruCost": 2400
+        },
+        {
+            "method": "GET,/tx_search",
+            "calBase": 100000000,
+            "ruCost": 3800
+        },
+        {
+            "method": "GET,/block_results",
+            "calBase": 100000000,
+            "ruCost": 4000
+        },
+        {
             "method": "GET,/blocks/{height}",
             "calBase": 100000000,
             "ruCost": 1110

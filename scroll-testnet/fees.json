@@ -1,6 +1,5 @@
 {
-    "methodPrice": [
-        {
+    "methodPrice": [{
             "method": "default",
             "calBase": 250,
             "ruCost": 5
@@ -288,7 +287,7 @@
         {
             "method": "eth_getTransactionReceipt",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 200
         },
         {
             "method": "eth_getTransactionReceiptBySenderTxHash",
@@ -374,21 +373,6 @@
             "method": "txpool_status",
             "calBase": 100000000,
             "rucost": 10
-        },
-        {
-            "method": "rollup_getInfo",
-            "calBase": 100000000,
-            "rucost": 10
-        },
-        {
-            "method": "rollup_gasPrices",
-            "calBase": 100000000,
-            "rucost": 10
-        },
-        {
-            "method": "eth_getProof",
-            "calBase": 100000000,
-            "rucost": 50
         }
     ],
     "nodeTypeRate": {
