@@ -1,5 +1,6 @@
 {
-    "methodPrice": [{
+    "methodPrice": [
+        {
             "method": "default",
             "calBase": 250,
             "ruCost": 5
@@ -371,6 +372,16 @@
         },
         {
             "method": "txpool_status",
+            "calBase": 100000000,
+            "rucost": 10
+        },
+        {
+            "method": "rollup_getInfo",
+            "calBase": 100000000,
+            "rucost": 10
+        },
+        {
+            "method": "rollup_gasPrices",
             "calBase": 100000000,
             "rucost": 10
         },
