@@ -1,5 +1,6 @@
 {
-    "methodPrice": [{
+    "methodPrice": [
+        {
             "method": "default",
             "calBase": 250,
             "ruCost": 5
@@ -271,7 +272,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 75
         },
         {
