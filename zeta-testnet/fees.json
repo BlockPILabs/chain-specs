@@ -849,7 +849,8 @@
       "method": "GET,/cosmos/gov/v1/params/{params_type}",
       "calBase": 100000000,
       "ruCost": 20
-    }{
+    },
+    {
       "method": "GET,/cosmos/gov/v1/proposals",
       "calBase": 100000000,
       "ruCost": 1200
