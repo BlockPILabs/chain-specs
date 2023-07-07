@@ -940,8 +940,7 @@
           "calBase": 100000000,
           "ruCost": 30
         }
-      ]
-      ,
+      ],
     "nodeTypeRate": {
         "default": 1,
         "fullNode": 1,
