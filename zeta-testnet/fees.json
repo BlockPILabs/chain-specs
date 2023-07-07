@@ -809,6 +809,136 @@
             "method": "abci_info",
             "calBase": 100000000,
             "ruCost": 10
+        },
+        {
+          "method": "GET,/cosmos/auth/v1beta1/address_by_id/{id}",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/cosmos/auth/v1beta1/bech32",
+          "calBase": 100000000,
+          "ruCost": 15
+        },
+        {
+          "method": "GET,/cosmos/auth/v1beta1/bech32/{address_bytes}",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/cosmos/auth/v1beta1/module_accounts",
+          "calBase": 100000000,
+          "ruCost": 160
+        },
+        {
+          "method": "GET,/cosmos/bank/v1beta1/denom_owners/{denom}",
+          "calBase": 100000000,
+          "ruCost": 700
+        },
+        {
+          "method": "GET,/cosmos/bank/v1beta1/supply/by_denom",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/cosmos/distribution/v1beta1/delegators/{delegator_address}/rewards/{validator_address}",
+          "calBase": 100000000,
+          "ruCost": 25
+        },
+        {
+          "method": "GET,/cosmos/gov/v1/params/{params_type}",
+          "calBase": 100000000,
+          "ruCost": 20
+        }
+        {
+          "method": "GET,/cosmos/gov/v1/proposals",
+          "calBase": 100000000,
+          "ruCost": 1200
+        },
+        {
+          "method": "GET,/cosmos/gov/v1/proposals/{proposal_id}",
+          "calBase": 100000000,
+          "ruCost": 100
+        },
+        {
+          "method": "GET,/cosmos/gov/v1/proposals/{proposal_id}/tally",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/cctx/{index}",
+          "calBase": 100000000,
+          "ruCost": 75
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/inTxHashToCctx",
+          "calBase": 100000000,
+          "ruCost": 800
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/inTxHashToCctx/{inTxHash}",
+          "calBase": 100000000,
+          "ruCost": 25
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/lastZetaHeight",
+          "calBase": 100000000,
+          "ruCost": 15
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/outTxTracker/{chainID}/{nonce}",
+          "calBase": 100000000,
+          "ruCost": 25
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/observer/get_client_params_for_chain/{chainID}",
+          "calBase": 100000000,
+          "ruCost": 40
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/observer/get_core_params",
+          "calBase": 100000000,
+          "ruCost": 120
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/emissions/params",
+          "calBase": 100000000,
+          "ruCost": 15
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/emissions/list_addresses",
+          "calBase": 100000000,
+          "ruCost": 15
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/crosschain/permission_flags",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/zeta-chain/zetacore/crosschain/get_tss_address",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/zeta-chain/observer/observers_by_chain/{observation_chain}",
+          "calBase": 100000000,
+          "ruCost": 20
+        },
+        {
+          "method": "GET,/zeta-chain/observer/ballot_by_identifier/{ballot_identifier}",
+          "calBase": 100000000,
+          "ruCost": 10
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/pendingNonces",
+          "calBase": 100000000,
+          "ruCost": 110
+        },
+        {
+          "method": "GET,/zeta-chain/crosschain/nodeAccount/{index}",
+          "calBase": 100000000,
+          "ruCost": 30
         }
       ]
       ,
