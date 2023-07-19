@@ -458,6 +458,31 @@
             "method": "zks_L1ChainId",
             "calBase": 100000000,
             "rucost": 35
+        },
+                {
+            "method": "eth_sendUserOperation",
+            "calBase": 100000000,
+            "rucost": 200
+        },
+        {
+            "method": "eth_estimateUserOperationGas",
+            "calBase": 100000000,
+            "rucost": 20
+        },
+        {
+            "method": "eth_getUserOperationByHash",
+            "calBase": 100000000,
+            "rucost": 35
+        },
+        {
+            "method": "eth_getUserOperationReceipt",
+            "calBase": 100000000,
+            "rucost": 15
+        },
+        {
+            "method": "eth_supportedEntryPoints",
+            "calBase": 100000000,
+            "rucost": 10
         }
     ],
     "nodeTypeRate": {
