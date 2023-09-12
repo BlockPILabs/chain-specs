@@ -1,5 +1,4 @@
-{
-  "default":[
+[
   "debug_accountRange",
   "debug_backtraceAt",
   "debug_blockProfile",
@@ -50,5 +49,4 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions"
-  ]
-}
+]
