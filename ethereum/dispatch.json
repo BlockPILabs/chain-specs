@@ -1,20 +1,3 @@
 {
-    "methods": {
-        "eth_getLogs": "erigon",
-        "eth_getBlockReceipts": "erigon",
-        "eth_newBlockFilter": "erigon",
-        "eth_newPendingTransactionFilter": "erigon",
-        "trace_block": "erigon",
-        "trace_call": "erigon",
-        "trace_get": "erigon",
-        "trace_transaction": "erigon",
-        "trace_filter": "erigon",
-        "trace_rawTransaction": "erigon",
-        "trace_replayTransaction": "erigon",
-        "debug_traceBlockByHash": "erigon",
-        "debug_traceBlockByNumber": "erigon",
-        "debug_traceTransaction": "erigon"
-    },
-    "default": "Geth",
-    "default_archive": "erigon"
+    "default":"erigon"
 }
