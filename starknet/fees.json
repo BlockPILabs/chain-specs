@@ -5,142 +5,142 @@
             "ruCost": 5
         },
         {
-            "method": "starknet_chainId",
+            "method": "net_listening",
             "calBase": 100000000,
             "ruCost": 0
         },
         {
-            "method": "starknet_blockNumber",
+            "method": "net_version",
             "calBase": 100000000,
             "ruCost": 0
         },
         {
-            "method": "starknet_blockHashAndNumber",
+            "method": "net_peerCount",
             "calBase": 100000000,
             "ruCost": 0
         },
         {
-            "method": "starknet_getBlockWithTxHashes",
+            "method": "web3_clientVersion",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getBlockWithTxs",
+            "method": "web3_sha3",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getTransactionByHash",
+            "method": "eth_chainId",
             "calBase": 100000000,
             "ruCost": 0
         },
         {
-            "method": "starknet_getTransactionReceipt",
+            "method": "eth_syncing",
             "calBase": 100000000,
             "ruCost": 0
         },
         {
-            "method": "starknet_getBlockTransactionCount",
+            "method": "eth_accounts",
             "calBase": 100000000,
             "ruCost": 10
         },
         {
-            "method": "starknet_getTransactionByBlockIdAndIndex",
+            "method": "eth_uninstallFilter",
             "calBase": 100000000,
             "ruCost": 10
         },
         {
-            "method": "starknet_getStateUpdate",
+            "method": "eth_blockNumber",
             "calBase": 100000000,
             "ruCost": 10
         },
         {
-            "method": "starknet_getNonce",
+            "method": "eth_accountCreated",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getStorageAt",
+            "method": "eth_getBalance",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getTransactionStatus",
+            "method": "eth_getCode",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getClassHashAt",
+            "method": "eth_getTransactionCount",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getClass",
+            "method": "eth_isContractAccount",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getClassAt",
+            "method": "eth_sign",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_syncing",
+            "method": "eth_clientVersion",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_getEvents",
+            "method": "eth_mining",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_call",
+            "method": "eth_hashrate",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_estimateFee",
+            "method": "eth_gasPrice",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_addInvokeTransaction",
+            "method": "eth_gasPriceAt",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_addDeclareTransaction",
+            "method": "eth_isParallelDBWrite",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_addDeployAccountTransaction",
+            "method": "eth_isSenderTxHashIndexingEnabled",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starkent_estimateMessageFee",
+            "method": "eth_rewardbase",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_traceTransaction",
+            "method": "eth_sha3",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_traceBlockTransactions",
+            "method": "eth_newBlockFilter",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_simulateTransactions",
+            "method": "eth_newFilter",
             "calBase": 100000000,
             "ruCost": 15
         },
         {
-            "method": "starknet_specVersion",
+            "method": "eth_newPendingTransactionFilter",
             "calBase": 100000000,
             "ruCost": 15
         },
