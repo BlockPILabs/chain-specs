@@ -3,6 +3,126 @@
             "method": "default",
             "calBase": 250,
             "ruCost": 5
+        },
+        {
+            "method": "starknet_specVersion",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getClassAt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_addInvokeTransaction",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getBlockWithTxs",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getClass",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "starknet_pendingTransactions",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "starknet_getEvents",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "starknet_getBlockWithTxHashes",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_syncing",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getNonce",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getTransactionByHash",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_estimateFee",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_call",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getBlockTransactionCount",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getTransactionReceipt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getTransactionByBlockIdAndIndex",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getStateUpdate",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_blockNumber",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getStorageAt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_blockHashAndNumber",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_addDeclareTransaction",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_addDeployAccountTransaction",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_getClassHashAt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "starknet_chainId",
+            "calBase": 100000000,
+            "ruCost": 15
         }
     ],
     "nodeTypeRate": {
