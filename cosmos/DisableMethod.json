@@ -1,4 +1,4 @@
 [
-  "/cosmos/staking/v1beta1/validators/{validator_addr}",
-  "/cosmos/staking/v1beta1/validators/{validator_addr}/delegations"
+  "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}",
+  "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations"
 ]
