@@ -2,5 +2,7 @@
   "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}",
   "/{rpcVer}/{apiKey}/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations",
   "/lcd/{rpcVer}/{apiKey}/cosmos/staking/v1beta1/validators/{validator_addr}/delegation",
-  "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations"
+  "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations",
+  "cosmos/staking/v1beta1/validators/{validator_addr}/delegations",
+  "/cosmos/staking/v1beta1/validators/{validator_addr}/delegations"
 ]
