@@ -51,5 +51,6 @@
   "trace_replayBlockTransactions",
   "debug_setTrieFlushInterval",
   "eth_accounts",
+  "eth_signTransaction",
   "eth_signTransaction"
 ]
