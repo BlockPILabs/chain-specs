@@ -1,5 +1,6 @@
 {
     "methods": {
+        "eth_accounts": "Geth",
         "eth_getBlockReceipts": "erigon",
         "trace_block": "erigon",
         "trace_call": "erigon",
