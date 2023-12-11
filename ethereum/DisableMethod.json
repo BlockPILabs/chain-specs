@@ -1,5 +1,4 @@
 [
-  "eth_accounts"
   "debug_accountRange",
   "debug_backtraceAt",
   "debug_blockProfile",
