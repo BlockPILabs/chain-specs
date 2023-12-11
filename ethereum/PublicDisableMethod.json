@@ -1,4 +1,5 @@
 [
   "txpool_content",
-  "txpool_inspect"
+  "txpool_inspect",
+  "newPendingTransactionFilter"
 ]
