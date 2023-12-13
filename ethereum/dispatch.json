@@ -9,6 +9,6 @@
         "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon"
     },
-    "default": "Geth",
-    "default_archive": "erigon"
+    "default": "",
+    "default_archive": ""
 }
