@@ -13,7 +13,7 @@
         "debug_traceCall": "Good",
         "debug_traceTransaction": "Good",
         "eth_getLogs": "Good",
-        "newPendingTransactionFilter": "Good",
+        "eth_newPendingTransactionFilter": "Good",
         "txpool_content": "Good"
     },
     "default": "",
