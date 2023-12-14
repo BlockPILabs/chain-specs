@@ -1,20 +1,20 @@
 {
     "methods": {
         "eth_getBlockReceipts": "erigon",
-        "trace_block": "good",
+        "trace_block": "Good",
         "trace_call": "erigon",
         "trace_get": "erigon",
         "trace_transaction": "erigon",
-        "trace_filter": "good",
+        "trace_filter": "Good",
         "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon",
-        "debug_traceBlockByHash": "good",
-        "debug_traceBlockByNumber": "good",
-        "debug_traceCall": "good",
-        "debug_traceTransaction": "good",
-        "eth_getLogs": "good",
-        "newPendingTransactionFilter": "good",
-        "txpool_content": "good"
+        "debug_traceBlockByHash": "Good",
+        "debug_traceBlockByNumber": "Good",
+        "debug_traceCall": "Good",
+        "debug_traceTransaction": "Good",
+        "eth_getLogs": "Good",
+        "newPendingTransactionFilter": "Good",
+        "txpool_content": "Good"
     },
     "default": "",
     "default_archive": ""
