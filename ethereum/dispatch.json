@@ -1,11 +1,11 @@
 {
     "methods": {
         "eth_getBlockReceipts": "erigon",
-        "trace_block": "Good",
+        "trace_block": "erigon",
         "trace_call": "erigon",
         "trace_get": "erigon",
         "trace_transaction": "erigon",
-        "trace_filter": "Good",
+        "trace_filter": "erigon",
         "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon",
         "debug_traceBlockByHash": "Good",
