@@ -6,6 +6,7 @@
         "trace_get": "erigon",
         "trace_transaction": "erigon",
         "trace_filter": "erigon",
+        "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon",
         "debug_traceBlockByHash": "Good",
         "debug_traceBlockByNumber": "Good",
