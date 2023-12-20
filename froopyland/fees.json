@@ -696,6 +696,66 @@
         "ruCost": 4000
       },
       {
+        "method": "GET,/dymensionxyz/dymension/rollapp/rollapp",
+        "calBase": 100000000,
+        "ruCost": 800
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/rollapp/rollapp/{rollappId}",
+        "calBase": 100000000,
+        "ruCost": 35
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/rollapp/params",
+        "calBase": 100000000,
+        "ruCost": 20
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/rollapp/state_info",
+        "calBase": 100000000,
+        "ruCost": 20
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/rollapp/state_info/{rollappId}/{index}",
+        "calBase": 100000000,
+        "ruCost": 45
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/params",
+        "calBase": 100000000,
+        "ruCost": 15
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/scheduler",
+        "calBase": 100000000,
+        "ruCost": 500
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/scheduler/{sequencerAddress}",
+        "calBase": 100000000,
+        "ruCost": 20
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/sequencer",
+        "calBase": 100000000,
+        "ruCost": 2000
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/sequencer/{sequencerAddress}",
+        "calBase": 100000000,
+        "ruCost": 20
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/sequencers_by_rollapp",
+        "calBase": 100000000,
+        "ruCost": 3000
+      },
+      {
+        "method": "GET,/dymensionxyz/dymension/sequencer/sequencers_by_rollapp/{rollappId}",
+        "calBase": 100000000,
+        "ruCost": 40
+      },
+      {
           "method": "health",
           "calBase": 100000000,
           "ruCost": 5
