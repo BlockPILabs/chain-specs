@@ -90,7 +90,7 @@
             "ruCost": 20
         },
         {
-            "method": "starknet_blockNumber"，
+            "method": "starknet_blockNumber",
             "calBase": 100000000,
             "ruCost": 10
         },
