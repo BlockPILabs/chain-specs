@@ -12,7 +12,7 @@
         {
             "method": "starknet_getClassAt",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 75
         },
         {
             "method": "starknet_addInvokeTransaction",
@@ -22,12 +22,12 @@
         {
             "method": "starknet_getBlockWithTxs",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 25
         },
         {
             "method": "starknet_getClass",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 75
         },
         {
             "method": "starknet_pendingTransactions",
@@ -52,7 +52,7 @@
         {
             "method": "starknet_getNonce",
             "calBase": 100000000,
-            "ruCost": 25
+            "ruCost": 15
         },
         {
             "method": "starknet_getTransactionByHash",
@@ -87,7 +87,7 @@
         {
             "method": "starknet_getStateUpdate",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 25
         },
         {
             "method": "starknet_blockNumber",
