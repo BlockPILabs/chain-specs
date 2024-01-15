@@ -2,6 +2,6 @@
     "methods":{
          "eth_getTransactionReceipt":"erigon"
     },
-    "default":"Nethermind",
-    "default_archive":"erigon"
+    "default":"",
+    "default_archive":""
 }
