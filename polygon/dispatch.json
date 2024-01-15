@@ -11,6 +11,6 @@
         "trace_replayTransaction":"erigon",
         "eth_getBlockReceipts":"erigon"
     },
-    "default":"bor",
-    "default_archive":"erigon"
+    "default":"",
+    "default_archive":""
 }
