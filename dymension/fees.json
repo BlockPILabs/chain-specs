@@ -6,752 +6,752 @@
         "ruCost": 5
       },
       {
-        "method": "GET,/cosmos/upgrade/v1beta1/applied_plan/{name}",
+        "method": "/lcd/cosmos/upgrade/v1beta1/applied_plan/{name}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/cosmos/evidence/v1beta1/evidence/{evidence_hash}",
+        "method": "/lcd/cosmos/evidence/v1beta1/evidence/{evidence_hash}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/cosmos/auth/v1beta1/params",
+        "method": "/lcd/cosmos/auth/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/balances/{address}/{denom}",
+        "method": "/lcd/cosmos/bank/v1beta1/balances/{address}/{denom}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/denom_owners/{denom}",
+        "method": "/lcd/cosmos/bank/v1beta1/denom_owners/{denom}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/denoms_metadata/{denom}",
+        "method": "/lcd/cosmos/bank/v1beta1/denoms_metadata/{denom}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/params",
+        "method": "/lcd/cosmos/bank/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/supply",
+        "method": "/lcd/cosmos/bank/v1beta1/supply",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/supply/{denom}",
+        "method": "/lcd/cosmos/bank/v1beta1/supply/{denom}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/syncing",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/syncing",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/delegators/{delegator_address}/rewards/{validator_address}",
+        "method": "/lcd/cosmos/distribution/v1beta1/delegators/{delegator_address}/rewards/{validator_address}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/delegators/{delegator_address}/validators",
+        "method": "/lcd/cosmos/distribution/v1beta1/delegators/{delegator_address}/validators",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/delegators/{delegator_address}/withdraw_address",
+        "method": "/lcd/cosmos/distribution/v1beta1/delegators/{delegator_address}/withdraw_address",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/params",
+        "method": "/lcd/cosmos/distribution/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/validators/{validator_address}/slashes",
+        "method": "/lcd/cosmos/distribution/v1beta1/validators/{validator_address}/slashes",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/params/{params_type}",
+        "method": "/lcd/cosmos/gov/v1beta1/params/{params_type}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}/tally",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}/tally",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/mint/v1beta1/annual_provisions",
+        "method": "/lcd/cosmos/mint/v1beta1/annual_provisions",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/mint/v1beta1/inflation",
+        "method": "/lcd/cosmos/mint/v1beta1/inflation",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/delegators/{delegator_addr}/redelegations",
+        "method": "/lcd/cosmos/staking/v1beta1/delegators/{delegator_addr}/redelegations",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/delegators/{delegator_addr}/unbonding_delegations",
+        "method": "/lcd/cosmos/staking/v1beta1/delegators/{delegator_addr}/unbonding_delegations",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/params",
+        "method": "/lcd/cosmos/staking/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/pool",
+        "method": "/lcd/cosmos/staking/v1beta1/pool",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/tx/v1beta1/txs?events=[message.sender=%27{address}%27]",
+        "method": "/lcd/cosmos/tx/v1beta1/txs?events=[message.sender=%27{address}%27]",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/upgrade/v1beta1/current_plan",
+        "method": "/lcd/cosmos/upgrade/v1beta1/current_plan",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/upgrade/v1beta1/upgraded_consensus_state/{last_height}",
+        "method": "/lcd/cosmos/upgrade/v1beta1/upgraded_consensus_state/{last_height}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/auth/v1beta1/accounts/{address}",
+        "method": "/lcd/cosmos/auth/v1beta1/accounts/{address}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/balances/{address}",
+        "method": "/lcd/cosmos/bank/v1beta1/balances/{address}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/community_pool",
+        "method": "/lcd/cosmos/distribution/v1beta1/community_pool",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/validators/{validator_address}/commission",
+        "method": "/lcd/cosmos/distribution/v1beta1/validators/{validator_address}/commission",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/evidence/v1beta1/evidence",
+        "method": "/lcd/cosmos/evidence/v1beta1/evidence",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}/deposits/{depositor}",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}/deposits/{depositor}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}/votes/{voter}",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}/votes/{voter}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/mint/v1beta1/params",
+        "method": "/lcd/cosmos/mint/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/slashing/v1beta1/params",
+        "method": "/lcd/cosmos/slashing/v1beta1/params",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/slashing/v1beta1/signing_infos/{cons_address}",
+        "method": "/lcd/cosmos/slashing/v1beta1/signing_infos/{cons_address}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators/{validator_addr}/delegations/{delegator_addr}",
+        "method": "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations/{delegator_addr}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators/{validator_addr}/delegations/{delegator_addr}/unbonding_delegation",
+        "method": "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations/{delegator_addr}/unbonding_delegation",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/cosmos/tx/v1beta1/txs",
+        "method": "/lcd/cosmos/tx/v1beta1/txs",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "POST,/cosmos/tx/v1beta1/txs",
+        "method": "/lcd/cosmos/tx/v1beta1/txs",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "POST,/cosmos/tx/v1beta1/simulate",
+        "method": "/lcd/cosmos/tx/v1beta1/simulate",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/denoms_metadata",
+        "method": "/lcd/cosmos/bank/v1beta1/denoms_metadata",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/delegators/{delegator_address}/rewards",
+        "method": "/lcd/cosmos/distribution/v1beta1/delegators/{delegator_address}/rewards",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/cosmos/distribution/v1beta1/validators/{validator_address}/outstanding_rewards",
+        "method": "/lcd/cosmos/distribution/v1beta1/validators/{validator_address}/outstanding_rewards",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}/deposits",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}/deposits",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/delegations/{delegator_addr}",
+        "method": "/lcd/cosmos/staking/v1beta1/delegations/{delegator_addr}",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/cosmos/tx/v1beta1/simulate",
+        "method": "/lcd/cosmos/tx/v1beta1/simulate",
         "calBase": 100000000,
         "ruCost": 25
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/delegators/{delegator_addr}/validators/{validator_addr}",
+        "method": "/lcd/cosmos/staking/v1beta1/delegators/{delegator_addr}/validators/{validator_addr}",
         "calBase": 100000000,
         "ruCost": 30
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators/{validator_addr}",
+        "method": "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}",
         "calBase": 100000000,
         "ruCost": 30
       },
       {
-        "method": "GET,/cosmos/upgrade/v1beta1/module_versions",
+        "method": "/lcd/cosmos/upgrade/v1beta1/module_versions",
         "calBase": 100000000,
         "ruCost": 35
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/delegators/{delegator_addr}/validators",
+        "method": "/lcd/cosmos/staking/v1beta1/delegators/{delegator_addr}/validators",
         "calBase": 100000000,
         "ruCost": 55
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}",
         "calBase": 100000000,
         "ruCost": 100
       },
       {
-        "method": "GET,/cosmos/bank/v1beta1/supply",
+        "method": "/lcd/cosmos/bank/v1beta1/supply",
         "calBase": 100000000,
         "ruCost": 250
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/node_info",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/node_info",
         "calBase": 100000000,
         "ruCost": 350
       },
       {
-        "method": "GET,/cosmos/slashing/v1beta1/signing_infos",
+        "method": "/lcd/cosmos/slashing/v1beta1/signing_infos",
         "calBase": 100000000,
         "ruCost": 500
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators/{validator_addr}/delegations",
+        "method": "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/delegations",
         "calBase": 100000000,
         "ruCost": 500
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals/{proposal_id}/votes",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals/{proposal_id}/votes",
         "calBase": 100000000,
         "ruCost": 550
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/validatorsets/{height}",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/validatorsets/{height}",
         "calBase": 100000000,
         "ruCost": 600
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/validatorsets/latest",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/validatorsets/latest",
         "calBase": 100000000,
         "ruCost": 600
       },
       {
-        "method": "GET,/cosmos/auth/v1beta1/accounts",
+        "method": "/lcd/cosmos/auth/v1beta1/accounts",
         "calBase": 100000000,
         "ruCost": 600
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators/{validator_addr}/unbonding_delegations",
+        "method": "/lcd/cosmos/staking/v1beta1/validators/{validator_addr}/unbonding_delegations",
         "calBase": 100000000,
         "ruCost": 650
       },
       {
-        "method": "GET,/cosmos/tx/v1beta1/txs/{hash}",
+        "method": "/lcd/cosmos/tx/v1beta1/txs/{hash}",
         "calBase": 100000000,
         "ruCost": 1200
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/blocks/{height}",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/blocks/{height}",
         "calBase": 100000000,
         "ruCost": 1400
       },
       {
-        "method": "GET,/cosmos/base/tendermint/v1beta1/blocks/latest",
+        "method": "/lcd/cosmos/base/tendermint/v1beta1/blocks/latest",
         "calBase": 100000000,
         "ruCost": 1500
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/validators",
+        "method": "/lcd/cosmos/staking/v1beta1/validators",
         "calBase": 100000000,
         "ruCost": 2100
       },
       {
-        "method": "GET,/cosmos/tx/v1beta1/txs/block/{height}",
+        "method": "/lcd/cosmos/tx/v1beta1/txs/block/{height}",
         "calBase": 100000000,
         "ruCost": 3000
       },
       {
-        "method": "GET,/cosmos/staking/v1beta1/historical_info/{height}",
+        "method": "/lcd/cosmos/staking/v1beta1/historical_info/{height}",
         "calBase": 100000000,
         "ruCost": 4000
       },
       {
-        "method": "GET,/cosmos/gov/v1beta1/proposals",
+        "method": "/lcd/cosmos/gov/v1beta1/proposals",
         "calBase": 100000000,
         "ruCost": 5000
       },
       {
-        "method": "GET,/ethermint/evm/v1/balances/{address}",
+        "method": "/lcd/ethermint/evm/v1/balances/{address}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/evm/v1/base_fee",
+        "method": "/lcd/ethermint/evm/v1/base_fee",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/evm/v1/codes/{address}",
+        "method": "/lcd/ethermint/evm/v1/codes/{address}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/evm/v1/storage/{address}/{key}",
+        "method": "/lcd/ethermint/evm/v1/storage/{address}/{key}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/evm/v1/trace_block",
+        "method": "/lcd/ethermint/evm/v1/trace_block",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/feemarket/v1/base_fee",
+        "method": "/lcd/ethermint/feemarket/v1/base_fee",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/feemarket/v1/block_gas",
+        "method": "/lcd/ethermint/feemarket/v1/block_gas",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/ethermint/evm/v1/account/{address}",
+        "method": "/lcd/ethermint/evm/v1/account/{address}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/ethermint/evm/v1/cosmos_account/{address}",
+        "method": "/lcd/ethermint/evm/v1/cosmos_account/{address}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/ethermint/evm/v1/estimate_gas",
+        "method": "/lcd/ethermint/evm/v1/estimate_gas",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/ethermint/evm/v1/validator_account/{cons_address}",
+        "method": "/lcd/ethermint/evm/v1/validator_account/{cons_address}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/ethermint/feemarket/v1/params",
+        "method": "/lcd/ethermint/feemarket/v1/params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/ethermint/evm/v1/params",
+        "method": "/lcd/ethermint/evm/v1/params",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/zeta-chain/zetacore/fungible/params",
+        "method": "/lcd/zeta-chain/zetacore/fungible/params",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/lastMetaHeight",
+        "method": "/lcd/zeta-chain/crosschain/lastMetaHeight",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/params",
+        "method": "/lcd/zeta-chain/crosschain/params",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/protocolFee",
+        "method": "/lcd/zeta-chain/crosschain/protocolFee",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/observer/observers_by_chain_and_type/{observationChain}/{observationType}",
+        "method": "/lcd/zeta-chain/observer/observers_by_chain_and_type/{observationChain}/{observationType}",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/gasBalance",
+        "method": "/lcd/zeta-chain/crosschain/gasBalance",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/zetacore/fungible/system_contract",
+        "method": "/lcd/zeta-chain/zetacore/fungible/system_contract",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/keygen",
+        "method": "/lcd/zeta-chain/crosschain/keygen",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/outTxTrackerByChain",
+        "method": "/lcd/zeta-chain/crosschain/outTxTrackerByChain",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/crosschain/convertGasToZeta",
+        "method": "/lcd/zeta-chain/crosschain/convertGasToZeta",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/zeta-chain/observer/supportedChains",
+        "method": "/lcd/zeta-chain/observer/supportedChains",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/crosschain/lastBlockHeight/{lastBlockHeight_index}",
+        "method": "/lcd/zeta-chain/crosschain/lastBlockHeight/{lastBlockHeight_index}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/observer/ballot_by_identifier/{ballotIdentifier}",
+        "method": "/lcd/zeta-chain/observer/ballot_by_identifier/{ballotIdentifier}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/zetacore/fungible/foreign_coins/{foreign_coins_index}",
+        "method": "/lcd/zeta-chain/zetacore/fungible/foreign_coins/{foreign_coins_index}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/crosschain/outTxTracker/{outTxTracker_index}",
+        "method": "/lcd/zeta-chain/crosschain/outTxTracker/{outTxTracker_index}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/crosschain/chainNonces/{chainNonces_index}",
+        "method": "/lcd/zeta-chain/crosschain/chainNonces/{chainNonces_index}",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/zeta-chain/crosschain/nodeAccount/{nodeAccount_index}",
+        "method": "/lcd/zeta-chain/crosschain/nodeAccount/{nodeAccount_index}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/zeta-chain/crosschain/TSS/{tss_index}",
+        "method": "/lcd/zeta-chain/crosschain/TSS/{tss_index}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/zeta-chain/zevm/zevm_getTransactionByHash/{hash}",
+        "method": "/lcd/zeta-chain/zevm/zevm_getTransactionByHash/{hash}",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/zeta-chain/crosschain/gasPrice/{gasPrice_index}",
+        "method": "/lcd/zeta-chain/crosschain/gasPrice/{gasPrice_index}",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/zeta-chain/crosschain/TSSVoter/{voter_index}",
+        "method": "/lcd/zeta-chain/crosschain/TSSVoter/{voter_index}",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/zeta-chain/crosschain/lastBlockHeight",
+        "method": "/lcd/zeta-chain/crosschain/lastBlockHeight",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/zetachain/observer/params",
+        "method": "/lcd/zetachain/observer/params",
         "calBase": 100000000,
         "ruCost": 30
       },
       {
-        "method": "GET,/zeta-chain/zetacore/fungible/foreign_coins",
+        "method": "/lcd/zeta-chain/zetacore/fungible/foreign_coins",
         "calBase": 100000000,
         "ruCost": 35
       },
       {
-        "method": "GET,/zeta-chain/crosschain/chainNonces",
+        "method": "/lcd/zeta-chain/crosschain/chainNonces",
         "calBase": 100000000,
         "ruCost": 35
       },
       {
-        "method": "GET,/zeta-chain/zevm/zevm_getBlockByNumber/{height}",
+        "method": "/lcd/zeta-chain/zevm/zevm_getBlockByNumber/{height}",
         "calBase": 100000000,
         "ruCost": 40
       },
       {
-        "method": "GET,/zeta-chain/crosschain/nodeAccount",
+        "method": "/lcd/zeta-chain/crosschain/nodeAccount",
         "calBase": 100000000,
         "ruCost": 45
       },
       {
-        "method": "GET,/zeta-chain/crosschain/gasPrice",
+        "method": "/lcd/zeta-chain/crosschain/gasPrice",
         "calBase": 100000000,
         "ruCost": 65
       },
       {
-        "method": "GET,/zeta-chain/crosschain/TSS",
+        "method": "/lcd/zeta-chain/crosschain/TSS",
         "calBase": 100000000,
         "ruCost": 65
       },
       {
-        "method": "GET,/zeta-chain/observer/all_observer_mappers",
+        "method": "/lcd/zeta-chain/observer/all_observer_mappers",
         "calBase": 100000000,
         "ruCost": 90
       },
       {
-        "method": "GET,/zeta-chain/zevm/zevm_getTransactionReceipt/{hash}",
+        "method": "/lcd/zeta-chain/zevm/zevm_getTransactionReceipt/{hash}",
         "calBase": 100000000,
         "ruCost": 200
       },
       {
-        "method": "GET,/zeta-chain/crosschain/outTxTracker",
+        "method": "/lcd/zeta-chain/crosschain/outTxTracker",
         "calBase": 100000000,
         "ruCost": 600
       },
       {
-        "method": "GET,/zeta-chain/crosschain/TSSVoter",
+        "method": "/lcd/zeta-chain/crosschain/TSSVoter",
         "calBase": 100000000,
         "ruCost": 1300
       },
       {
-        "method": "GET,/health",
+        "method": "/rpc/health",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/broadcast_evidence",
+        "method": "/rpc/broadcast_evidence",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/num_unconfirmed_txs",
+        "method": "/rpc/num_unconfirmed_txs",
         "calBase": 100000000,
         "ruCost": 5
       },
       {
-        "method": "GET,/abci_query",
+        "method": "/rpc/abci_query",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/abci_info",
+        "method": "/rpc/abci_info",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/check_tx",
+        "method": "/rpc/check_tx",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/consensus_params",
+        "method": "/rpc/consensus_params",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/broadcast_tx_sync",
+        "method": "/rpc/broadcast_tx_sync",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/broadcast_tx_async",
+        "method": "/rpc/broadcast_tx_async",
         "calBase": 100000000,
         "ruCost": 10
       },
       {
-        "method": "GET,/broadcast_tx_commit",
+        "method": "/rpc/broadcast_tx_commit",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/status",
+        "method": "/rpc/status",
         "calBase": 100000000,
         "ruCost": 25
       },
       {
-        "method": "GET,/validators",
+        "method": "/rpc/validators",
         "calBase": 100000000,
         "ruCost": 130
       },
       {
-        "method": "GET,/consensus_state",
+        "method": "/rpc/consensus_state",
         "calBase": 100000000,
         "ruCost": 140
       },
       {
-        "method": "GET,/net_info",
+        "method": "/rpc/net_info",
         "calBase": 100000000,
         "ruCost": 350
       },
       {
-        "method": "GET,/blockchain",
+        "method": "/rpc/blockchain",
         "calBase": 100000000,
         "ruCost": 500
       },
       {
-        "method": "GET,/commit",
+        "method": "/rpc/commit",
         "calBase": 100000000,
         "ruCost": 650
       },
       {
-        "method": "GET,/unconfirmed_txs",
+        "method": "/rpc/unconfirmed_txs",
         "calBase": 100000000,
         "ruCost": 800
       },
       {
-        "method": "GET,/tx",
+        "method": "/rpc/tx",
         "calBase": 100000000,
         "ruCost": 1000
       },
       {
-        "method": "GET,/block_search",
+        "method": "/rpc/block_search",
         "calBase": 100000000,
         "ruCost": 1500
       },
       {
-        "method": "GET,/block",
+        "method": "/rpc/block",
         "calBase": 100000000,
         "ruCost": 1500
       },
       {
-        "method": "GET,/block_by_hash",
+        "method": "/rpc/block_by_hash",
         "calBase": 100000000,
         "ruCost": 1600
       },
       {
-        "method": "GET,/dump_consensus_state",
+        "method": "/rpc/dump_consensus_state",
         "calBase": 100000000,
         "ruCost": 2400
       },
       {
-        "method": "GET,/tx_search",
+        "method": "/rpc/tx_search",
         "calBase": 100000000,
         "ruCost": 3800
       },
       {
-        "method": "GET,/block_results",
+        "method": "/rpc/block_results",
         "calBase": 100000000,
         "ruCost": 4000
       },
       {
-        "method": "GET,/dymensionxyz/dymension/rollapp/rollapp",
+        "method": "/lcd/dymensionxyz/dymension/rollapp/rollapp",
         "calBase": 100000000,
         "ruCost": 800
       },
       {
-        "method": "GET,/dymensionxyz/dymension/rollapp/rollapp/{rollappId}",
+        "method": "/lcd/dymensionxyz/dymension/rollapp/rollapp/{rollappId}",
         "calBase": 100000000,
         "ruCost": 35
       },
       {
-        "method": "GET,/dymensionxyz/dymension/rollapp/params",
+        "method": "/lcd/dymensionxyz/dymension/rollapp/params",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/dymensionxyz/dymension/rollapp/state_info",
+        "method": "/lcd/dymensionxyz/dymension/rollapp/state_info",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/dymensionxyz/dymension/rollapp/state_info/{rollappId}/{index}",
+        "method": "/lcd/dymensionxyz/dymension/rollapp/state_info/{rollappId}/{index}",
         "calBase": 100000000,
         "ruCost": 45
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/params",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/params",
         "calBase": 100000000,
         "ruCost": 15
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/scheduler",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/scheduler",
         "calBase": 100000000,
         "ruCost": 500
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/scheduler/{sequencerAddress}",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/scheduler/{sequencerAddress}",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/sequencer",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/sequencer",
         "calBase": 100000000,
         "ruCost": 2000
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/sequencer/{sequencerAddress}",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/sequencer/{sequencerAddress}",
         "calBase": 100000000,
         "ruCost": 20
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/sequencers_by_rollapp",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/sequencers_by_rollapp",
         "calBase": 100000000,
         "ruCost": 3000
       },
       {
-        "method": "GET,/dymensionxyz/dymension/sequencer/sequencers_by_rollapp/{rollappId}",
+        "method": "/lcd/dymensionxyz/dymension/sequencer/sequencers_by_rollapp/{rollappId}",
         "calBase": 100000000,
         "ruCost": 40
       },

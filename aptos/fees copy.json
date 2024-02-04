@@ -4,102 +4,107 @@
             "calBase": 250,
             "ruCost": 5
         }, {
-            "method": "/aptos/v1/accounts/{address}",
+            "method": "GET,/v1/accounts/{address}",
             "calBase": 100000000,
             "ruCost": 20
         },
         {
-            "method": "/aptos/v1/accounts/{address}/resources",
+            "method": "GET,/v1/accounts/{address}/resources",
             "calBase": 100000000,
             "ruCost": 75
         },
         {
-            "method": "/aptos/v1/accounts/{address}/modules",
+            "method": "GET,/v1/accounts/{address}/modules",
             "calBase": 100000000,
             "ruCost": 20
         },
         {
-            "method": "/aptos/v1/accounts/{address}/resource/{resource_type}",
+            "method": "GET,/v1/accounts/{address}/resource/{resource_type}",
             "calBase": 100000000,
             "ruCost": 30
         },
         {
-            "method": "/aptos/v1/accounts/{address}/module/{module_name}",
+            "method": "GET,/v1/accounts/{address}/module/{module_name}",
             "calBase": 100000000,
             "ruCost": 20
         },
         {
-            "method": "/aptos/v1/blocks/by_height/{block_height}",
+            "method": "GET,/v1/blocks/by_height/{block_height}",
             "calBase": 100000000,
             "ruCost": 60
         },
         {
-            "method": "/aptos/v1/blocks/by_version/{version}",
+            "method": "GET,/v1/blocks/by_version/{version}",
             "calBase": 100000000,
             "ruCost": 60
         },
         {
-            "method": "/aptos/v1/accounts/{address}/events/{creation_number}",
+            "method": "GET,/v1/accounts/{address}/events/{creation_number}",
             "calBase": 100000000,
             "ruCost": 120
         },
         {
-            "method": "/aptos/v1/accounts/{address}/events/{event_handle}/{field_name}",
+            "method": "GET,/v1/accounts/{address}/events/{event_handle}/{field_name}",
             "calBase": 100000000,
             "ruCost": 120
         },
         {
-            "method": "/aptos/v1/-/healthy",
+            "method": "GET,/v1/-/healthy",
             "calBase": 100000000,
             "ruCost": 20
         },
         {
-            "method": "/aptos/v1",
+            "method": "GET,/v1/",
             "calBase": 100000000,
             "ruCost": 25
         },
         {
-            "method": "/aptos/v1/tables/{table_handle}/item",
+            "method": "POST,/v1/tables/{table_handle}/item",
             "calBase": 100000000,
             "ruCost": 25
         },
         {
-            "method": "/aptos/v1/transactions",
+            "method": "GET,/v1/transactions",
             "calBase": 100000000,
             "ruCost": 120
         },
         {
-            "method": "/aptos/v1/transactions/by_hash/{txn_hash}",
-            "calBase": 100000000,
-            "ruCost": 60
-        },
-        {
-            "method": "/aptos/v1/transactions/by_version/{txn_version}",
-            "calBase": 100000000,
-            "ruCost": 60
-        },
-        {
-            "method": "/aptos/v1/accounts/{address}/transactions",
-            "calBase": 100000000,
-            "ruCost": 120
-        },
-        {
-            "method": "/aptos/v1/transactions/batch",
-            "calBase": 100000000,
-            "ruCost": 60
-        },
-        {
-            "method": "/aptos/v1/transactions/simulate",
+            "method": "POST,/v1/transactions",
             "calBase": 100000000,
             "ruCost": 45
         },
         {
-            "method": "/aptos/v1/transactions/encode_submission",
+            "method": "GET,/v1/transactions/by_hash/{txn_hash}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/transactions/by_version/{txn_version}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "GET,/v1/accounts/{address}/transactions",
+            "calBase": 100000000,
+            "ruCost": 120
+        },
+        {
+            "method": "POST,/v1/transactions/batch",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "POST,/v1/transactions/simulate",
+            "calBase": 100000000,
+            "ruCost": 45
+        },
+        {
+            "method": "POST,/v1/transactions/encode_submission",
             "calBase": 100000000,
             "ruCost": 30
         },
         {
-            "method": "/aptos/v1/estimate_gas_price",
+            "method": "GET,/v1/estimate_gas_price",
             "calBase": 100000000,
             "ruCost": 20
         }
