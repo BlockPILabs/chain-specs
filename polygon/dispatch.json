@@ -1,16 +1,22 @@
 {
-    "methods":{
-        "debug_traceBlockByHash":"erigon",
-        "debug_traceTransaction":"erigon",
-        "trace_block":"erigon",
-        "trace_call":"erigon",
-        "trace_get":"erigon",
-        "trace_transaction":"erigon",
-        "trace_filter":"erigon",
-        "trace_rawTransaction":"erigon",
-        "trace_replayTransaction":"erigon",
-        "eth_getBlockReceipts":"erigon"
+    "methods": {
+        "debug_traceBlockByHash": "Good",
+        "debug_traceBlockByNumber": "Good",
+        "debug_traceTransaction": "erigon",
+        "debug_traceCall": "bor",
+        "eth_estimateGas": "erigon",
+        "eth_getBlockReceipts": "erigon",
+        "eth_getLogs": "Good",
+        "trace_block": "Good",
+        "trace_call": "erigon",
+        "trace_get": "erigon",
+        "trace_transaction": "erigon",
+        "trace_filter": "Good",
+        "trace_rawTransaction": "erigon",
+        "trace_replayTransaction": "erigon",
+        "txpool_content": "Good",
+        "txpool_inspect": "bor"
     },
-    "default":"",
-    "default_archive":""
+    "default": "",
+    "default_archive": ""
 }
