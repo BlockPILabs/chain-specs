@@ -1,6 +1,5 @@
 {
     "methods": {
-        "eth_getBlockReceipts": "erigon",
         "trace_block": "erigon",
         "trace_call": "erigon",
         "trace_get": "erigon",
@@ -15,6 +14,6 @@
         "debug_traceBlockByNumber": "erigon",
         "debug_traceTransaction": "erigon"
     },
-    "default": "Geth",
-    "default_archive": "erigon"
+    "default": "",
+    "default_archive": ""
 }
