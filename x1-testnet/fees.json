@@ -90,16 +90,6 @@
             "ruCost": 15
         },
         {
-            "method": "eth_mining",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_hashrate",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
             "method": "eth_gasPrice",
             "calBase": 100000000,
             "ruCost": 15
@@ -281,7 +271,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 50
         },
         {
@@ -388,6 +378,46 @@
             "method": "eth_getProof",
             "calBase": 100000000,
             "rucost": 50
+        },
+        {
+            "method": "zkevm_batchNumber",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_batchNumberByBlockNumber",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_consolidatedBlockNumber",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_getBatchByNumber",
+            "calBase": 100000000,
+            "rucost": 400
+        },
+        {
+            "method": "zkevm_isBlockConsolidated",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_isBlockVirtualized",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_verifiedBatchNumber",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zkevm_virtualBatchNumber",
+            "calBase": 100000000,
+            "rucost": 40
         }
     ],
     "nodeTypeRate": {

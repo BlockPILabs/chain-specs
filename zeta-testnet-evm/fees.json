@@ -181,8 +181,13 @@
         },
         {
             "method": "eth_call",
-            "calBase": 100000000,
+            "calBase": 10000,
             "ruCost": 20
+        },               
+        {
+            "method": "eth_feeHistory",
+            "calBase": 100000000,
+            "ruCost": 1200
         },
         {
             "method": "eth_estimateGas",
@@ -271,7 +276,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 50
         },
         {

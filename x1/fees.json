@@ -271,7 +271,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 50
         },
         {
@@ -287,7 +287,7 @@
         {
             "method": "eth_getTransactionReceipt",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 15
         },
         {
             "method": "eth_getTransactionReceiptBySenderTxHash",
@@ -373,6 +373,11 @@
             "method": "txpool_status",
             "calBase": 100000000,
             "rucost": 10
+        },
+        {
+            "method": "eth_getProof",
+            "calBase": 100000000,
+            "rucost": 50
         }
     ],
     "nodeTypeRate": {

@@ -1,5 +1,15 @@
 [
   "txpool_content",
-  "txpool_status",
-  "txpool_inspect"
+  "txpool_inspect",
+  "debug_traceCall",
+  "debug_traceBlockByHash",
+  "debug_traceBlockByNumber",
+  "debug_traceTransaction",
+  "trace_block",
+  "trace_call",
+  "trace_get",
+  "trace_filter",
+  "trace_transaction",
+  "trace_rawTransaction",
+  "trace_replayTransaction"
 ]

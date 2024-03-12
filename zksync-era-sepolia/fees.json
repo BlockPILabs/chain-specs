@@ -378,6 +378,111 @@
             "method": "eth_getProof",
             "calBase": 100000000,
             "rucost": 50
+        },
+        {
+            "method": "zks_estimateFee",
+            "calBase": 100000000,
+            "rucost": 50
+        },
+        {
+            "method": "zks_estimateGasL1ToL2",
+            "calBase": 100000000,
+            "rucost": 45
+        },
+        {
+            "method": "zks_getAllAccountBalances",
+            "calBase": 100000000,
+            "rucost": 45
+        },
+        {
+            "method": "zks_getBlockDetails",
+            "calBase": 100000000,
+            "rucost": 75
+        },
+        {
+            "method": "zks_getBridgeContracts",
+            "calBase": 100000000,
+            "rucost": 50
+        },
+        {
+            "method": "zks_getBytecodeByHash",
+            "calBase": 100000000,
+            "rucost": 5000
+        },
+        {
+            "method": "zks_getConfirmedTokens",
+            "calBase": 100000000,
+            "rucost": 55
+        },
+        {
+            "method": "zks_getL1BatchBlockRange",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zks_getL1BatchDetails",
+            "calBase": 100000000,
+            "rucost": 70
+        },
+        {
+            "method": "zks_getL2ToL1LogProof",
+            "calBase": 100000000,
+            "rucost": 70
+        },
+        {
+            "method": "zks_getMainContract",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zks_getRawBlockTransactions",
+            "calBase": 100000000,
+            "rucost": 250
+        },
+        {
+            "method": "zks_getTokenPrice",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zks_getTransactionDetails",
+            "calBase": 100000000,
+            "rucost": 60
+        },
+        {
+            "method": "zks_L1BatchNumber",
+            "calBase": 100000000,
+            "rucost": 40
+        },
+        {
+            "method": "zks_L1ChainId",
+            "calBase": 100000000,
+            "rucost": 35
+        },
+                {
+            "method": "eth_sendUserOperation",
+            "calBase": 100000000,
+            "rucost": 200
+        },
+        {
+            "method": "eth_estimateUserOperationGas",
+            "calBase": 100000000,
+            "rucost": 20
+        },
+        {
+            "method": "eth_getUserOperationByHash",
+            "calBase": 100000000,
+            "rucost": 35
+        },
+        {
+            "method": "eth_getUserOperationReceipt",
+            "calBase": 100000000,
+            "rucost": 15
+        },
+        {
+            "method": "eth_supportedEntryPoints",
+            "calBase": 100000000,
+            "rucost": 10
         }
     ],
     "nodeTypeRate": {
