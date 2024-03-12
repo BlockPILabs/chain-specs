@@ -262,7 +262,7 @@
         {
             "method": "eth_getBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 20
         },
         {
             "method": "eth_getFilterLogs",
@@ -271,7 +271,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 50
         },
         {

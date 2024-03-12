@@ -49,7 +49,5 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions",
-  "debug_setTrieFlushInterval",
-  "eth_accounts",
-  "eth_signTransaction"
+  "debug_setTrieFlushInterval"
 ]
