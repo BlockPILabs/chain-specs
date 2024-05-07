@@ -1,0 +1,25 @@
+openapi: 3.0.1
+info:
+  title: Starknet
+  description: ''
+  version: 1.0.0
+tags:
+  - name: v0_6
+  - name: v0_7
+paths:
+  /:
+    post:
+      tags:
+        - v0_6
+  /v0_6:
+    post:
+      tags:
+        - v0_6
+  /v0_7:
+    post:
+      tags:
+        - v0_7
+  /v0_8:
+    post:
+      tags:
+        - v0_8
