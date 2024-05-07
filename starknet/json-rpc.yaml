@@ -7,10 +7,6 @@ tags:
   - name: v0_6
   - name: v0_7
 paths:
-  /:
-    post:
-      tags:
-        - v0_6
   /v0_6:
     post:
       tags:
