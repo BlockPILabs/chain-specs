@@ -71,7 +71,7 @@
             "ruCost": 130
         },
         {
-            "method": "/eth/v1/validator/duties/proposer/{epoch},
+            "method": "/eth/v1/validator/duties/proposer/{epoch}",
             "calBase": 100000000,
             "ruCost": 140
         },
