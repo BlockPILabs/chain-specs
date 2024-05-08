@@ -271,7 +271,7 @@
             "ruCost": 10
         },
         {
-            "method": "/eth/v1/beacon/blob_sidecars/{block_id}"，
+            "method": "/eth/v1/beacon/blob_sidecars/{block_id}",
             "calBase": 100000000,
             "ruCost": 15
         },
