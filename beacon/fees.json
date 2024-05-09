@@ -31,11 +31,6 @@
             "ruCost": 10
         },
         {
-            "method": "/rpc/abci_info",
-            "calBase": 100000000,
-            "ruCost": 10
-        },
-        {
             "method": "/eth/v1/validator/duties/attester/{epoch}",
             "calBase": 100000000,
             "ruCost": 10
