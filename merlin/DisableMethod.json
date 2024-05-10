@@ -50,9 +50,10 @@
   "trace_callMany",
   "trace_replayBlockTransactions",
   "debug_setTrieFlushInterval",
-  "debug_traceTransaction",
-  "debug_traceBlockByNumber",
+  "debug_getTrieFlushInterval",
   "debug_traceCall",
   "debug_traceBlock",
-  "debug_getTrieFlushInterval"
+  "debug_traceBlockByHash",
+  "debug_traceBlockByNumber",
+  "debug_traceTransaction"
 ]
