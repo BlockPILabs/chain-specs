@@ -49,5 +49,10 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions",
-  "debug_setTrieFlushInterval"
+  "debug_setTrieFlushInterval",
+  "debug_traceTransaction",
+  "debug_traceBlockByNumber",
+  "debug_traceCall",
+  "debug_traceBlock",
+  "debug_getTrieFlushInterval"
 ]

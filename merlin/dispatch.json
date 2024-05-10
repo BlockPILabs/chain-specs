@@ -1,9 +1,4 @@
 {
-    "methods": {
-        "debug_traceBlockByHash": "merlin-debug",
-        "debug_traceBlockByNumber": "merlin-debug",
-        "debug_traceTransaction": "merlin-debug"
-    },
     "default": "merlin",
     "default_archive": "merlin"
 }
