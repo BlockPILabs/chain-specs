@@ -1,0 +1,213 @@
+{
+    "methodPrice": [{
+            "method": "default",
+            "calBase": 250,
+            "ruCost": 5
+        },
+        {
+            "method": "suix_getAllBalances",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "suix_getAllCoins",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "suix_getBalance",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "suix_getCoinMetadata",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "suix_getCoins",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "suix_getTotalSupply",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "suix_getDynamicFieldObject",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "suix_getDynamicFields",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "suix_getOwnedObjects",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "suix_queryEvents",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "suix_queryTransactionBlocks",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "suix_resolveNameServiceAddress",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "suix_resolveNameServiceNames",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "suix_getCommitteeInfo",
+            "calBase": 100000000,
+            "ruCost": 600
+        },
+        {
+            "method": "suix_getLatestSuiSystemState",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+        {
+            "method": "suix_getReferenceGasPrice",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "suix_getStakes",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "suix_getStakesByIds",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "suix_getValidatorsApy",
+            "calBase": 100000000,
+            "ruCost": 400
+        },
+        {
+            "method": "sui_getMoveFunctionArgTypes",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getNormalizedMoveFunction",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "sui_getNormalizedMoveModule",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "sui_getNormalizedMoveModulesByPackage",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+        {
+            "method": "sui_getNormalizedMoveStruct",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "sui_getChainIdentifier",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "sui_getCheckpoint",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_getCheckpoints",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "sui_getEvents",
+            "calBase": 100000000,
+            "ruCost": 70
+        },
+        {
+            "method": "sui_getLatestCheckpointSequenceNumber",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getLoadedChildObjects",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getObject",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_getProtocolConfig",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "sui_getTotalTransactionBlocks",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getTransactionBlock",
+            "calBase": 100000000,
+            "ruCost": 250
+        },
+        {
+            "method": "sui_multiGetObjects",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_tryGetPastObject",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_tryMultiGetPastObjects",
+            "calBase": 100000000,
+            "ruCost": 80
+        },
+        {
+            "method": "sui_devInspectTransactionBlock",
+            "calBase": 100000000,
+            "ruCost": 80
+        },
+        {
+            "method": "sui_dryRunTransactionBlock",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "sui_executeTransactionBlock",
+            "calBase": 100000000,
+            "ruCost": 150
+        }
+    ],
+    "nodeTypeRate": {
+        "default": 1,
+        "fullNode": 1,
+        "archiveNode": 1.3
+    }
+}
