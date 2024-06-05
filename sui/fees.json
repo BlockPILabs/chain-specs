@@ -5,379 +5,204 @@
             "ruCost": 5
         },
         {
-            "method": "net_listening",
-            "calBase": 100000000,
-            "ruCost": 0
-        },
-        {
-            "method": "net_version",
-            "calBase": 100000000,
-            "ruCost": 0
-        },
-        {
-            "method": "net_peerCount",
-            "calBase": 100000000,
-            "ruCost": 0
-        },
-        {
-            "method": "web3_clientVersion",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "web3_sha3",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_chainId",
-            "calBase": 100000000,
-            "ruCost": 0
-        },
-        {
-            "method": "eth_syncing",
-            "calBase": 100000000,
-            "ruCost": 0
-        },
-        {
-            "method": "eth_accounts",
-            "calBase": 100000000,
-            "ruCost": 10
-        },
-        {
-            "method": "eth_uninstallFilter",
-            "calBase": 100000000,
-            "ruCost": 10
-        },
-        {
-            "method": "eth_blockNumber",
-            "calBase": 100000000,
-            "ruCost": 10
-        },
-        {
-            "method": "eth_accountCreated",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getBalance",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getCode",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getTransactionCount",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_isContractAccount",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_sign",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_clientVersion",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_gasPrice",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_gasPriceAt",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_isParallelDBWrite",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_isSenderTxHashIndexingEnabled",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_rewardbase",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_sha3",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_newBlockFilter",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_newFilter",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_newPendingTransactionFilter",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getBlockTransactionCountByNumber",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getBlockTransactionCountByHash",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getCommittee",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getCommitteeSize",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getCouncil",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getCouncilSize",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getStorageAt",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getAccount",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_getFilterChanges",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_call",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_estimateGas",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_estimateComputationCost",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_getAccountKey",
-            "calBase": 100000000,
-            "ruCost": 25
-        },
-        {
-            "method": "eth_getDecodedAnchoringTransactionByHash",
-            "calBase": 100000000,
-            "ruCost": 25
-        },
-        {
-            "method": "eth_getHeaderByNumber",
-            "calBase": 100000000,
-            "ruCost": 25
-        },
-        {
-            "method": "eth_getHeaderByHash",
-            "calBase": 100000000,
-            "ruCost": 25
-        },
-        {
-            "method": "eth_getTransactionByBlockHashAndIndex",
+            "method": "suix_getAllBalances",
             "calBase": 100000000,
             "ruCost": 30
         },
         {
-            "method": "eth_getTransactionByBlockNumberAndIndex",
+            "method": "suix_getAllCoins",
             "calBase": 100000000,
-            "ruCost": 30
+            "ruCost": 100
         },
         {
-            "method": "eth_signTransaction",
+            "method": "suix_getBalance",
             "calBase": 100000000,
-            "ruCost": 30
+            "ruCost": 40
         },
         {
-            "method": "eth_encodeAccountKey",
+            "method": "suix_getCoinMetadata",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 40
         },
         {
-            "method": "eth_getTransactionByHash",
+            "method": "suix_getCoins",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 40
         },
         {
-            "method": "eth_getTransactionBySenderTxHash",
+            "method": "suix_getTotalSupply",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 20
         },
         {
-            "method": "eth_signTransactionAsFeePayer",
-            "calBase": 100000000,
-            "ruCost": 45
-        },
-        {
-            "method": "eth_decodeAccountKey",
+            "method": "suix_getDynamicFieldObject",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "eth_getBlockByHash",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_getBlockByNumber",
-            "calBase": 100000000,
-            "ruCost": 20
-        },
-        {
-            "method": "eth_getFilterLogs",
+            "method": "suix_getDynamicFields",
             "calBase": 100000000,
             "ruCost": 75
         },
         {
-            "method": "eth_getLogs",
-            "calBase": 200000,
+            "method": "suix_getOwnedObjects",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "suix_queryEvents",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "suix_queryTransactionBlocks",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "suix_resolveNameServiceAddress",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "suix_resolveNameServiceNames",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "suix_getCommitteeInfo",
+            "calBase": 100000000,
+            "ruCost": 600
+        },
+        {
+            "method": "suix_getLatestSuiSystemState",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+        {
+            "method": "suix_getReferenceGasPrice",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "suix_getStakes",
+            "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "eth_getBlockWithConsensusInfoByHash",
+            "method": "suix_getStakesByIds",
             "calBase": 100000000,
-            "ruCost": 170
+            "ruCost": 50
         },
         {
-            "method": "eth_getBlockWithConsensusInfoByNumber",
-            "calBase": 100000000,
-            "ruCost": 170
-        },
-        {
-            "method": "eth_getTransactionReceipt",
-            "calBase": 100000000,
-            "ruCost": 15
-        },
-        {
-            "method": "eth_getTransactionReceiptBySenderTxHash",
-            "calBase": 100000000,
-            "ruCost": 200
-        },
-        {
-            "method": "eth_sendRawTransaction",
-            "calBase": 100000000,
-            "ruCost": 200
-        },
-        {
-            "method": "eth_sendTransactionAsFeePayer",
-            "calBase": 100000000,
-            "ruCost": 200
-        },
-        {
-            "method": "eth_getBlockReceipts",
+            "method": "suix_getValidatorsApy",
             "calBase": 100000000,
             "ruCost": 400
         },
         {
-            "method": "debug_traceTransaction",
+            "method": "sui_getMoveFunctionArgTypes",
             "calBase": 100000000,
-            "ruCost": 300
+            "ruCost": 30
         },
         {
-            "method": "debug_traceCall",
+            "method": "sui_getNormalizedMoveFunction",
             "calBase": 100000000,
-            "ruCost": 300
+            "ruCost": 40
         },
         {
-            "method": "debug_traceBlockByNumber",
+            "method": "sui_getNormalizedMoveModule",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "sui_getNormalizedMoveModulesByPackage",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+        {
+            "method": "sui_getNormalizedMoveStruct",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "sui_getChainIdentifier",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "sui_getCheckpoint",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_getCheckpoints",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "sui_getEvents",
+            "calBase": 100000000,
+            "ruCost": 70
+        },
+        {
+            "method": "sui_getLatestCheckpointSequenceNumber",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getLoadedChildObjects",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "sui_getObject",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sui_getProtocolConfig",
             "calBase": 100000000,
             "ruCost": 500
         },
         {
-            "method": "debug_traceBlockByHash",
+            "method": "sui_getTotalTransactionBlocks",
             "calBase": 100000000,
-            "ruCost": 500
+            "ruCost": 30
         },
         {
-            "method": "trace_block",
+            "method": "sui_getTransactionBlock",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 250
         },
         {
-            "method": "trace_call",
+            "method": "sui_multiGetObjects",
             "calBase": 100000000,
-            "rucost": 60
+            "ruCost": 50
         },
         {
-            "method": "trace_get",
+            "method": "sui_tryGetPastObject",
             "calBase": 100000000,
-            "rucost": 15
+            "ruCost": 50
         },
         {
-            "method": "trace_rawTransaction",
+            "method": "sui_tryMultiGetPastObjects",
             "calBase": 100000000,
-            "rucost": 60
+            "ruCost": 80
         },
         {
-            "method": "trace_replayTransaction",
+            "method": "sui_devInspectTransactionBlock",
             "calBase": 100000000,
-            "rucost": 2900
+            "ruCost": 80
         },
         {
-            "method": "trace_transaction",
+            "method": "sui_dryRunTransactionBlock",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 150
         },
         {
-            "method": "trace_filter",
+            "method": "sui_executeTransactionBlock",
             "calBase": 100000000,
-            "rucost": 60
-        },
-        {
-            "method": "txpool_inspect",
-            "calBase": 100000000,
-            "rucost": 10
-        },
-        {
-            "method": "txpool_status",
-            "calBase": 100000000,
-            "rucost": 10
-        },
-        {
-            "method": "eth_getProof",
-            "calBase": 100000000,
-            "rucost": 50
+            "ruCost": 150
         }
     ],
     "nodeTypeRate": {
