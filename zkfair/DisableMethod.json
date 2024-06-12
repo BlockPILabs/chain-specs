@@ -48,6 +48,5 @@
   "debug_writeMemProfile",
   "debug_writeMutexProfile",
   "trace_callMany",
-  "trace_replayBlockTransactions",
-  "txpool_content"
+  "trace_replayBlockTransactions"
 ]
