@@ -49,5 +49,5 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions",
-  "debug_setTrieFlushInterval"
+  "txpool_content"
 ]
