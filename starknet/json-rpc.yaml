@@ -11,11 +11,3 @@ paths:
     post:
       tags:
         - version
-#  /v0_7:
-#    post:
-#      tags:
-#        - v0_7
-#  /v0_8:
-#    post:
-#      tags:
-#        - v0_8
