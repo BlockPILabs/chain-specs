@@ -5,7 +5,8 @@
         "debug_traceCall": "besu",
         "debug_traceTransaction": "besu",
         "linea_estimateGas": "besu",
-        "eth_call": "Geth"
+        "eth_call": "Geth",
+        "eth_estimateGas": "Geth"
     },
     "default": "",
     "default_archive": ""
