@@ -203,6 +203,11 @@
             "method": "sui_executeTransactionBlock",
             "calBase": 100000000,
             "ruCost": 150
+        },
+        {
+            "method": "sui_multiGetTransactionBlocks",
+            "calBase": 100000000,
+            "ruCost": 300
         }
     ],
     "nodeTypeRate": {
