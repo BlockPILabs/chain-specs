@@ -1,2 +1,1 @@
 # chain-specs
-dev
