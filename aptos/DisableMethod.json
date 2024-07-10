@@ -1,3 +1,3 @@
 [
-  "/aptos/v1"
+  "/aptos/v1/accounts/{address}"
 ]
