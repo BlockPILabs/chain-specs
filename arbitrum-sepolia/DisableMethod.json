@@ -1,4 +1,5 @@
 [
+  "eth_chainId",
   "debug_accountRange",
   "debug_backtraceAt",
   "debug_blockProfile",
