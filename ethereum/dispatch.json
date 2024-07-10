@@ -1,7 +1,6 @@
 {
     "methods": {
-        "eth_chainId": "Good",
-        "trace_block": "Good",
+        "trace_block": "erigon",
         "trace_call": "erigon",
         "trace_get": "erigon",
         "trace_transaction": "erigon",
