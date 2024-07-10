@@ -1,6 +1,6 @@
 {
     "methods": {
-        "trace_block": "erigon",
+        "trace_block": "geth",
         "trace_call": "erigon",
         "trace_get": "erigon",
         "trace_transaction": "erigon",
@@ -8,7 +8,7 @@
         "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon",
         "eth_getLogs": "erigon",
-        "eth_newBlockFilter": "erigon",
+        "eth_newBlockFilter": "geth",
         "eth_newPendingTransactionFilter": "erigon",
         "debug_traceBlockByHash": "erigon",
         "debug_traceBlockByNumber": "erigon",
