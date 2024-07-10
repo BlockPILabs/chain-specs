@@ -1,4 +1,5 @@
 [
+  "eth_chainId",
   "txpool_content",
   "txpool_inspect",
   "debug_traceCall",
