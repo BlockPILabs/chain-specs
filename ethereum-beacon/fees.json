@@ -341,7 +341,7 @@
             "ruCost": 500
         },
         {
-            "method": "eth/v2/debug/beacon/states/{state_id}",
+            "method": "/rpc/eth/v2/debug/beacon/states/{state_id}",
             "calBase": 100000000,
             "ruCost": 2000
         },
