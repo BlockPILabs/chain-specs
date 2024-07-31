@@ -238,12 +238,12 @@
         {
             "method": "/rpc/eth/v2/beacon/blocks",
             "calBase": 100000000,
-            "ruCost": 500
+            "ruCost": 100
         },
         {
             "method": "/rpc/eth/v2/beacon/blocks/{block_id}",
             "calBase": 100000000,
-            "ruCost": 1000
+            "ruCost": 500
         },
         {
             "method": "/rpc/eth/v1/beacon/blocks/{block_id}/root",
