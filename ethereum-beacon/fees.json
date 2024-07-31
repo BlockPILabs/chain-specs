@@ -238,7 +238,7 @@
         {
             "method": "/rpc/eth/v2/beacon/blocks",
             "calBase": 100000000,
-            "ruCost": 100
+            "ruCost": 500
         },
         {
             "method": "/rpc/eth/v2/beacon/blocks/{block_id}",
@@ -258,7 +258,7 @@
         {
             "method": "/rpc/eth/v1/beacon/blob_sidecars/{block_id}",
             "calBase": 100000000,
-            "ruCost": 1000
+            "ruCost": 500
         },
         {
             "method": "/rpc/eth/v1/beacon/rewards/sync_committee/{block_id}",
@@ -329,6 +329,21 @@
             "method": "/rpc/eth/v1/beacon/pool/voluntary_exits",
             "calBase": 100000000,
             "ruCost": 30
+        },
+        {
+            "method": "/rpc/eth/v1/beacon/states/{state_id}/committees",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+        {
+            "method": "/rpc/eth/v1/beacon/states/{state_id}/validator_balances",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "eth/v2/debug/beacon/states/{state_id}",
+            "calBase": 100000000,
+            "ruCost": 2000
         },
         {
             "method": "/rpc/eth/v1/beacon/pool/bls_to_execution_changes",
