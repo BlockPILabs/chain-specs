@@ -1,6 +1,9 @@
 {
     "methods": {
-        "suix_getAllBalances": "Good"
+        "suix_getAllBalances": "Good",
+        "suix_getAllCoins": "Good",
+        "suix_getCoins": "Good",
+        "suix_getBalance": "Good"
     },
     "default":""
 }
