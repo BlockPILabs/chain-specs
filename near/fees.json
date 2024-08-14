@@ -3,6 +3,131 @@
             "method": "default",
             "calBase": 250,
             "ruCost": 5
+        },
+        {
+            "method": "view_access_key",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "view_access_key_list",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "single_access_key_changes",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "all_access_key_changes",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "view_account",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "account_changes",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "view_code",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "view_state",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "data_changes",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "contract_code_changes",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "call_function",
+            "calBase": 200000,
+            "ruCost": 50
+        },
+        {
+            "method": "block",
+            "calBase": 100000000,
+            "ruCost": 300
+        },
+        {
+            "method": "EXPERIMENTAL_changes_in_block",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "chunk",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "gas_price",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "EXPERIMENTAL_genesis_config",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "EXPERIMENTAL_protocol_config",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "status",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "network_info",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "validators",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },
+        {
+            "method": "tx",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "send_tx",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "EXPERIMENTAL_tx_status",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "EXPERIMENTAL_receipt",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "EXPERIMENTAL_maintenance_windows",
+            "calBase": 100000000,
+            "ruCost": 20
         }
     ],
     "nodeTypeRate": {
