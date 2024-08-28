@@ -1,12 +1,10 @@
 {
     "methods": {
-        "debug_traceBlockByHash": "besu",
-        "debug_traceBlockByNumber": "besu",
-        "debug_traceCall": "besu",
-        "debug_traceTransaction": "besu",
-        "linea_estimateGas": "besu",
-        "eth_call": "Geth",
-        "eth_estimateGas": "Geth"
+        "debug_traceBlockByHash": "Geth",
+        "debug_traceBlockByNumber": "Geth",
+        "debug_traceCall": "Geth",
+        "debug_traceTransaction": "Geth",
+        "eth_estimateGas": "besu"
     },
     "default": "",
     "default_archive": ""
