@@ -2,9 +2,12 @@
     "methods": {
         "debug_traceBlockByHash": "Geth",
         "debug_traceBlockByNumber": "Geth",
-        "debug_traceCall": "Geth",
         "debug_traceTransaction": "Geth",
-        "eth_estimateGas": "besu"
+        "eth_estimateGas": "besu",
+        "linea_estimateGas": "besu",
+        "txpool_content": "Geth",
+        "txpool_status": "Geth",
+        "txpool_inspect": "Geth"
     },
     "default": "",
     "default_archive": ""
