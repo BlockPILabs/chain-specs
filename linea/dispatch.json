@@ -1,3 +1,25 @@
 {
-    "default":""
+    "methods": {
+        "debug_traceBlockByHash": "Geth",
+        "debug_traceBlockByNumber": "Geth",
+        "debug_traceTransaction": "Geth",
+        "eth_estimateGas": "besu",
+        "linea_estimateGas": "besu",
+        "txpool_content": "Geth",
+        "txpool_status": "Geth",
+        "txpool_inspect": "Geth",
+        "txpool_besuPendingTransactions": "besu",
+        "txpool_besuStatistics": "besu",
+        "txpool_besuTransactions": "besu",
+        "trace_block": "besu",
+        "trace_call": "besu",
+        "trace_callMany": "besu",
+        "trace_filter": "besu",
+        "trace_get": "besu",
+        "trace_rawTransaction": "besu",
+        "trace_replayBlockTransactions": "besu",
+        "trace_transaction": "besu"
+    },
+    "default": "",
+    "default_archive": ""
 }
