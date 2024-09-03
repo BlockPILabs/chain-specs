@@ -42,7 +42,6 @@ paths:
             description: Identifier of target TON account in any form.
           name: address
           in: query
-          explode: true
       responses:
         '200':
           description: Successful Response
@@ -526,6 +525,75 @@ paths:
       summary: Get Block Transactions
       description: Get transactions of the given block.
       operationId: get_block_transactions_getBlockTransactions_get
+      parameters:
+        - required: true
+          schema:
+            type: integer
+            title: Workchain
+          name: workchain
+          in: query
+        - required: true
+          schema:
+            type: integer
+            title: Shard
+          name: shard
+          in: query
+        - required: true
+          schema:
+            type: integer
+            title: Seqno
+          name: seqno
+          in: query
+        - required: false
+          schema:
+            type: string
+            title: Root Hash
+          name: root_hash
+          in: query
+        - required: false
+          schema:
+            type: string
+            title: File Hash
+          name: file_hash
+          in: query
+        - required: false
+          schema:
+            type: integer
+            title: After Lt
+          name: after_lt
+          in: query
+        - required: false
+          schema:
+            type: string
+            title: After Hash
+          name: after_hash
+          in: query
+        - required: false
+          schema:
+            type: integer
+            title: Count
+            default: 40
+          name: count
+          in: query
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TonResponse'
+        '422':
+          description: Validation Error
+        '504':
+          description: Lite Server Timeout
+  /getBlockTransactionsExt:
+    get:
+      tags:
+        - blocks
+        - transactions
+      summary: Get Block Transactions Ext
+      description: Get transactions of the given block.
+      operationId: get_block_transactions_ext_getBlockTransactionsExt_get
       parameters:
         - required: true
           schema:
