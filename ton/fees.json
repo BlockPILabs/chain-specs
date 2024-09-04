@@ -151,147 +151,147 @@
             "ruCost": 50
         },
         {
-            "method": "/getAddressInformation",
+            "method": "/rpc/getAddressInformation",
             "calBase": 250,
             "ruCost": 75
         },
         {
-            "method": "/getExtendedAddressInformation",
+            "method": "/rpc/getExtendedAddressInformation",
             "calBase": 250,
             "ruCost": 50
         },
         {
-            "method": "/getWalletInformation",
+            "method": "/rpc/getWalletInformation",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/getTransactions",
+            "method": "/rpc/getTransactions",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/getAddressBalance",
+            "method": "/rpc/getAddressBalance",
             "calBase": 250,
             "ruCost": 30
         },
         {
-            "method": "/getAddressState",
+            "method": "/rpc/getAddressState",
             "calBase": 250,
             "ruCost": 30
         },
         {
-            "method": "/packAddress",
+            "method": "/rpc/packAddress",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/unpackAddress",
+            "method": "/rpc/unpackAddress",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/getTokenData",
+            "method": "/rpc/getTokenData",
             "calBase": 250,
             "ruCost": 50
         },
         {
-            "method": "/detectAddress",
+            "method": "/rpc/detectAddress",
             "calBase": 250,
             "ruCost": 50
         },
         {
-            "method": "/getMasterchainInfo",
+            "method": "/rpc/getMasterchainInfo",
             "calBase": 250,
             "ruCost": 50
         },
         {
-            "method": "/getMasterchainBlockSignatures",
+            "method": "/rpc/getMasterchainBlockSignatures",
             "calBase": 250,
             "ruCost": 200
         },
         {
-            "method": "/getConsensusBlock",
+            "method": "/rpc/getConsensusBlock",
             "calBase": 250,
             "ruCost": 30
         },
         {
-            "method": "/getlookupBlock",
+            "method": "/rpc/getlookupBlock",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/shards",
+            "method": "/rpc/shards",
             "calBase": 250,
             "ruCost": 100
         },
         {
-            "method": "/getBlockTransactions",
+            "method": "/rpc/getBlockTransactions",
             "calBase": 250,
             "ruCost": 50
         },
         {
-            "method": "getBlockTransactionsExt",
-            "calBase": 250,
-            "ruCost": 100
-        },
-        {
-            "method": "/getBlockHeader",
-            "calBase": 250,
-            "ruCost": 50
-        },
-        {
-            "method": "/getOutMsgQueueSizes",
+            "method": "/rpc/getBlockTransactionsExt",
             "calBase": 250,
             "ruCost": 100
         },
         {
-            "method": "/getTransactions",
+            "method": "/rpc/getBlockHeader",
+            "calBase": 250,
+            "ruCost": 50
+        },
+        {
+            "method": "/rpc/getOutMsgQueueSizes",
+            "calBase": 250,
+            "ruCost": 100
+        },
+        {
+            "method": "/rpc/getTransactions",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/tryLocateTx",
+            "method": "/rpc/tryLocateTx",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/tryLocateResultTx",
+            "method": "/rpc/tryLocateResultTx",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/tryLocateSourceTx",
+            "method": "/rpc/tryLocateSourceTx",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/getConfigParam",
+            "method": "/rpc/getConfigParam",
             "calBase": 250,
             "ruCost": 30
         },
         {
-            "method": "/getConfigAll",
+            "method": "/rpc/getConfigAll",
             "calBase": 250,
             "ruCost": 2000
         },
         {
-            "method": "/runGetMethod",
+            "method": "/rpc/runGetMethod",
             "calBase": 250,
             "ruCost": 40
         },
         {
-            "method": "/sendBoc",
+            "method": "/rpc/sendBoc",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/sendQuery",
+            "method": "/rpc/sendQuery",
             "calBase": 200000,
             "ruCost": 50
         },
         {
-            "method": "/estimateFee",
+            "method": "/rpc/estimateFee",
             "calBase": 200000,
             "ruCost": 50
         }
