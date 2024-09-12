@@ -1,5 +1,6 @@
 [
     "/lcd/zeta-chain/crosschain/cctx",
     "/lcd/cosmos/auth/v1beta1/accounts",
-    "/lcd/cosmos/bank/v1beta1/denom_owners/azeta"
+    "/lcd/cosmos/bank/v1beta1/denom_owners/{denom}",
+    "/lcd/zeta-chain/crosschain/inboundHashToCctx"
 ]
