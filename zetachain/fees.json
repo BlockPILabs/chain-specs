@@ -866,6 +866,11 @@
       "ruCost": 20
     },
     {
+      "method": "/lcd/zeta-chain/crosschain/cctx",
+      "calBase": 100000000,
+      "ruCost": 800
+    },
+    {
       "method": "/lcd/zeta-chain/crosschain/cctx/{index}",
       "calBase": 100000000,
       "ruCost": 75
