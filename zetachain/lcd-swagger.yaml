@@ -28317,7 +28317,7 @@ paths:
             $ref: '#/definitions/googlerpcStatus'
       tags:
         - Query
-  /zeta-chain/crosschain/cctx/:
+  /zeta-chain/crosschain/cctx:
     get:
       summary: Queries a list of cctx items.
       operationId: Query_CctxAll
