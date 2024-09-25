@@ -54,6 +54,5 @@
   "debug_traceCall",
   "debug_traceBlock",
   "debug_traceBlockByHash",
-  "debug_traceBlockByNumber",
   "debug_traceTransaction"
 ]
