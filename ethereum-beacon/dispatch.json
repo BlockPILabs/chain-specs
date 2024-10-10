@@ -1,8 +1,8 @@
 {
     "methods": {
-        "/eth/v1/node/identity": "lighthouse",
-        "/eth/v1/validator/attestation_data": "lighthouse",
-        "/eth/v1/beacon/blob_sidecars/{block_id}": "caplin"
+        "/rpc/eth/v1/node/identity": "lighthouse",
+        "/rpc/eth/v1/validator/attestation_data": "lighthouse",
+        "/rpc/eth/v1/beacon/blob_sidecars/{block_id}": "caplin"
     },
     "default":""
 }
