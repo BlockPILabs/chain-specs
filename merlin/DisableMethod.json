@@ -52,8 +52,5 @@
   "debug_setTrieFlushInterval",
   "debug_getTrieFlushInterval",
   "debug_traceCall",
-  "debug_traceBlock",
-  "debug_traceBlockByHash",
-  "debug_traceBlockByNumber",
-  "debug_traceTransaction"
+  "debug_traceBlock"
 ]
