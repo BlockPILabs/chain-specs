@@ -1,10 +1,4 @@
 {
-    "methods": {
-        "debug_traceBlockByHash": "merlin-good",
-        "debug_traceBlockByNumber": "merlin-good",
-        "debug_traceTransaction": "merlin-good",
-        "eth_call": "merlin-good"
-    },
-    "default": "merlin",
-    "default_archive": "merlin"
+    "default": "",
+    "default_archive": ""
 }
