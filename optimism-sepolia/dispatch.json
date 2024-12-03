@@ -1,3 +1,6 @@
 {
+    "methods": {
+        "eth_getProof": "OtherProvider1"
+    },
     "default":""
 }
