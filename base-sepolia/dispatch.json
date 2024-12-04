@@ -2,6 +2,6 @@
     "methods": {
         "eth_getProof": "OtherProvider1"
     },
-    "default": "Geth",
+    "default": "reth",
     "default_archive": "reth"
 }
