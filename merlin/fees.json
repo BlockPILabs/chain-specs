@@ -312,22 +312,22 @@
         {
             "method": "debug_traceTransaction",
             "calBase": 100000000,
-            "ruCost": 600
+            "ruCost": 150
         },
         {
             "method": "debug_traceCall",
             "calBase": 100000000,
-            "ruCost": 600
+            "ruCost": 150
         },
         {
             "method": "debug_traceBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 1000
+            "ruCost": 150
         },
         {
             "method": "debug_traceBlockByHash",
             "calBase": 100000000,
-            "ruCost": 1000
+            "ruCost": 150
         },
         {
             "method": "trace_block",
