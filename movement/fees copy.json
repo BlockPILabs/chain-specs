@@ -104,7 +104,7 @@
             "ruCost": 30
         },
         {
-            "method": "GET,/v1/estimate_gas_price",
+            "method": "/rpc/v1/estimate_gas_price",
             "calBase": 100000000,
             "ruCost": 20
         }
