@@ -64,6 +64,11 @@
             "ruCost": 25
         },
         {
+            "method": "/aptos/v1/tables/{table_handle}/raw_item",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
             "method": "/aptos/v1/transactions",
             "calBase": 100000000,
             "ruCost": 120
