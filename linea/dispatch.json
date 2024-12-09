@@ -3,7 +3,7 @@
         "debug_traceBlockByHash": "Geth",
         "debug_traceBlockByNumber": "Geth",
         "debug_traceTransaction": "Geth",
-        "eth_estimateGas": "besu",
+        "eth_estimateGas": "Geth",
         "linea_estimateGas": "besu",
         "txpool_content": "Geth",
         "txpool_status": "Geth",
@@ -18,7 +18,8 @@
         "trace_get": "besu",
         "trace_rawTransaction": "besu",
         "trace_replayBlockTransactions": "besu",
-        "trace_transaction": "besu"
+        "trace_transaction": "besu",
+        "eth_sendRawTransaction": "Geth"
     },
     "default": "",
     "default_archive": ""
