@@ -1,53 +1,57 @@
-[
-  "debug_accountRange",
-  "debug_backtraceAt",
-  "debug_blockProfile",
-  "debug_chaindbCompact",
-  "debug_chaindbProperty",
-  "debug_cpuProfile",
-  "debug_dbAncient",
-  "debug_dbAncients",
-  "debug_dbGet",
-  "debug_dumpBlock",
-  "debug_freeOSMemory",
-  "debug_freezeClient",
-  "debug_gcStats",
-  "debug_getAccessibleState",
-  "debug_getBadBlocks",
-  "debug_getBlockRlp",
-  "debug_getHeaderRlp",
-  "debug_getModifiedAccountsByHash",
-  "debug_getModifiedAccountsByNumber",
-  "debug_getRawReceipts",
-  "debug_goTrace",
-  "debug_intermediateRoots",
-  "debug_memStats",
-  "debug_mutexProfile",
-  "debug_preimage",
-  "debug_printBlock",
-  "debug_seedHash",
-  "debug_setBlockProfileRate",
-  "debug_setGCPercent",
-  "debug_setHead",
-  "debug_setMutexProfileFraction",
-  "debug_stacks",
-  "debug_standardTraceBlockToFile",
-  "debug_standardTraceBadBlockToFile",
-  "debug_startCPUProfile",
-  "debug_startGoTrace",
-  "debug_stopCPUProfile",
-  "debug_stopGoTrace",
-  "debug_storageRangeAt",
-  "debug_traceBadBlock",
-  "debug_traceBlock",
-  "debug_traceBlockFromFile",
-  "debug_traceChain",
-  "debug_verbosity",
-  "debug_vmodule",
-  "debug_writeBlockProfile",
-  "debug_writeMemProfile",
-  "debug_writeMutexProfile",
-  "trace_callMany",
-  "trace_replayBlockTransactions",
-  "txpool_content"
-]
+
+default: # 等级
+  "eth_getLogs": # 方法
+    # 参数，可以是 jq 查询语句，但是和标准 jq 有区别, 具体差异参考： https://github.com/itchyny/gojq?tab=readme-ov-file#difference-to-jq
+    # jq 的返回值必须是 bool、string、[]bool、[]string、number、[]number  其他类型暂不支持
+    # 返回值符合 any 判断结果
+    # https://jqplay.org/  可以演练 jq 语句
+    # 基本结构
+    #{
+    #  "path" : "/",  # 当前请求路径
+    #  "query" : {  # 请求 query string 查询
+    #    "key" : "value"
+    #   },
+    #  "values" : {  # 请求的路径参数
+    #    "apiKey" : "6325d08b52ae9772a51b19f282ee50673d0d2ea1",
+    #    "rpcVer" : "v1",
+    #    "key" : "value",
+    #  },
+    #  # 请求 body
+    #  "body" : {
+    #    "jsonrpc" : "2.0",
+    #    "method" : "web3_sha3",
+    #    "params" : [ "0x1168656c6c6f20776f726c64" ],
+    #    "id" : 64
+    #  }
+    #}
+
+    - "0x12"  # 参数内容包含 0x12 被禁用
+    - ".a" # 参数内容包含 a 元素被禁用
+  "web3_sha3":
+    - "0x12"
+    - "0x68"
+    - '[.body|.params|.[]|.=="0x1168656c6c6f20776f726c64"]|any'
+L1:
+  "eth_getLogs":
+    - "0x333"
+    - ".b"
+  eth_chainId:
+    - ".[]|select(.==1)"
+    - "a"
+
+
+L2: # 等级
+  "eth_getLogs": # 方法
+    # 参数，可以是 jq 查询语句，但是和标准 jq 有区别, 具体差异参考： https://github.com/itchyny/gojq?tab=readme-ov-file#difference-to-jq
+    - "0x12"
+    - ".a"
+L3: # 等级
+  "eth_getLogs": # 方法
+    # 参数，可以是 jq 查询语句，但是和标准 jq 有区别, 具体差异参考： https://github.com/itchyny/gojq?tab=readme-ov-file#difference-to-jq
+    - "0x12"
+    - ".a"
+L4: # 等级
+  "eth_getLogs": # 方法
+    # 参数，可以是 jq 查询语句，但是和标准 jq 有区别, 具体差异参考： https://github.com/itchyny/gojq?tab=readme-ov-file#difference-to-jq
+    - "0x12"
+    - ".a"
