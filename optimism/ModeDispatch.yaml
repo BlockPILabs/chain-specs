@@ -1,0 +1,23 @@
+# 模式分流
+# 目前只支持 full 分流，指定的方法将会被分流到 full 节点处理。
+# 我们规则里边
+
+# 所有节点类型都支持
+all:
+
+# 只支持 full ，目前 full 是和 archive 混用的，所以设置 full 也基本等于设置 all，作为预留，可以配置。
+full:
+  eth_chainId:
+  eth_syncing:
+  eth_gasPrice:
+  eth_estimateGas:
+  eth_blockNumber:
+  eth_sendRawTransaction:
+  eth_subscribe:
+  txpool_inspect:
+  txpool_status:
+  txpool_content:
+  web3_sha3:
+  web3_clientVersion:
+  net_listening:
+  net_peerCount:
