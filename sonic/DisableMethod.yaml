@@ -6,11 +6,6 @@ default:
     - '[.body|.params|.[]|.=="0x1168656c6c6f20776f726c64"]|any'
 L1:
   "eth_getLogs"
-  eth_chainId:
-    - ".[]|select(.==1)"
-    - "a"
-
-
 L2:
   "eth_getLogs"
 L3:
