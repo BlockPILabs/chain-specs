@@ -1,15 +1,6 @@
-default:
-  "eth_getLogs":
-    - "0x12"
-    - ".a"
-  "web3_sha3":
-    - "0x12"
-    - "0x68"
-    - '[.body|.params|.[]|.=="0x1168656c6c6f20776f726c64"]|any'
 L1:
   "eth_getLogs":
-    - "0x333"
-    - ".b"
+
   eth_chainId:
     - ".[]|select(.==1)"
     - "a"
@@ -21,9 +12,7 @@ L2:
     - '[.body|.params|.[]|.=="0x1168656c6c6f20776f726c64"]|any'
 L3:
   "eth_getLogs":
-    - "0x12"
-    - ".a"
+
 L4:
   "eth_getLogs":
-    - "0x12"
-    - ".a"
+
