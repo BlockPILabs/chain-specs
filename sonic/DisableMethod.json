@@ -49,7 +49,5 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions",
-  "txpool_content",
-  "eth_getLogs",
-  "eth_call"
+  "txpool_content"
 ]
