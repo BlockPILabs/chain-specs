@@ -50,5 +50,6 @@
   "trace_callMany",
   "trace_replayBlockTransactions",
   "txpool_content",
-  "eth_getLogs"
+  "eth_getLogs",
+  "eth_call"
 ]
