@@ -17,6 +17,10 @@ L2:
   "eth_getLogs":
     - "0x12"
     - ".a"
+  "web3_sha3":
+    - "0x12"
+    - "0x68"
+    - '[.body|.params|.[]|.=="0x1168656c6c6f20776f726c64"]|any'
 L3:
   "eth_getLogs":
     - "0x12"
