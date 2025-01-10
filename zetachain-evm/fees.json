@@ -7,17 +7,17 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 5
         },
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 5
         },
         {
             "method": "net_peerCount",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 5
         },
         {
             "method": "web3_clientVersion",
@@ -32,12 +32,12 @@
         {
             "method": "eth_chainId",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 5
         },
         {
             "method": "eth_syncing",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 5
         },
         {
             "method": "eth_accounts",
@@ -183,7 +183,7 @@
             "method": "eth_call",
             "calBase": 10000,
             "ruCost": 20
-        },               
+        },
         {
             "method": "eth_feeHistory",
             "calBase": 100000000,
@@ -302,7 +302,7 @@
         {
             "method": "eth_sendRawTransaction",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 50
         },
         {
             "method": "eth_sendTransactionAsFeePayer",
