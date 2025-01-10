@@ -297,7 +297,7 @@
         {
             "method": "eth_sendRawTransaction",
             "calBase": 100000000,
-            "ruCost": 400
+            "ruCost": 50
         },
         {
             "method": "eth_sendTransactionAsFeePayer",
