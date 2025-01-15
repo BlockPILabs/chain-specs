@@ -7,7 +7,6 @@
         "trace_filter": "erigon",
         "trace_rawTransaction": "erigon",
         "trace_replayTransaction": "erigon",
-        "eth_getLogs": "erigon",
         "eth_newBlockFilter": "erigon",
         "eth_newPendingTransactionFilter": "erigon",
         "debug_traceBlockByHash": "erigon",
