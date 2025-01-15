@@ -1,8 +1,8 @@
 {
     "methodPrice": [{
             "method": "default",
-            "calBase": 250,
-            "ruCost": 5
+            "calBase": 100000000,
+            "ruCost": 1
         }
     ],
     "nodeTypeRate": {
