@@ -3195,6 +3195,16 @@ paths:
           $ref: '#/responses/slashingUnjailResponse'
       tags:
       - slashing
+  /milestone/latest:
+    get:
+      description: polygon use
+      tags:
+      - milestone
+  /milestone/lastNoAck:
+    get:
+      description: polygon use
+      tags:
+      - milestone
   /staking/current-proposer:
     get:
       description: It returns proposer for current validator set
