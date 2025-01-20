@@ -6,14 +6,7 @@
         "trace_transaction": "erigon",
         "trace_filter": "erigon",
         "trace_rawTransaction": "erigon",
-        "trace_replayTransaction": "erigon",
-        "debug_traceBlockByHash": "Good",
-        "debug_traceBlockByNumber": "Good",
-        "debug_traceCall": "Good",
-        "debug_traceTransaction": "Good",
-        "eth_getLogs": "Good",
-        "eth_newPendingTransactionFilter": "Good",
-        "txpool_content": "Good"
+        "trace_replayTransaction": "erigon"
     },
     "default": "",
     "default_archive": ""
