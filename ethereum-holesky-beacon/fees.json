@@ -1,0 +1,344 @@
+{
+    "methodPrice": [
+        {
+            "method": "default",
+            "calBase": 250,
+            "ruCost": 5
+        },
+        {
+            "method": "/eth/v1/beacon/genesis",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/builder/states/{state_id}/expected_withdrawals",
+            "calBase": 100000000,
+            "ruCost": 45
+        },
+        {
+            "method": "/eth/v1/node/identity",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "/eth/v1/config/fork_schedule",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/validator/duties/attester/{epoch}",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/validator/beacon_committee_selections",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/events",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/root",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v2/debug/beacon/heads",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/node/peers",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/config/spec",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "/eth/v1/validator/duties/proposer/{epoch}",
+            "calBase": 100000000,
+            "ruCost": 80
+        },
+        {
+            "method": "/eth/v1/validator/sync_committee_selections",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/fork",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/debug/fork_choice",
+            "calBase": 100000000,
+            "ruCost": 250
+        },
+        {
+            "method": "/eth/v1/node/peers/{peer_id}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/config/deposit_contract",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/validator/duties/sync/{epoch}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/validator/register_validator",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/finality_checkpoints",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/node/peer_count",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v2/validator/blocks/{slot}",
+            "calBase": 100000000,
+            "ruCost": 3800
+        },
+        {
+            "method": "/eth/v1/validator/liveness/{epoch}",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/validators",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/node/version",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v3/validator/blocks/{slot}",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "/eth/v1/node/syncing",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/validator/blinded_blocks/{slot}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/validators/{validator_id}",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "/eth/v1/node/health",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/validator/attestation_data",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/validator_balances",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },
+        {
+            "method": "/eth/v1/validator/aggregate_attestation",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/validator/aggregate_and_proofs",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/validator/beacon_committee_subscriptions",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/sync_committees",
+            "calBase": 100000000,
+            "ruCost": 145
+        },
+        {
+            "method": "/eth/v1/validator/sync_committee_subscriptions",
+            "calBase": 100000000,
+            "ruCost": 5
+        },
+        {
+            "method": "/eth/v1/beacon/states/{state_id}/randao",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/validator/sync_committee_contribution",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/beacon/headers",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "/eth/v1/validator/contribution_and_proofs",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/headers/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "/eth/v1/validator/prepare_beacon_proposer",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/blinded_blocks",
+            "calBase": 100000000,
+            "ruCost": 95
+        },
+        {
+            "method": "/eth/v2/beacon/blinded_blocks",
+            "calBase": 100000000,
+            "ruCost": 95
+        },
+        {
+            "method": "/eth/v1/beacon/blocks",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "/eth/v2/beacon/blocks",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "/eth/v2/beacon/blocks/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },
+        {
+            "method": "/eth/v1/beacon/blocks/{block_id}/root",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/blocks/{block_id}/attestations",
+            "calBase": 100000000,
+            "ruCost": 360
+        },
+        {
+            "method": "/eth/v1/beacon/blob_sidecars/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 1000
+        },
+        {
+            "method": "/eth/v1/beacon/rewards/sync_committee/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/beacon/deposit_snapshot",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "/eth/v1/beacon/rewards/blocks/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/rewards/attestations/{epoch}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/blinded_blocks/{block_id}",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "/eth/v1/beacon/light_client/bootstrap/{block_root}",
+            "calBase": 100000000,
+            "ruCost": 215
+        },
+        {
+            "method": "/eth/v1/beacon/light_client/updates",
+            "calBase": 100000000,
+            "ruCost": 220
+        },
+        {
+            "method": "/eth/v1/beacon/light_client/finality_update",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "/eth/v1/beacon/light_client/optimistic_update",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/beacon/pool/attestations",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "/eth/v1/beacon/pool/attester_slashings",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/pool/proposer_slashings",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/eth/v1/beacon/pool/sync_committees",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/eth/v1/beacon/pool/voluntary_exits",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "/eth/v1/beacon/pool/bls_to_execution_changes",
+            "calBase": 100000000,
+            "ruCost": 10
+        }
+    ],
+    "nodeTypeRate": {
+        "default": 1,
+        "fullNode": 1,
+        "archiveNode": 1.3
+    }
+}
