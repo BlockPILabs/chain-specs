@@ -1,5 +1,6 @@
 {
-    "methodPrice": [{
+    "methodPrice": [
+        {
             "method": "default",
             "calBase": 250,
             "ruCost": 5
@@ -7,22 +8,26 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 0,
+            "cache": true
         },
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 0,
+            "cache": true
         },
         {
             "method": "net_peerCount",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 0,
+            "cache": true
         },
         {
             "method": "web3_clientVersion",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "web3_sha3",
@@ -32,12 +37,14 @@
         {
             "method": "eth_chainId",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 0,
+            "cache": true
         },
         {
             "method": "eth_syncing",
             "calBase": 100000000,
-            "ruCost": 0
+            "ruCost": 0,
+            "cache": true
         },
         {
             "method": "eth_accounts",
