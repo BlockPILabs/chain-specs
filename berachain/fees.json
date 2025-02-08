@@ -332,52 +332,52 @@
         {
             "method": "trace_block",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 20
         },
         {
             "method": "trace_call",
             "calBase": 100000000,
-            "rucost": 60
+            "ruCost": 60
         },
         {
             "method": "trace_get",
             "calBase": 100000000,
-            "rucost": 15
+            "ruCost": 15
         },
         {
             "method": "trace_rawTransaction",
             "calBase": 100000000,
-            "rucost": 60
+            "ruCost": 60
         },
         {
             "method": "trace_replayTransaction",
             "calBase": 100000000,
-            "rucost": 2900
+            "ruCost": 2900
         },
         {
             "method": "trace_transaction",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 20
         },
         {
             "method": "trace_filter",
             "calBase": 100000000,
-            "rucost": 60
+            "ruCost": 60
         },
         {
             "method": "txpool_inspect",
             "calBase": 100000000,
-            "rucost": 10
+            "ruCost": 10
         },
         {
             "method": "txpool_status",
             "calBase": 100000000,
-            "rucost": 10
+            "ruCost": 10
         },
         {
             "method": "eth_getProof",
             "calBase": 100000000,
-            "rucost": 50
+            "ruCost": 50
         }
     ],
     "nodeTypeRate": {
