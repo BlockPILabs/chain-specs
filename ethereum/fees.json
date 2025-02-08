@@ -3,7 +3,8 @@
         {
             "method": "default",
             "calBase": 250,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "net_listening",
@@ -32,7 +33,8 @@
         {
             "method": "web3_sha3",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_chainId",
@@ -49,12 +51,14 @@
         {
             "method": "eth_accounts",
             "calBase": 100000000,
-            "ruCost": 10
+            "ruCost": 10,
+            "cache": true
         },
         {
             "method": "eth_uninstallFilter",
             "calBase": 100000000,
-            "ruCost": 10
+            "ruCost": 10,
+            "cache": true
         },
         {
             "method": "eth_blockNumber",
@@ -65,327 +69,392 @@
         {
             "method": "eth_accountCreated",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getBalance",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getCode",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getTransactionCount",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_isContractAccount",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_sign",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_clientVersion",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_gasPrice",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_gasPriceAt",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_isParallelDBWrite",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_isSenderTxHashIndexingEnabled",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_rewardbase",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_sha3",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_newBlockFilter",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_newFilter",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_newPendingTransactionFilter",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getBlockTransactionCountByNumber",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getBlockTransactionCountByHash",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getCommittee",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getCommitteeSize",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getCouncil",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getCouncilSize",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getStorageAt",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getAccount",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getFilterChanges",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_call",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_estimateGas",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_estimateComputationCost",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getAccountKey",
             "calBase": 100000000,
-            "ruCost": 25
+            "ruCost": 25,
+            "cache": true
         },
         {
             "method": "eth_getDecodedAnchoringTransactionByHash",
             "calBase": 100000000,
-            "ruCost": 25
+            "ruCost": 25,
+            "cache": true
         },
         {
             "method": "eth_getHeaderByNumber",
             "calBase": 100000000,
-            "ruCost": 25
+            "ruCost": 25,
+            "cache": true
         },
         {
             "method": "eth_getHeaderByHash",
             "calBase": 100000000,
-            "ruCost": 25
+            "ruCost": 25,
+            "cache": true
         },
         {
             "method": "eth_getTransactionByBlockHashAndIndex",
             "calBase": 100000000,
-            "ruCost": 30
+            "ruCost": 30,
+            "cache": true
         },
         {
             "method": "eth_getTransactionByBlockNumberAndIndex",
             "calBase": 100000000,
-            "ruCost": 30
+            "ruCost": 30,
+            "cache": true
         },
         {
             "method": "eth_signTransaction",
             "calBase": 100000000,
-            "ruCost": 30
+            "ruCost": 30,
+            "cache": true
         },
         {
             "method": "eth_encodeAccountKey",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 35,
+            "cache": true
         },
         {
             "method": "eth_getTransactionByHash",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 35,
+            "cache": true
         },
         {
             "method": "eth_getTransactionBySenderTxHash",
             "calBase": 100000000,
-            "ruCost": 35
+            "ruCost": 35,
+            "cache": true
         },
         {
             "method": "eth_signTransactionAsFeePayer",
             "calBase": 100000000,
-            "ruCost": 45
+            "ruCost": 45,
+            "cache": true
         },
         {
             "method": "eth_decodeAccountKey",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 50,
+            "cache": true
         },
         {
             "method": "eth_getBlockByHash",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getFilterLogs",
             "calBase": 100000000,
-            "ruCost": 75
+            "ruCost": 75,
+            "cache": true
         },
         {
             "method": "eth_getLogs",
             "calBase": 200000,
-            "ruCost": 50
+            "ruCost": 50,
+            "cache": true
         },
         {
             "method": "eth_getBlockWithConsensusInfoByHash",
             "calBase": 100000000,
-            "ruCost": 170
+            "ruCost": 170,
+            "cache": true
         },
         {
             "method": "eth_getBlockWithConsensusInfoByNumber",
             "calBase": 100000000,
-            "ruCost": 170
+            "ruCost": 170,
+            "cache": true
         },
         {
             "method": "eth_getTransactionReceipt",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "eth_getTransactionReceiptBySenderTxHash",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 200,
+            "cache": true
         },
         {
             "method": "eth_sendRawTransaction",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 200,
+            "cache": true
         },
         {
             "method": "eth_sendTransactionAsFeePayer",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 200,
+            "cache": true
         },
         {
             "method": "eth_getBlockReceipts",
             "calBase": 100000000,
-            "ruCost": 400
+            "ruCost": 400,
+            "cache": true
         },
         {
             "method": "debug_traceTransaction",
             "calBase": 100000000,
-            "ruCost": 300
+            "ruCost": 300,
+            "cache": true
         },
         {
             "method": "debug_traceCall",
             "calBase": 100000000,
-            "ruCost": 300
+            "ruCost": 300,
+            "cache": true
         },
         {
             "method": "debug_traceBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 500
+            "ruCost": 500,
+            "cache": true
         },
         {
             "method": "debug_traceBlockByHash",
             "calBase": 100000000,
-            "ruCost": 500
+            "ruCost": 500,
+            "cache": true
         },
         {
             "method": "trace_block",
             "calBase": 100000000,
-            "rucost": 20
+            "rucost": 20,
+            "cache": true
         },
         {
             "method": "trace_call",
             "calBase": 100000000,
-            "rucost": 60
+            "rucost": 60,
+            "cache": true
         },
         {
             "method": "trace_get",
             "calBase": 100000000,
-            "rucost": 15
+            "rucost": 15,
+            "cache": true
         },
         {
             "method": "trace_rawTransaction",
             "calBase": 100000000,
-            "rucost": 60
+            "rucost": 60,
+            "cache": true
         },
         {
             "method": "trace_replayTransaction",
             "calBase": 100000000,
-            "rucost": 2900
+            "rucost": 2900,
+            "cache": true
         },
         {
             "method": "trace_transaction",
             "calBase": 100000000,
-            "rucost": 20
+            "rucost": 20,
+            "cache": true
         },
         {
             "method": "trace_filter",
             "calBase": 100000000,
-            "rucost": 60
+            "rucost": 60,
+            "cache": true
         },
         {
             "method": "txpool_inspect",
             "calBase": 100000000,
-            "rucost": 10
+            "rucost": 10,
+            "cache": true
         },
         {
             "method": "txpool_status",
             "calBase": 100000000,
-            "rucost": 10
+            "rucost": 10,
+            "cache": true
         },
         {
             "method": "eth_getProof",
             "calBase": 100000000,
-            "rucost": 50
+            "rucost": 50,
+            "cache": true
         }
     ],
     "nodeTypeRate": {
