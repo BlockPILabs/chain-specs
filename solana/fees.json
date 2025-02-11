@@ -13,7 +13,7 @@
             "method": "getsupply",
             "calBase": 100000000,
             "ruCost": 600
-        },
+        }
     ],
     "nodeTypeRate": {
         "default": 1,
