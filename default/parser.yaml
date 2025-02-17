@@ -1,13 +1,134 @@
 # evm methods
+#### body.params.[0] 
 "eth_getBlockTransactionCountByNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
 "eth_getBlockByNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
+"trace_block":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
 "debug_traceBlockByNumber":
   fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]" 
+  toBlock: ".body.params.[0]"
+"eth_getTransactionByBlockNumberAndIndex":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"eth_getBalance":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"zkevm_batchNumberByBlockNumber":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"eth_getBlockReceipts":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"klay_getBlockTransactionCountByNumber":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"klay_getBlockByNumber":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"klay_getTransactionByBlockNumberAndIndex":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"klay_getBalance":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"klay_getBlockReceipts":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+
+#### body.params.[1] 
+"debug_traceCall":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"eth_estimateGas":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"eth_call":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"eth_getCode":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"eth_getTransactionCount":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"klay_estimateGas":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"klay_call":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"klay_getCode":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"klay_getTransactionCount":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+
+#### body.params.[2] 
+"trace_call":
+  fromBlock: ".body.params.[2]"
+  toBlock: ".body.params.[2]"
+"eth_getStorageAt":
+  fromBlock: ".body.params.[2]"
+  toBlock: ".body.params.[2]"
+"klay_getStorageAt":
+  fromBlock: ".body.params.[2]"
+  toBlock: ".body.params.[2]"
+
+### .body.params.[0].fromBlock
+"trace_filter":
+  fromBlock: ".body.params.[0].fromBlock"
+  toBlock: ".body.params.[0].toBlock"
 "eth_getLogs":
   fromBlock: ".body.params.[0].fromBlock"
-  toBlock: ".body.params.[0].toBlock" 
+  toBlock: ".body.params.[0].toBlock"
+"klay_getLogs":
+  fromBlock: ".body.params.[0].fromBlock"
+  toBlock: ".body.params.[0].toBlock"
+
+### earliest 
+"eth_syncing":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"eth_chainId":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"web3_clientVersion":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"web3_sha3":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"net_version":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"net_listening":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"klay_syncing":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"klay_clientVersion":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"klay_sha3":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"klay_chainId":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+
+### latest
+
+"eth_newFilter":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+
+"klay_newFilter":
+  fromBlock: "earliest"
+  toBlock: "earliest"
