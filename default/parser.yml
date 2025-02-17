@@ -1,9 +1,12 @@
 "eth_getBlockTransactionCountByNumber":
-  fromBlock: ".[0]"
-  toBlock: ".[0]"
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
 "eth_getBlockTransactionCountByNumber":
-  fromBlock: ".[0]"
-  toBlock: ".[0]"
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
 "eth_getBlockTransactionCountByNumber":
-  fromBlock: ".[0]"
-  toBlock: ".[0]"
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]" 
+"eth_getLogs":
+  fromBlock: ".body.params.[0].fromBlock"
+  toBlock: ".body.params.[0].toBlock" 
