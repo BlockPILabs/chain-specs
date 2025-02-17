@@ -16,7 +16,6 @@ all:
   web3_clientVersion:
   net_listening:
   net_peerCount:
-  eth_getProof:
 
 # 只支持 full ，目前 full 是和 archive 混用的，所以设置 full 也基本等于设置 all，作为预留，可以配置。
 full:
