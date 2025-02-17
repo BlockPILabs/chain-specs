@@ -11,7 +11,8 @@
         "eth_newPendingTransactionFilter": "erigon",
         "debug_traceBlockByHash": "erigon",
         "debug_traceBlockByNumber": "erigon",
-        "debug_traceTransaction": "erigon"
+        "debug_traceTransaction": "erigon",
+        "eth_getProof": "Geth"
     },
     "default": "",
     "default_archive": ""

@@ -1,3 +1,6 @@
 {
+    "methods": {
+        "eth_getProof": "Geth"
+    },
     "default":""
 }
