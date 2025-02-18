@@ -1,11 +1,12 @@
 {
     "methods": {
-        "debug_traceBlockByHash": "Good",
-        "debug_traceBlockByNumber": "Good",
-        "eth_getLogs": "Good",
-        "trace_block": "Good",
-        "trace_filter": "Good",
-        "txpool_content": "Good"
+        "trace_block": "erigon",
+        "trace_call": "erigon",
+        "trace_get": "erigon",
+        "trace_transaction": "erigon",
+        "trace_filter": "erigon",
+        "trace_rawTransaction": "erigon",
+        "trace_replayTransaction": "erigon"
     },
     "default": "",
     "default_archive": ""
