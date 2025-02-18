@@ -2,17 +2,17 @@
     "methodPrice": [{
             "method": "default",
             "calBase": 100000000,
-            "ruCost": 150
+            "ruCost": 200
         },
         {
             "method": "getlargestaccounts",
             "calBase": 100000000,
-            "ruCost": 600
+            "ruCost": 800
         },
         {
             "method": "getsupply",
             "calBase": 100000000,
-            "ruCost": 600
+            "ruCost": 800
         }
     ],
     "nodeTypeRate": {
