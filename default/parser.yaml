@@ -126,9 +126,9 @@
 ### latest
 
 "eth_newFilter":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 
 "klay_newFilter":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
