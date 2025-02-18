@@ -3,7 +3,7 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
     - '(.body.params| length|.<3) or ((.body.params[2].tracer=="callTracer") or (.body.params[2].tracer=="prestateTracer") or (.body.params[2].tracer=="fastCallTracer") or (.body.params[2].tracer=="stylusTracer") )|not'
 L6:
   "debug_traceCall":
-    - ".body.params| length|.>5"
+    - "false"
 L7:
   "debug_traceCall":
-    - ".body.params| length|.>5"
+    - "false"
