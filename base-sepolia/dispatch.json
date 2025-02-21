@@ -1,7 +1,4 @@
 {
-    "methods": {
-        "eth_getProof": "Geth"
-    },
     "default": "reth",
     "default_archive": "reth"
 }
