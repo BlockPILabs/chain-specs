@@ -418,6 +418,31 @@
             "method": "zkevm_virtualBatchNumber",
             "calBase": 100000000,
             "rucost": 40
+        },
+        {
+            "method": "zkevm_getFullBlockByNumber",
+            "calBase": 100000000,
+            "rucost": 100
+        },
+        {
+            "method": "zkevm_getFullBlockByHash",
+            "calBase": 100000000,
+            "rucost": 200
+        },
+        {
+            "method": "zkevm_getExitRootsByGER",
+            "calBase": 100000000,
+            "rucost": 50
+        },
+        {
+            "method": "zkevm_getLatestGlobalExitRoot",
+            "calBase": 100000000,
+            "rucost": 50
+        },
+        {
+            "method": "zkevm_estimateCounters",
+            "calBase": 100000000,
+            "rucost": 100
         }
     ],
     "nodeTypeRate": {
