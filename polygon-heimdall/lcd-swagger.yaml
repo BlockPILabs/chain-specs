@@ -3210,6 +3210,11 @@ paths:
       description: polygon use
       tags:
       - milestone
+  /milestone/{id}:
+    get:
+      description: polygon use
+      tags:
+      - milestone
   /staking/current-proposer:
     get:
       description: It returns proposer for current validator set
