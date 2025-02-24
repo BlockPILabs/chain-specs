@@ -332,92 +332,117 @@
         {
             "method": "trace_block",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "trace_call",
             "calBase": 100000000,
-            "rucost": 120
+            "ruCost": 120
         },
         {
             "method": "trace_get",
             "calBase": 100000000,
-            "rucost": 30
+            "ruCost": 30
         },
         {
             "method": "trace_rawTransaction",
             "calBase": 100000000,
-            "rucost": 120
+            "ruCost": 120
         },
         {
             "method": "trace_replayTransaction",
             "calBase": 100000000,
-            "rucost": 5800
+            "ruCost": 5800
         },
         {
             "method": "trace_transaction",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "trace_filter",
             "calBase": 100000000,
-            "rucost": 120
+            "ruCost": 120
         },
         {
             "method": "txpool_inspect",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 20
         },
         {
             "method": "txpool_status",
             "calBase": 100000000,
-            "rucost": 20
+            "ruCost": 20
         },
         {
             "method": "eth_getProof",
             "calBase": 100000000,
-            "rucost": 100
+            "ruCost": 100
         },
         {
             "method": "zkevm_batchNumber",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_batchNumberByBlockNumber",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_consolidatedBlockNumber",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_getBatchByNumber",
             "calBase": 100000000,
-            "rucost": 400
+            "ruCost": 400
         },
         {
             "method": "zkevm_isBlockConsolidated",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_isBlockVirtualized",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_verifiedBatchNumber",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
         },
         {
             "method": "zkevm_virtualBatchNumber",
             "calBase": 100000000,
-            "rucost": 40
+            "ruCost": 40
+        },
+        {
+            "method": "zkevm_getFullBlockByNumber",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "zkevm_getFullBlockByHash",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "zkevm_getExitRootsByGER",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "zkevm_getLatestGlobalExitRoot",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "zkevm_estimateCounters",
+            "calBase": 100000000,
+            "ruCost": 100
         }
     ],
     "nodeTypeRate": {
