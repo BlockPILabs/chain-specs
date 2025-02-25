@@ -58,6 +58,12 @@
             "ruCost": 10
         },
         {
+            "method": "klay_blockNumber",
+            "calBase": 100000000,
+            "ruCost": 10,
+            "cache": true
+        },
+        {
             "method": "klay_subscribe",
             "calBase": 100000000,
             "ruCost": 10
@@ -108,14 +114,22 @@
             "ruCost": 15
         },
         {
+            "method": "klay_syncing",
+            "calBase": 100000000,
+            "ruCost": 0,
+            "cache": true
+        },
+        {
             "method": "klay_clientVersion",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "klay_gasPrice",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "klay_gasPriceAt",
