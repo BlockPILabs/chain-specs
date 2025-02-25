@@ -58,12 +58,6 @@
             "ruCost": 10
         },
         {
-            "method": "klay_blockNumber",
-            "calBase": 100000000,
-            "ruCost": 10,
-            "cache": true
-        },
-        {
             "method": "klay_subscribe",
             "calBase": 100000000,
             "ruCost": 10
