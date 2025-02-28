@@ -97,6 +97,16 @@
             "ruCost": 15
         },
         {
+            "method": "eth_mining",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "eth_hashrate",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
             "method": "eth_gasPrice",
             "calBase": 100000000,
             "ruCost": 15

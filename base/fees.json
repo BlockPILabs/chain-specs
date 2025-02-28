@@ -7,22 +7,26 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "net_peerCount",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "web3_clientVersion",
             "calBase": 100000000,
-            "ruCost": 15
+            "ruCost": 15,
+            "cache": true
         },
         {
             "method": "web3_sha3",
@@ -32,12 +36,14 @@
         {
             "method": "eth_chainId",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "eth_syncing",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "eth_accounts",
@@ -52,7 +58,8 @@
         {
             "method": "eth_blockNumber",
             "calBase": 100000000,
-            "ruCost": 10
+            "ruCost": 10,
+            "cache": true
         },
         {
             "method": "eth_accountCreated",
@@ -86,6 +93,16 @@
         },
         {
             "method": "eth_clientVersion",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "eth_mining",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "eth_hashrate",
             "calBase": 100000000,
             "ruCost": 15
         },
@@ -257,7 +274,8 @@
         {
             "method": "eth_getBlockByHash",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getBlockByNumber",
@@ -271,7 +289,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 100000000,
+            "calBase": 200000,
             "ruCost": 50
         },
         {
