@@ -280,7 +280,8 @@
         {
             "method": "eth_getBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 20
+            "ruCost": 20,
+            "cache": true
         },
         {
             "method": "eth_getFilterLogs",
