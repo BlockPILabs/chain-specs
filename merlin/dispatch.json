@@ -1,3 +1,9 @@
 {
+    "methods": {
+        "eth_getTransactionCount": "merlin",
+        "eth_sendRawTransaction": "merlin",
+        "eth_gasPrice": "merlin",
+        "eth_getTransactionByHash": "merlin"
+    },
     "default": ""
 }
