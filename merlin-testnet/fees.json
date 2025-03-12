@@ -1,9 +1,9 @@
 {
     "methodPrice": [{
-            "method": "default",
-            "calBase": 250,
-            "ruCost": 5
-        },
+        "method": "default",
+        "calBase": 250,
+        "ruCost": 5
+    },
         {
             "method": "net_listening",
             "calBase": 100000000,
@@ -399,32 +399,6 @@
             "ruCost": 100
         },
         {
-            "method": "zkevm_getFullBlockByNumber",
-            "calBase": 100000000,
-            "ruCost": 100
-        },
-        {
-            "method": "zkevm_getFullBlockByHash",
-            "calBase": 100000000,
-            "ruCost": 200
-        },
-        {
-            "method": "zkevm_getExitRootsByGER",
-            "calBase": 100000000,
-            "ruCost": 50
-        },
-        {
-            "method": "zkevm_getLatestGlobalExitRoot",
-            "calBase": 100000000,
-            "ruCost": 50
-        },
-        {
-            "method": "zkevm_estimateCounters",
-            "calBase": 100000000,
-            "ruCost": 100
-            "ruCost": 100
-        },
-        {
             "method": "zkevm_batchNumberByBlockNumber",
             "calBase": 100000000,
             "ruCost": 40
@@ -458,6 +432,31 @@
             "method": "zkevm_virtualBatchNumber",
             "calBase": 100000000,
             "ruCost": 40
+        },
+        {
+            "method": "zkevm_getFullBlockByNumber",
+            "calBase": 100000000,
+            "ruCost": 100
+        },
+        {
+            "method": "zkevm_getFullBlockByHash",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "zkevm_getExitRootsByGER",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "zkevm_getLatestGlobalExitRoot",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "zkevm_estimateCounters",
+            "calBase": 100000000,
+            "ruCost": 100
         }
     ],
     "nodeTypeRate": {
