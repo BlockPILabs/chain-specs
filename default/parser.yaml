@@ -21,9 +21,6 @@
 "zkevm_batchNumberByBlockNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
-"eth_getBlockReceipts":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
 "klay_getBlockTransactionCountByNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
@@ -34,9 +31,6 @@
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
 "klay_getBalance":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
-"klay_getBlockReceipts":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
 
