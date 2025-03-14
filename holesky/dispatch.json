@@ -1,6 +1,7 @@
 {
     "methods": {
-        "eth_getProof": "Geth"
+        "eth_getProof": "Geth",
+        "eth_estimateGas": "Geth"
     },
     "default":""
 }
