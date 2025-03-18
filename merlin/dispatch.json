@@ -5,6 +5,6 @@
         "eth_gasPrice": "merlin",
         "eth_getTransactionByHash": "merlin"
     },
-    "default": "",
-    "default_archive": ""
+    "default": "erigon",
+    "default_archive": "erigon"
 }
