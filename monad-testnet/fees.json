@@ -388,6 +388,26 @@
             "method": "eth_getProof",
             "calBase": 100000000,
             "ruCost": 50
+        },
+        {
+            "method": "debug_getRawBlock",
+            "calBase": 100000000,
+            "ruCost": 40
+        },
+        {
+            "method": "debug_getRawHeader",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "debug_getRawReceipts",
+            "calBase": 100000000,
+            "ruCost": 400
+        },
+        {
+            "method": "debug_getRawTransaction",
+            "calBase": 100000000,
+            "ruCost": 15
         }
     ],
     "nodeTypeRate": {
