@@ -1,23 +1,14 @@
 methods:
-  - name: "eth_chainId"
+  - name: "getTransaction"
     # default limiter
-    q: "10-S"
-    ru: "200-S"
+    q: "20-S"
+    ru: "400-S"
     blockRange: 1000
     limits:
       # level limiter
       - level: "L1"
-        q: "20-S"
-        ru: "400-S"
-        blockRange: 1000
-  - name: "eth_blockNumber"
-    q: "10-S"
-    ru: "200-S"
-    blockRange: 1000
-    limits:
-      - level: "L1"
-        q: "20-S"
-        ru: "400-S"
+        q: "1-S"
+        ru: "20-S"
         blockRange: 1000
   # 不限制频率，只限制 blockRange
   - name: "getBlocks"
@@ -25,11 +16,11 @@ methods:
   - name: "getBlocksWithLimit"
     blockRange: 50
   # restful 格式配置
-  - name: "/v1/block"
-    q: "10-S"
-    ru: "200-S"
-    blockRange: 1000
-    limits:
-      - level: "L1"
-        q: "20-S"
-        ru: "400-S"
+  # - name: "/v1/block"
+  #   q: "10-S"
+  #   ru: "200-S"
+  #   blockRange: 1000
+  #   limits:
+  #     - level: "L1"
+  #       q: "20-S"
+  #       ru: "400-S"
