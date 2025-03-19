@@ -5,6 +5,11 @@
             "ruCost": 5
         },
         {
+            "method": "getTransaction",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
             "method": "net_listening",
             "calBase": 100000000,
             "ruCost": 0
