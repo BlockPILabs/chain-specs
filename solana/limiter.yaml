@@ -1,0 +1,22 @@
+methods:
+  - name: "getClusterNodes"
+    # default limiter
+    q: "20-S"
+    ru: "200000-S"
+    # blockRange: 1000
+    # limits:
+    #   - level: "L1"
+    #     q: "20-S"
+    #     ru: "400-S"
+    #     blockRange: 1000
+  - name: "getTransaction"
+    q: "20-S"
+    ru: "200000-S"
+  - name: "getSignaturesForAddress"
+    q: "20-S"
+    ru: "200000-S"
+  # 不限制频率，只限制 blockRange
+  - name: "getBlocks"
+    blockRange: 1000
+  - name: "getBlocksWithLimit"
+    blockRange: 1000
