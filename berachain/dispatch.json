@@ -1,3 +1,7 @@
 {
-    "default":""
+    "methods": {
+        "eth_sendRawTransaction": "otherProvider"
+    },
+    "default": "reth",
+    "default_archive": "reth"
 }
