@@ -6,6 +6,9 @@
 "eth_getBlockByNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
+"eth_getBlockReceipts":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
 "trace_block":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
