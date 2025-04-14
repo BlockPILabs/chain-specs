@@ -1,4 +1,13 @@
 {
+    "methods": {
+        "trace_block": "reth",
+        "trace_call": "reth",
+        "trace_get": "reth",
+        "trace_transaction": "reth",
+        "trace_filter": "reth",
+        "trace_rawTransaction": "reth",
+        "trace_replayTransaction": "reth"
+    },
     "default": "",
     "default_archive": ""
 }
