@@ -13,6 +13,46 @@
             "method": "getsupply",
             "calBase": 100000000,
             "ruCost": 260
+        },
+                {
+            "method": "accountNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "blockNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "programNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "logsNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "rootNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "signatureNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "slotNotification",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "voteNotification",
+            "calBase": 100000000,
+            "ruCost": 6
         }
     ],
     "nodeTypeRate": {
