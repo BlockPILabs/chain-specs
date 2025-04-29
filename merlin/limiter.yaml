@@ -3,8 +3,9 @@ methods:
     maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法。
   - name: "eth_getLogs"
     # V1.9 新增配置项目，当参数含有地址信息时候的限制数量
-    blockRange: 5000
-    addressBlockRange: 5
+    blockRange: 2
+    addressBlockRange: 2
+    q: "5-S"
     maxRespSize: 250000 
     # xCustomTracer 表示的是是否支持自定义的 tracer
     tracers: ["callTracer", "prestateTracer", "stylusTracer", "xCustomTracer"]
