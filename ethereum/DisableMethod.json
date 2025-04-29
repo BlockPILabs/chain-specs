@@ -10,7 +10,7 @@
   "debug_dbGet",
   "debug_dumpBlock",
   "debug_freeOSMemory",
-  "debug_freezeClient", 
+  "debug_freezeClient",
   "debug_gcStats",
   "debug_getAccessibleState",
   "debug_getBadBlocks",
