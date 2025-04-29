@@ -13,8 +13,7 @@
         "//debug_traceTransaction": "Good",
         "eth_getLogs": "erigon",
         "eth_newPendingTransactionFilter": "Good",
-        "txpool_content": "Good",
-        "net_listening": "erigon"
+        "txpool_content": "Good"
     },
     "default": "",
     "default_archive": ""
