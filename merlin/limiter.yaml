@@ -4,7 +4,7 @@ methods:
   - name: "eth_getLogs"
     # V1.9 新增配置项目，当参数含有地址信息时候的限制数量
     blockRange: 5000
-    addressBlockRange: 1024
+    addressBlockRange: 5
     maxRespSize: 250000 
     # xCustomTracer 表示的是是否支持自定义的 tracer
     tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
