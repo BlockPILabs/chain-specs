@@ -1,0 +1,23 @@
+methods:
+  - name: "default"
+    maxBatchSize: 2 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法。
+  - name: "eth_getLogs"
+    # V1.9 新增配置项目，当参数含有地址信息时候的限制数量
+    blockRange: 5000
+    addressBlockRange: 1024
+    maxRespSize: 25 
+    # xCustomTracer 表示的是是否支持自定义的 tracer
+    tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
+    allowRuledLogs:
+      "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":
+        minTopics: 2   #不为null的topic个数
+      "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef":
+        minTopics: 2
+      "0xda9fa7c1b00402c17d0161b249b1ab8bbec047c5a52207b9c112deffd817036b":
+        minTopics: 2
+      "0x17307eab39ab6107e8899845ad3d59bd9653f200f220920489ca2b5937696c31":
+        minTopics: 2
+      "0xc6a377bfc4eb120024a8ac08eef205be16b817020812c73223e81d1bdb9708ec":
+        minTopics: 2
+      "0x89b1add15eff56b3dfe299ad94e01f2b52fbcb80ae1a3baea6ae8c04cb2b98a4":
+        minTopics: 2
