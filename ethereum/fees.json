@@ -9,7 +9,7 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 10000,
+            "ruCost": 0,
             "cache": true
         },
         {
