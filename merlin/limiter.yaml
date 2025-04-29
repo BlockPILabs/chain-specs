@@ -7,7 +7,7 @@ methods:
     addressBlockRange: 5
     maxRespSize: 250000 
     # xCustomTracer 表示的是是否支持自定义的 tracer
-    tracers: ["callTracer", "prestateTracer" , "stylusTracer", "xCustomTracer"]
+    tracers: ["callTracer", "prestateTracer", "stylusTracer", "xCustomTracer"]
     allowRuledLogs:
       "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":
         minTopics: 2   #不为null的topic个数
