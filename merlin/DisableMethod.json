@@ -51,6 +51,5 @@
   "trace_replayBlockTransactions",
   "debug_setTrieFlushInterval",
   "debug_getTrieFlushInterval",
-  "debug_traceCall",
   "debug_traceBlock"
 ]
