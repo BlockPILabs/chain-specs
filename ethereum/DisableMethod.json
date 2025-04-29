@@ -49,6 +49,5 @@
   "debug_writeMutexProfile",
   "trace_callMany",
   "trace_replayBlockTransactions",
-  "debug_setTrieFlushInterval",
-  "eth_blockNumber"
+  "debug_setTrieFlushInterval"
 ]
