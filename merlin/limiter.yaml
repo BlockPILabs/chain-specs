@@ -6,6 +6,7 @@ methods:
     blockRange: 2
     addressBlockRange: 2
     q: "5-S"
+    ru: "200000-S"
     maxRespSize: 250000 
     # xCustomTracer 表示的是是否支持自定义的 tracer
     tracers: ["callTracer", "prestateTracer", "stylusTracer", "xCustomTracer"]
