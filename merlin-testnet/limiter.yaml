@@ -14,9 +14,13 @@ methods:
   - name: "eth_getLogs"
     blockRange: 1024
     addressBlockRange: 5000
-    # 注释后不生效 没有最大限制
-    # xCustomTracer 表示的是是否支持自定义的 tracer
-    # tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+    limits:
+      - level: "L6"
+        blockRange: 10000
+        addressBlockRange: 10000
+      - level: "L7"
+        blockRange: 10000
+        addressBlockRange: 10000
     allowRuledLogs:
       "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":
         minTopics: 2   #不为null的topic个数
@@ -30,3 +34,13 @@ methods:
         minTopics: 2
       "0x89b1add15eff56b3dfe299ad94e01f2b52fbcb80ae1a3baea6ae8c04cb2b98a4":
         minTopics: 2
+  - name: "eth_newFilter"
+    blockRange: 1024
+    addressBlockRange: 5000
+    limits:
+      - level: "L6"
+        blockRange: 10000
+        addressBlockRange: 10000
+      - level: "L7"
+        blockRange: 10000
+        addressBlockRange: 10000
