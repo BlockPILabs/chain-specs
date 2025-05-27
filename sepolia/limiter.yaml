@@ -11,7 +11,7 @@ methods:
         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
       - level: "L7"
         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
-  - name: "getBlocks"
+  - name: "eth_getLogs"
     limits:
       - level: "L3"
         blockRange: 10000
