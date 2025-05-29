@@ -1,30 +1,31 @@
-methods:
   - name: "default"
-    maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法
-    tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer"]
-    limits:
-      - level: "L4"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
-      - level: "L5"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
-      - level: "L6"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
-      - level: "L7"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
-  - name: "eth_getLogs"
-    limits:
-      - level: "L3"
-        blockRange: 10000
-        addressBlockRange: 10000
-      - level: "L4"
-        blockRange: 10000
-        addressBlockRange: 10000
-      - level: "L5"
-        blockRange: 10000
-        addressBlockRange: 10000
-      - level: "L6"
-        blockRange: 10000
-        addressBlockRange: 10000
-      - level: "L7"
-        blockRange: 10000
-        addressBlockRange: 10000
+# methods:
+#   - name: "default"
+#     maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法
+#     tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer"]
+#     limits:
+#       - level: "L4"
+#         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+#       - level: "L5"
+#         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+#       - level: "L6"
+#         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+#       - level: "L7"
+#         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+#   - name: "eth_getLogs"
+#     limits:
+#       - level: "L3"
+#         blockRange: 10000
+#         addressBlockRange: 10000
+#       - level: "L4"
+#         blockRange: 10000
+#         addressBlockRange: 10000
+#       - level: "L5"
+#         blockRange: 10000
+#         addressBlockRange: 10000
+#       - level: "L6"
+#         blockRange: 10000
+#         addressBlockRange: 10000
+#       - level: "L7"
+#         blockRange: 10000
+#         addressBlockRange: 10000
