@@ -1,4 +1,5 @@
 [
     "getLargestAccounts",
-    "getSupply"
+    "getSupply",
+    "getProgramAccounts"
 ]
