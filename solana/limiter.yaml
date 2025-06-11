@@ -36,3 +36,6 @@ methods:
     blockRange: 1000
   - name: "getBlocksWithLimit"
     blockRange: 1000
+  - name: "getProgramAccounts"
+    q: "1-S"
+    ru: "2000000-S"
