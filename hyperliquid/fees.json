@@ -397,6 +397,26 @@
             "method": "eth_getProof",
             "calBase": 100000000,
             "ruCost": 50
+        },
+        {
+            "method": "eth_bigBlockGasPrice",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "eth_usingBigBlocks",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "eth_getSystemTxsByBlockHash",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "eth_getSystemTxsByBlockNumber",
+            "calBase": 100000000,
+            "ruCost": 20
         }
     ],
     "nodeTypeRate": {
