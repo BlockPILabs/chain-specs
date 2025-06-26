@@ -1,11 +1,4 @@
 {
-    "methods": {
-        "eth_getTransactionCount": "merlin",
-        "eth_sendRawTransaction": "merlin",
-        "eth_gasPrice": "merlin",
-        "eth_getTransactionByHash": "merlin",
-        "txpool_content": "merlin"
-    },
-    "default": "erigon",
-    "default_archive": "erigon"
+    "default": "",
+    "default_archive": ""
 }
