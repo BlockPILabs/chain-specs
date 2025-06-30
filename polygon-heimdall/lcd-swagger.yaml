@@ -3215,6 +3215,26 @@ paths:
       description: polygon use
       tags:
       - milestone
+  /milestones/latest:
+    get:
+      description: polygon use
+      tags:
+      - milestone
+  /milestones/lastNoAck:
+    get:
+      description: polygon use
+      tags:
+      - milestone
+  /milestones/count:
+    get:
+      description: polygon use
+      tags:
+      - milestone
+  /milestones/{id}:
+    get:
+      description: polygon use
+      tags:
+      - milestone
   /status:
     get:
       description: polygon use
