@@ -3240,6 +3240,16 @@ paths:
       description: polygon use
       tags:
       - status
+  /bor/spans/{id}:
+    get:
+      description: polygon use
+      tags:
+      - status
+  /clerk/time:
+    get:
+      description: polygon use
+      tags:
+      - status
   /staking/current-proposer:
     get:
       description: It returns proposer for current validator set
