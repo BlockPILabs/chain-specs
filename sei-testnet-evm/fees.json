@@ -7,7 +7,7 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 1
+            "ruCost": 0
         },
         {
             "method": "net_version",
