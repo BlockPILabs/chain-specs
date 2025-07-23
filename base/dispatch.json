@@ -6,7 +6,14 @@
         "trace_transaction": "reth",
         "trace_filter": "reth",
         "trace_rawTransaction": "reth",
-        "trace_replayTransaction": "reth"
+        "trace_replayTransaction": "reth",
+        "eth_getBalance": "reth",
+        "eth_getBlockByNumber": "reth",
+        "eth_getTransactionByBlockHashAndIndex": "reth",
+        "eth_getTransactionByBlockNumberAndIndex": "reth",
+        "eth_getTransactionByHash": "reth",
+        "eth_getTransactionCount": "reth",
+        "eth_getTransactionReceipt": "reth"
     },
     "default": "",
     "default_archive": ""
