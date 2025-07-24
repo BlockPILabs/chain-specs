@@ -1,5 +1,6 @@
 #
 default: # 等级(所有等级,其它等级没有配置方法时取这里方法配置)
+  "debug_accountRange":
   "debug_backtraceAt":
   "debug_blockProfile":
   "debug_chaindbCompact":
