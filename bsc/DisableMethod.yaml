@@ -57,6 +57,3 @@ L1:
   "eth_getLogs":
     - "0x333"
     - ".b"
-  eth_chainId:
-    - ".[]|select(.==1)"
-    - "a"
