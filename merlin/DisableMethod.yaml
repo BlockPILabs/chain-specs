@@ -48,7 +48,6 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
   "debug_writeBlockProfile":
   "debug_writeMemProfile":
   "debug_writeMutexProfile":
-  "trace_callMany":
-
   "debug_setTrieFlushInterval":
   "debug_getTrieFlushInterval":
+  "trace_callMany":
