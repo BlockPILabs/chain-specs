@@ -6,7 +6,8 @@
         "trace_transaction": "reth",
         "trace_filter": "reth",
         "trace_rawTransaction": "reth",
-        "trace_replayTransaction": "reth"
+        "trace_replayTransaction": "reth",
+        "trace_replayBlockTransactions": "reth"
     },
     "default": "",
     "default_archive": ""
