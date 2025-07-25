@@ -1,5 +1,13 @@
 {
     "methods": {
+        "trace_block": "erigon",
+        "trace_call": "erigon",
+        "trace_get": "erigon",
+        "trace_transaction": "erigon",
+        "trace_filter": "erigon",
+        "trace_rawTransaction": "erigon",
+        "trace_replayTransaction": "erigon",
+        "trace_replayBlockTransactions": "erigon",
         "eth_getProof": "Geth",
         "eth_estimateGas": "Geth"
     },
