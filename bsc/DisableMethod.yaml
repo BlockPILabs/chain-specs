@@ -50,4 +50,4 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
   "debug_writeMutexProfile":
   "trace_callMany":
   "eth_getBlockByNumber":
-    - "0x34aed5d"
+    - "latest"
