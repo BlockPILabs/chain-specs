@@ -9,6 +9,6 @@
         "trace_replayTransaction": "erigon",
         "trace_replayBlockTransactions": "erigon"
     },
-    "default": "erigon",
-    "default_archive": "erigon"
+    "default": "",
+    "default_archive": ""
 }
