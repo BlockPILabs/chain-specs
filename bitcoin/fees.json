@@ -1,0 +1,144 @@
+{
+    "methodPrice": [{
+            "method": "default",
+            "calBase": 250,
+            "ruCost": 5
+        },
+        {
+            "method": "decoderawtransaction",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "decodescript",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "estimatesmartfee",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getbestblockhash",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblockchaininfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblockcount",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblockhash",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblockheader",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblockstats",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getblock",
+            "calBase": 100000000,
+            "ruCost": 500
+        },
+        {
+            "method": "getchaintxstats",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getconnectioncount",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getdifficulty",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getindexinfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getmemoryinfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getmempoolancestors",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getmempooldescendants",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getmempoolinfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getmininginfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getnetworkinfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "getrawmempool",
+            "calBase": 100000000,
+            "ruCost": 2000
+        },
+
+        {
+            "method": "gettxoutproof",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "gettxoutsetinfo",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "gettxout",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "testmempoolaccept",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "validateaddress",
+            "calBase": 100000000,
+            "ruCost": 30
+        }
+    ],
+    "nodeTypeRate": {
+        "default": 1,
+        "fullNode": 1,
+        "archiveNode": 1.3
+    }
+}
