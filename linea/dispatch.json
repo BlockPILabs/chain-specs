@@ -21,6 +21,6 @@
         "trace_transaction": "besu",
         "eth_sendRawTransaction": "Geth"
     },
-    "default": "",
-    "default_archive": ""
+    "default": "Geth",
+    "default_archive": "Geth"
 }
