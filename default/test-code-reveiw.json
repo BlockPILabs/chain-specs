@@ -2,4 +2,9 @@
     "name": "test",
     "age": 18,
     "gender": "male"
+  },    
+  {
+    "name": "test2",
+    "age": 19,
+    "gender": "female"
   }
