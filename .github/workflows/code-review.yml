@@ -1,11 +1,9 @@
 name: 代码格式验证
 
 on:
-  push: 
-    branches: [ "v0.0.5" ]
-  pull_request:
-    branches: [ "v0.0.5" ]
-
+  push:  
+  pull_request: 
+  
 jobs:
   code-review:
     runs-on: ubuntu-latest
