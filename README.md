@@ -1,4 +1,2 @@
 # chain-specs
-v0.0.5
-
-5
+v0.0.5-action
