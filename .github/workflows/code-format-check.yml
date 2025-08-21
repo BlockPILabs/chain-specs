@@ -2,9 +2,9 @@ name: Code Format Check
 
 on:
   push:
-    branches: [ v0.0.5-action ]
+    branches: [ "v0.0.5-action" ]
   pull_request:
-    branches: [ v0.0.5-action ]
+    branches: [ "v0.0.5-action" ]
 
 jobs:
   format-check:
