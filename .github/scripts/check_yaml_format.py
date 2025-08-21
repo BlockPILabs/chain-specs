@@ -9,7 +9,7 @@ import yaml
 
 
 def check_yaml_files():
-    """检查YAML文件格式"""
+    """检查YAML文件格式 """
     # 查找所有YAML文件
     yaml_files = []
     for root, dirs, files in os.walk('.'):
