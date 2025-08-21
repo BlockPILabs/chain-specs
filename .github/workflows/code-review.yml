@@ -3,7 +3,7 @@ name: 代码格式验证
 on:
   push: 
   pull_request:
-    branches: [ v0.0.5 ]
+    branches: [ "v0.0.5" ]
 
 jobs:
   code-review:
