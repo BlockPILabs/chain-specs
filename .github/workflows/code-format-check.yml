@@ -1,0 +1,27 @@
+name: Code Format Check
+
+on:
+  push:
+    branches: [ v0.0.5-action ]
+  pull_request:
+    branches: [ v0.0.5-action ]
+
+jobs:
+  format-check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    - name: Install Dependencies
+      run: pip3 install PyYAML
+
+    - name: Check JSON format
+      run: python3 .github/scripts/check_json_format.py
+
+    - name: Check YAML format
+      run: python3 .github/scripts/check_yaml_format.py
