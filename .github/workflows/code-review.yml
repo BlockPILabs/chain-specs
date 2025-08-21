@@ -1,9 +1,9 @@
 name: 代码格式验证
 
 on:
-  push:  
-  pull_request: 
-  
+  push:
+  pull_request:
+
 jobs:
   code-review:
     runs-on: ubuntu-latest
