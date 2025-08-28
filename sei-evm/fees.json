@@ -397,6 +397,51 @@
             "method": "eth_getProof",
             "calBase": 100000000,
             "ruCost": 50
+        },
+        {
+            "method": "sei_getFilterLogs",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "sei_getLogs",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "sei_getBlockByNumber",
+            "calBase": 100000000,
+            "ruCost": 20
+        },      
+        {
+            "method": "sei_getBlockByHash",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "sei_traceBlockByNumberExcludeTraceFail",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "sei_traceBlockByHashExcludeTraceFail",
+            "calBase": 100000000,
+            "ruCost": 150
+        },
+        {
+            "method": "sei_getTransactionReceiptExcludeTraceFail",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "sei_getBlockByNumberExcludeTraceFail",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "sei_getBlockByHashExcludeTraceFail",
+            "calBase": 100000000,
+            "ruCost": 20
         }
     ],
     "nodeTypeRate": {

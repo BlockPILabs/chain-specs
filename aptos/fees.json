@@ -102,6 +102,21 @@
             "method": "/aptos/v1/estimate_gas_price",
             "calBase": 100000000,
             "ruCost": 20
+        },
+        {
+            "method": "/aptos/v1/transactions/wait_by_hash/{txn_hash}",
+            "calBase": 100000000,
+            "ruCost": 60
+        },
+        {
+            "method": "/aptos/v1/info",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "/aptos/v1/accounts/{address}/balance/{asset_type}",
+            "calBase": 100000000,
+            "ruCost": 20
         }
     ],
     "nodeTypeRate": {
