@@ -53,6 +53,41 @@
             "method": "voteNotification",
             "calBase": 100000000,
             "ruCost": 6
+        },
+        {
+            "method": "geyser.Geyser/GetVersion",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "geyser.Geyser/IsBlockhashValid",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "geyser.Geyser/GetSlot",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "geyser.Geyser/GetBlockHeight",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "geyser.Geyser/GetLatestBlockhash",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "geyser.Geyser/Ping",
+            "calBase": 100000000,
+            "ruCost": 6
+        },
+        {
+            "method": "geyser.Geyser/SubscribeReplayInfo",
+            "calBase": 100000000,
+            "ruCost": 50
         }
     ],
     "nodeTypeRate": {
