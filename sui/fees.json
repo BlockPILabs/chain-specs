@@ -133,7 +133,7 @@
         {
             "method": "sui_getCheckpoint",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 200
         },
         {
             "method": "sui_getCheckpoints",
@@ -238,12 +238,12 @@
         {
             "method": "/sui.rpc.v2beta2.LedgerService/GetCheckpoint",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 200
         },
         {
             "method": "/sui.rpc.v2beta2.LedgerService/GetEpoch",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 100
         },
         {
             "method": "/sui.rpc.v2beta2.SignatureVerificationService/VerifySignature",
@@ -253,7 +253,7 @@
         {
             "method": "/sui.rpc.v2beta2.MovePackageService/GetPackage",
             "calBase": 100000000,
-            "ruCost": 50
+            "ruCost": 100
         },
         {
             "method": "/sui.rpc.v2beta2.MovePackageService/GetDatatype",
