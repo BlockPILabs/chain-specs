@@ -1,6 +1,7 @@
 methods:
   web3_clientVersion:
     - Geth
+    - erigon
   eth_getBlockByNumber:
     - erigon
 default:
