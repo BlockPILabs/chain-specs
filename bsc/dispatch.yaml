@@ -1,0 +1,7 @@
+{
+    "methods": {
+        "web3_clientVersion": ["erigon"]
+    },
+    "default": "",
+    "default_archive": ""
+}
