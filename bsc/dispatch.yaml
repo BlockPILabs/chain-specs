@@ -1,6 +1,6 @@
 {
     "methods": {
-        "web3_clientVersion": ["erigon"]
+        "web3_clientVersion": ["Geth"]
     },
     "default": "",
     "default_archive": ""
