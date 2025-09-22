@@ -1,6 +1,6 @@
 {
     "methods": {
-        "web3_clientVersion": ["Geth"],
+        "web3_clientVersion": "Geth",
         "eth_getBlockByNumber": "erigon"
     },
     "default": "",
