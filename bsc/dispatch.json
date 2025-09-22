@@ -13,7 +13,7 @@
         "debug_traceBlockByHash": "erigon",
         "debug_traceBlockByNumber": "erigon",
         "debug_traceTransaction": "erigon",
-        "web3_clientVersion": "erigon"
+        "web3_clientVersion": "geth"
     },
     "default": "",
     "default_archive": ""
