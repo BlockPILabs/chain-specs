@@ -1,8 +1,7 @@
 methods:
   trace_block:
-    - reth
-    - Geth
     - erigon
+    - reth
   trace_call:
     - erigon
     - reth
