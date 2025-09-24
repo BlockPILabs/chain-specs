@@ -1,6 +1,6 @@
 methods:
   trace_block:
-    - erigon
+    - reth
     - Geth
   trace_call:
     - erigon
