@@ -12,7 +12,7 @@
         "trace_get": "besu",
         "trace_rawTransaction": "besu",
         "trace_replayBlockTransactions": "besu",
-        "trace_transaction": "besu",
+        "trace_transaction": "besu"
     },
     "default": "",
     "default_archive": ""
