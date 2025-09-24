@@ -2,6 +2,7 @@ methods:
   trace_block:
     - reth
     - Geth
+    - erigon
   trace_call:
     - erigon
     - reth
