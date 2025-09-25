@@ -1,8 +1,0 @@
-{
-    "methods": {
-        "getProgramAccounts": "ExternalProviders",
-        "getProgramAccountsV2": "ExternalProviders"
-    },
-    "default": "solana",
-    "default_archive": "solana"
-}

@@ -1,3 +1,5 @@
-default_archive: ""
-default: ""
-
+methods:
+  eth_getBlockReceipts:
+    - Sonic
+default:
+default_archive:

@@ -1,7 +1,0 @@
-{
-    "methods": {
-        "eth_getBlockReceipts": "Sonic"
-    },
-    "default": "",
-    "default_archive": ""
-}

@@ -1,3 +1,45 @@
-default_archive: ""
-default: ""
-
+methods:
+  trace_block:
+    - erigon
+    - reth
+  trace_call:
+    - erigon
+    - reth
+  trace_get:
+    - erigon
+    - reth
+  trace_transaction:
+    - erigon
+    - reth
+  trace_filter:
+    - erigon
+    - reth
+  trace_rawTransaction:
+    - erigon
+    - reth
+  trace_replayTransaction:
+    - erigon
+    - reth
+  trace_replayBlockTransactions:
+    - erigon
+    - reth
+  # eth_getProof:
+  #   - erigon
+  #   - reth
+  ## base flashblocks方法分流到reth客户端
+  # eth_getBalance:
+  #   - reth
+  # eth_getBlockByNumber:
+  #   - reth
+  # eth_getTransactionByBlockHashAndIndex:
+  #   - reth
+  # eth_getTransactionByBlockNumberAndIndex:
+  #   - reth
+  # eth_getTransactionByHash:
+  #   - reth
+  # eth_getTransactionCount:
+  #   - reth
+  # eth_getTransactionReceipt:
+  #   - reth
+default:
+default_archive:

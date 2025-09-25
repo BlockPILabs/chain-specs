@@ -40,8 +40,4 @@ methods:
   eth_sendRawTransaction:
     - besu
 default:
-  - Geth
-  - besu
 default_archive:
-  - Geth
-  - besu
