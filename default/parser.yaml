@@ -31,8 +31,8 @@
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
 "klay_getBalance":
-  fromBlock: ".body.params.[1]"
-  toBlock: ".body.params.[1]"
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
 
 #### body.params.[1]
 "debug_traceCall":
