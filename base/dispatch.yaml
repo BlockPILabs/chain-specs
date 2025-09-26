@@ -26,5 +26,20 @@ methods:
   # eth_getProof:
   #   - erigon
   #   - reth
+  ## base flashblocks方法分流到reth客户端
+  eth_getBalance:
+    - reth
+  eth_getBlockByNumber:
+    - reth
+  eth_getTransactionByBlockHashAndIndex:
+    - reth
+  eth_getTransactionByBlockNumberAndIndex:
+    - reth
+  eth_getTransactionByHash:
+    - reth
+  eth_getTransactionCount:
+    - reth
+  eth_getTransactionReceipt:
+    - reth
 default:
 default_archive:

@@ -26,5 +26,12 @@ methods:
   # eth_getProof:
   #   - erigon
   #   - reth
+  # geth可能慢的方法
+  # eth_newBlockFilter
+  # eth_newPendingTransactionFilter
+  # debug_traceBlockByHash
+  # debug_traceBlockByNumber
+  # debug_traceTransaction
 default:
 default_archive:
+

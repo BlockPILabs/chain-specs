@@ -26,5 +26,14 @@ methods:
   # eth_getProof:
   #   - erigon
   #   - reth
+  # hyper evm 没有debug方法
+  "debug_traceTransaction":
+    - reth
+  "debug_traceCall":
+    - reth
+  "debug_traceBlockByNumber":
+    - reth
+  "debug_traceBlockByHash":
+    - reth
 default:
 default_archive:

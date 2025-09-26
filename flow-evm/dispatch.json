@@ -1,6 +1,0 @@
-{
-    "methods": {
-        "eth_sendRawTransaction": "ExternalProviders"
-    },
-    "default":"flow-evm"
-}
