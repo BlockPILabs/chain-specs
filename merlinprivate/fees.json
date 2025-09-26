@@ -58,8 +58,7 @@
         {
             "method": "eth_blockNumber",
             "calBase": 100000000,
-            "ruCost": 20,
-            "cache": true
+            "ruCost": 20
         },
         {
             "method": "eth_accountCreated",
