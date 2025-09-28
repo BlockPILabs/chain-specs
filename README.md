@@ -1,2 +1,2 @@
 # chain-specs
-v1.10
+stage 分支 测试使用
