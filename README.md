@@ -1,2 +1,2 @@
 # chain-specs
-v0.0.5
+testnet 使用

@@ -1,5 +1,6 @@
 {
-    "methodPrice": [{
+    "methodPrice": [
+        {
             "method": "default",
             "calBase": 250,
             "ruCost": 5
@@ -307,7 +308,7 @@
         {
             "method": "eth_getBlockReceipts",
             "calBase": 100000000,
-            "ruCost": 800
+            "ruCost": 150
         },
         {
             "method": "debug_traceTransaction",
