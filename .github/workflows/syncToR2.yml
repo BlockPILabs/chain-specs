@@ -15,20 +15,12 @@ jobs:
         with:
           aws-access-key-id: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
-
-      - name: Get Branch Name and Set R2 Target Path
-        id: set_path
-        run: |
-          BRANCH_NAME="${{ github.ref_name }}"
-          echo "R2_TARGET_PATH=${{ secrets.R2_PREFIX_DIR }}/$BRANCH_NAME" >> "$GITHUB_OUTPUT"
-          echo "R2 target path will be: ${{ secrets.R2_PREFIX_DIR }}/$BRANCH_NAME"
-        env:
-          # 如果 R2_PREFIX_DIR 始终为空或您不希望使用它，可以考虑移除此 env 块
-          # 或者确保 R2_PREFIX_DIR 在您的 GitHub secrets 中定义为空字符串
-          R2_PREFIX_DIR: ${{ secrets.R2_PREFIX_DIR || '' }} # 优先使用 Secret，如果 Secret不存在则默认为空
+          aws-region: us-west-1
 
       - name: Upload to Cloudflare R2
         run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          R2_TARGET_PATH=${{ secrets.R2_PREFIX_DIR }}/$BRANCH_NAME"
           aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/${{ steps.set_path.outputs.R2_TARGET_PATH }}/ \
             --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} \
             --delete \
@@ -40,3 +32,5 @@ jobs:
         env:
           R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
           R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+          R2_PREFIX_DIR: ${{ secrets.R2_PREFIX_DIR || '' }}
+
