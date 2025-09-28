@@ -10,14 +10,24 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: 上传数据
-        uses: jakejarvis/s3-sync-action@master
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
         with:
-          args: --follow-symlinks --delete
+          aws-access-key-id: ${{ secrets. CLOUDFLARE_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets. CLOUDFLARE_SECRET_ACCESS_KEY }}
+          aws-region: us-west-1
+
+      - name: Upload to Cloudflare R2
+        run: |
+          aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/${{ secrets.R2_PREFIX_DIR }}/${{ github.ref_name }}/ \
+            --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "awscli-bundle/*" \
+            --exclude "awscli-bundle.zip" \
+            --exact-timestamps
         env:
-          AWS_S3_BUCKET: ${{ secrets.R2_BUCKET_NAME }}
-          AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-west-1'
-          SOURCE_DIR: './'
-          DEST_DIR: ${{ secrets.R2_PREFIX_DIR || '' }}/${{ github.ref_name || '' }}/
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
+          R2_PREFIX_DIR: ${{ secrets.R2_PREFIX_DIR || '' }}
