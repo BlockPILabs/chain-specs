@@ -19,4 +19,4 @@ jobs:
           r2-bucket: ${{ secrets.R2_BUCKET_NAME }}
           source-dir: .
           destination-dir: ${{ secrets.R2_PREFIX_DIR || '' }}/${{ github.ref_name || '' }}/
-          delete-removed: true
+
