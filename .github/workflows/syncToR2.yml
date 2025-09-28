@@ -10,24 +10,6 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Cache AWS CLI
-        id: cache-aws-cli
-        uses: actions/cache@v4 # 使用 GitHub Actions 缓存
-        with:
-          path: ~/.aws/cli # 缓存 AWS CLI 的安装路径
-          key: ${{ runner.os }}-aws-cli-${{ hashFiles('install-aws-cli.sh') }} # 缓存键，根据操作系统和安装脚本内容生成
-          restore-keys: |
-            ${{ runner.os }}-aws-cli-
-
-      - name: Install AWS CLI # 仅在缓存未命中时安装
-        if: steps.cache-aws-cli.outputs.cache-hit != 'true'
-        run: |
-          curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
-          unzip awscli-bundle.zip
-          sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
-          # 将安装目录添加到 PATH，以便后续步骤可以直接使用 aws 命令
-          echo "/usr/local/bin" >> $GITHUB_PATH
-
       - name: Configure AWS CLI for Cloudflare R2
         run: |
           aws configure set aws_access_key_id ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
