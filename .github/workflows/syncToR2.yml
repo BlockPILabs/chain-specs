@@ -11,12 +11,13 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 上传数据
-        uses: ryand56/r2-upload-action@latest
+        uses: jakejarvis/s3-sync-action@master
         with:
-          r2-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          r2-access-key-id: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
-          r2-secret-access-key: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
-          r2-bucket: ${{ secrets.R2_BUCKET_NAME }}
-          source-dir: .
-          destination-dir: ${{ secrets.R2_PREFIX_DIR || '' }}/${{ github.ref_name || '' }}/
-
+          args: --acl public-read --follow-symlinks --delete --exclude ".git/*" --exclude ".github/*"
+        env:
+          AWS_S3_BUCKET: ${{ secrets.R2_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
+          AWS_REGION: 'us-west-1'
+          SOURCE_DIR: './'
+          DEST_DIR: ${{ secrets.R2_PREFIX_DIR || '' }}/${{ github.ref_name || '' }}/
