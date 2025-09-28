@@ -1,0 +1,63 @@
+name: 上传至cloudflare R2
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Cache AWS CLI
+        id: cache-aws-cli
+        uses: actions/cache@v4 # 使用 GitHub Actions 缓存
+        with:
+          path: ~/.aws/cli # 缓存 AWS CLI 的安装路径
+          key: ${{ runner.os }}-aws-cli-${{ hashFiles('install-aws-cli.sh') }} # 缓存键，根据操作系统和安装脚本内容生成
+          restore-keys: |
+            ${{ runner.os }}-aws-cli-
+
+      - name: Install AWS CLI # 仅在缓存未命中时安装
+        if: steps.cache-aws-cli.outputs.cache-hit != 'true'
+        run: |
+          curl "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip" -o "awscli-bundle.zip"
+          unzip awscli-bundle.zip
+          sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+          # 将安装目录添加到 PATH，以便后续步骤可以直接使用 aws 命令
+          echo "/usr/local/bin" >> $GITHUB_PATH
+
+      - name: Configure AWS CLI for Cloudflare R2
+        run: |
+          aws configure set aws_access_key_id ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
+          aws configure set aws_secret_access_key ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
+        env:
+          CLOUDFLARE_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
+          CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
+
+      - name: Get Branch Name and Set R2 Target Path
+        id: set_path
+        run: |
+          BRANCH_NAME="${{ github.ref_name }}"
+          echo "R2_TARGET_PATH=${{ secrets.R2_PREFIX_DIR }}/$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          echo "R2 target path will be: ${{ secrets.R2_PREFIX_DIR }}/$BRANCH_NAME"
+        env:
+          # 如果 R2_PREFIX_DIR 始终为空或您不希望使用它，可以考虑移除此 env 块
+          # 或者确保 R2_PREFIX_DIR 在您的 GitHub secrets 中定义为空字符串
+          R2_PREFIX_DIR: ${{ secrets.R2_PREFIX_DIR || '' }} # 优先使用 Secret，如果 Secret不存在则默认为空
+
+      - name: Upload to Cloudflare R2
+        run: |
+          aws s3 sync . s3://${{ secrets.R2_BUCKET_NAME }}/${{ steps.set_path.outputs.R2_TARGET_PATH }}/ \
+            --endpoint-url=${{ secrets.R2_ENDPOINT_URL }} \
+            --delete \
+            --exclude ".git/*" \
+            --exclude ".github/*" \
+            --exclude "awscli-bundle/*" \
+            --exclude "awscli-bundle.zip" \
+            --exact-timestamps
+        env:
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
+          R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
