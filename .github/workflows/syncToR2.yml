@@ -11,7 +11,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v5.0.0
         with:
           aws-access-key-id: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
