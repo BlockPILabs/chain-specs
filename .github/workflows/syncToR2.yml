@@ -16,9 +16,6 @@ jobs:
           r2-access-key-id: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
           r2-secret-access-key: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
           r2-bucket: ${{ secrets.R2_BUCKET_NAME }}
-          source-dir: src
+          source-dir: ./
           destination-dir: ${{ secrets.R2_PREFIX_DIR || '' }}/${{ github.ref_name || '' }}/
-        env:
-          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
-          R2_ENDPOINT_URL: ${{ secrets.R2_ENDPOINT_URL }}
-          R2_PREFIX_DIR: ${{ secrets.R2_PREFIX_DIR || '' }}
+
