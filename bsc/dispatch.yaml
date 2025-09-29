@@ -23,6 +23,7 @@ methods:
   trace_replayBlockTransactions:
     - erigon
     - reth
+  # geth客户端 eth_getProof 方法存在问题
   eth_getProof:
     - erigon
     - reth
