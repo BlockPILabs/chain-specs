@@ -2,6 +2,12 @@ name: 上传至cloudflare R2
 
 on:
   push:
+    branches:
+      - main
+      - v1.10
+      - stage
+      - testnet
+      - dev
 
 jobs:
   upload:
