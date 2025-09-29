@@ -23,9 +23,9 @@ methods:
   trace_replayBlockTransactions:
     - erigon
     - reth
-  # eth_getProof:
-  #   - erigon
-  #   - reth
+  eth_getProof:
+    - erigon
+    - reth
   # geth可能慢的方法
   # eth_newBlockFilter
   # eth_newPendingTransactionFilter
