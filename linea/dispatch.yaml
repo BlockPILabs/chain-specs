@@ -1,18 +1,4 @@
 methods:
-  # debug_traceBlockByHash:
-  #   - Geth
-  # debug_traceBlockByNumber:
-  #   - Geth
-  # debug_traceTransaction:
-  #   - Geth
-  # eth_estimateGas:
-  #   - Geth
-  # txpool_content:
-  #   - Geth
-  # txpool_status:
-  #   - Geth
-  # txpool_inspect:
-  #   - Geth
   linea_estimateGas:
     - besu
   txpool_besuPendingTransactions:
@@ -39,5 +25,20 @@ methods:
     - besu
   eth_sendRawTransaction:
     - besu
+  # debug_traceBlockByHash:
+  #   - Geth
+  # debug_traceBlockByNumber:
+  #   - Geth
+  # debug_traceTransaction:
+  #   - Geth
+  # eth_estimateGas:
+  #   - Geth
+  # txpool_content:
+  #   - Geth
+  # txpool_status:
+  #   - Geth
+  # txpool_inspect:
+  #   - Geth
 default:
+  - Geth
 default_archive:
