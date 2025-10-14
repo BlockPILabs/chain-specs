@@ -16,8 +16,8 @@
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
 "eth_getBalance":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
 "zkevm_batchNumberByBlockNumber":
   fromBlock: ".body.params.[0]"
   toBlock: ".body.params.[0]"
