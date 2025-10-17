@@ -40,5 +40,4 @@ methods:
   # txpool_inspect:
   #   - Geth
 default:
-  - Geth
 default_archive:
