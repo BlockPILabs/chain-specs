@@ -40,7 +40,6 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
   "debug_stopGoTrace":
   "debug_storageRangeAt":
   "debug_traceBadBlock":
-  "debug_traceBlock":
   "debug_traceBlockFromFile":
   "debug_traceChain":
   "debug_verbosity":
