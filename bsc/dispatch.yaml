@@ -1,5 +1,5 @@
 methods:
-  eth_getBalance：
+  eth_getBalance:
     - Geth
   trace_call:
     - erigon
