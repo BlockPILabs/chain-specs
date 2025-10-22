@@ -326,6 +326,301 @@
             "ruCost": 400
         },
         {
+            "method": "kaia_chainId",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "kaia_protocolVersion",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "kaia_syncing",
+            "calBase": 100000000,
+            "ruCost": 0
+        },
+        {
+            "method": "kaia_accounts",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "kaia_subscribe",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "kaia_unsubscribe",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "kaia_uninstallFilter",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "kaia_blockNumber",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "kaia_accountCreated",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getBalance",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getCode",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getTransactionCount",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_isContractAccount",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_sign",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_clientVersion",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_gasPrice",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_gasPriceAt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_isParallelDBWrite",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_isSenderTxHashIndexingEnabled",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_rewardbase",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_sha3",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_newBlockFilter",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_newFilter",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_newPendingTransactionFilter",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getBlockTransactionCountByNumber",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getBlockTransactionCountByHash",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getCommittee",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getCommitteeSize",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getCouncil",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getCouncilSize",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getStorageAt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getAccount",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "kaia_getFilterChanges",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "kaia_call",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "kaia_estimateGas",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "kaia_estimateComputationCost",
+            "calBase": 100000000,
+            "ruCost": 20
+        },
+        {
+            "method": "kaia_getAccountKey",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "kaia_getDecodedAnchoringTransactionByHash",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "kaia_getHeaderByNumber",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "kaia_getHeaderByHash",
+            "calBase": 100000000,
+            "ruCost": 25
+        },
+        {
+            "method": "kaia_getTransactionByBlockHashAndIndex",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "kaia_getTransactionByBlockNumberAndIndex",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "kaia_signTransaction",
+            "calBase": 100000000,
+            "ruCost": 30
+        },
+        {
+            "method": "kaia_encodeAccountKey",
+            "calBase": 100000000,
+            "ruCost": 35
+        },
+        {
+            "method": "kaia_getTransactionByHash",
+            "calBase": 100000000,
+            "ruCost": 35
+        },
+        {
+            "method": "kaia_getTransactionBySenderTxHash",
+            "calBase": 100000000,
+            "ruCost": 35
+        },
+        {
+            "method": "kaia_signTransactionAsFeePayer",
+            "calBase": 100000000,
+            "ruCost": 45
+        },
+        {
+            "method": "kaia_decodeAccountKey",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "kaia_getBlockByHash",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "kaia_getBlockByNumber",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "kaia_getFilterLogs",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "kaia_getLogs",
+            "calBase": 100000000,
+            "ruCost": 75
+        },
+        {
+            "method": "kaia_getBlockWithConsensusInfoByHash",
+            "calBase": 100000000,
+            "ruCost": 170
+        },
+        {
+            "method": "kaia_getBlockWithConsensusInfoByNumber",
+            "calBase": 100000000,
+            "ruCost": 170
+        },
+        {
+            "method": "kaia_getTransactionReceipt",
+            "calBase": 100000000,
+            "ruCost": 15
+        },
+        {
+            "method": "kaia_getTransactionReceiptBySenderTxHash",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "kaia_sendRawTransaction",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "kaia_sendTransactionAsFeePayer",
+            "calBase": 100000000,
+            "ruCost": 200
+        },
+        {
+            "method": "kaia_getBlockReceipts",
+            "calBase": 100000000,
+            "ruCost": 400
+        },
+        {
             "method": "eth_chainId",
             "calBase": 100000000,
             "ruCost": 5
