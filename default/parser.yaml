@@ -33,6 +33,18 @@
 "klay_getBalance":
   fromBlock: ".body.params.[1]"
   toBlock: ".body.params.[1]"
+"kaia_getBlockTransactionCountByNumber":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"kaia_getBlockByNumber":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"kaiay_getTransactionByBlockNumberAndIndex":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+"kaia_getBalance":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
 
 #### body.params.[1]
 "debug_traceCall":
@@ -62,6 +74,18 @@
 "klay_getTransactionCount":
   fromBlock: ".body.params.[1]"
   toBlock: ".body.params.[1]"
+"kaia_estimateGas":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"kaia_call":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"kaia_getCode":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
+"kaia_getTransactionCount":
+  fromBlock: ".body.params.[1]"
+  toBlock: ".body.params.[1]"
 
 #### body.params.[2]
 "trace_call":
@@ -73,6 +97,9 @@
 "klay_getStorageAt":
   fromBlock: ".body.params.[2]"
   toBlock: ".body.params.[2]"
+"kaia_getStorageAt":
+  fromBlock: ".body.params.[2]"
+  toBlock: ".body.params.[2]"
 
 ### .body.params.[0].fromBlock
 "trace_filter":
@@ -82,6 +109,9 @@
   fromBlock: ".body.params.[0].fromBlock"
   toBlock: ".body.params.[0].toBlock"
 "klay_getLogs":
+  fromBlock: ".body.params.[0].fromBlock"
+  toBlock: ".body.params.[0].toBlock"
+"kaia_getLogs":
   fromBlock: ".body.params.[0].fromBlock"
   toBlock: ".body.params.[0].toBlock"
 
@@ -116,6 +146,19 @@
 "klay_chainId":
   fromBlock: "earliest"
   toBlock: "earliest"
+"kaia_syncing":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"kaia_clientVersion":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"kaia_sha3":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+"kaia_chainId":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+
 
 ### latest
 
@@ -124,5 +167,8 @@
   toBlock: "latest"
 
 "klay_newFilter":
+  fromBlock: "latest"
+  toBlock: "latest"
+"kaia_newFilter":
   fromBlock: "latest"
   toBlock: "latest"
