@@ -1,6 +1,4 @@
 methods:
-  eth_getBalance:
-    - Geth
   trace_call:
     - erigon
     - reth
