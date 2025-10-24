@@ -1,19 +1,20 @@
 methods:
-  linea_estimateGas:
-    - besu
-  linea_getTransactionExclusionStatusV1:
-    - besu
-  linea_getProof:
-    - besu
-  txpool_besuPendingTransactions:
-    - besu
-    - erigon
-  txpool_besuStatistics:
-    - besu
-    - erigon
-  txpool_besuTransactions:
-    - besu
-    - erigon
+  # 方法直接转发至外部url
+  # linea_estimateGas:
+  #   - besu
+  # linea_getTransactionExclusionStatusV1:
+  #   - besu
+  # linea_getProof:
+  #   - besu
+  # txpool_besuPendingTransactions:
+  #   - besu
+  #   - erigon
+  # txpool_besuStatistics:
+  #   - besu
+  #   - erigon
+  # txpool_besuTransactions:
+  #   - besu
+  #   - erigon
   trace_block:
     - besu
     - erigon
