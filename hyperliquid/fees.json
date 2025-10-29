@@ -8,26 +8,22 @@
         {
             "method": "net_listening",
             "calBase": 100000000,
-            "ruCost": 5,
-            "cache": true
+            "ruCost": 5
         },
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 5,
-            "cache": true
+            "ruCost": 5
         },
         {
             "method": "net_peerCount",
             "calBase": 100000000,
-            "ruCost": 5,
-            "cache": true
+            "ruCost": 5
         },
         {
             "method": "web3_clientVersion",
             "calBase": 100000000,
-            "ruCost": 15,
-            "cache": true
+            "ruCost": 15
         },
         {
             "method": "web3_sha3",
@@ -37,14 +33,12 @@
         {
             "method": "eth_chainId",
             "calBase": 100000000,
-            "ruCost": 5,
-            "cache": true
+            "ruCost": 5
         },
         {
             "method": "eth_syncing",
             "calBase": 100000000,
-            "ruCost": 5,
-            "cache": true
+            "ruCost": 5
         },
         {
             "method": "eth_accounts",
@@ -274,14 +268,12 @@
         {
             "method": "eth_getBlockByHash",
             "calBase": 100000000,
-            "ruCost": 20,
-            "cache": true
+            "ruCost": 20
         },
         {
             "method": "eth_getBlockByNumber",
             "calBase": 100000000,
-            "ruCost": 20,
-            "cache": true
+            "ruCost": 20
         },
         {
             "method": "eth_getFilterLogs",
