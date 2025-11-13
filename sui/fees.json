@@ -211,102 +211,112 @@
             "ruCost": 300
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/GetServiceInfo",
+            "method": "/sui.rpc.v2.LedgerService/GetServiceInfo",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/GetObject",
+            "method": "/sui.rpc.v2.LedgerService/GetObject",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/BatchGetObjects",
+            "method": "/sui.rpc.v2.LedgerService/BatchGetObjects",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/GetTransaction",
+            "method": "/sui.rpc.v2.LedgerService/GetTransaction",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/BatchGetTransactions",
+            "method": "/sui.rpc.v2.LedgerService/BatchGetTransactions",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/GetCheckpoint",
+            "method": "/sui.rpc.v2.LedgerService/GetCheckpoint",
             "calBase": 100000000,
             "ruCost": 200
         },
         {
-            "method": "/sui.rpc.v2beta2.LedgerService/GetEpoch",
+            "method": "/sui.rpc.v2.LedgerService/GetEpoch",
             "calBase": 100000000,
             "ruCost": 100
         },
         {
-            "method": "/sui.rpc.v2beta2.SignatureVerificationService/VerifySignature",
+            "method": "/sui.rpc.v2.SignatureVerificationService/VerifySignature",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.MovePackageService/GetPackage",
+            "method": "/sui.rpc.v2.MovePackageService/GetPackage",
             "calBase": 100000000,
             "ruCost": 100
         },
         {
-            "method": "/sui.rpc.v2beta2.MovePackageService/GetDatatype",
+            "method": "/sui.rpc.v2.MovePackageService/GetDatatype",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.MovePackageService/GetFunction",
+            "method": "/sui.rpc.v2.MovePackageService/GetFunction",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.MovePackageService/ListPackageVersions",
+            "method": "/sui.rpc.v2.MovePackageService/ListPackageVersions",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.SubscriptionService/SubscribeCheckpoints",
+            "method": "/sui.rpc.v2.SubscriptionService/SubscribeCheckpoints",
             "calBase": 250,
             "ruCost": 5
         },
         {
-            "method": "/sui.rpc.v2beta2.TransactionExecutionService/ExecuteTransaction",
+            "method": "/sui.rpc.v2.TransactionExecutionService/ExecuteTransaction",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/ListDynamicFields",
+            "method": "/sui.rpc.v2.StateService/ListDynamicFields",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/ListOwnedObjects",
+            "method": "/sui.rpc.v2.StateService/ListOwnedObjects",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/GetCoinInfo",
+            "method": "/sui.rpc.v2.StateService/GetCoinInfo",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/GetBalance",
+            "method": "/sui.rpc.v2.StateService/GetBalance",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/ListBalances",
+            "method": "/sui.rpc.v2.StateService/ListBalances",
             "calBase": 100000000,
             "ruCost": 50
         },
         {
-            "method": "/sui.rpc.v2beta2.LiveDataService/SimulateTransaction",
+            "method": "/sui.rpc.v2.LiveDataService/SimulateTransaction",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "/sui.rpc.v2.NameService/LookupName",
+            "calBase": 100000000,
+            "ruCost": 50
+        },
+        {
+            "method": "/sui.rpc.v2.NameService/ReverseLookupName",
             "calBase": 100000000,
             "ruCost": 50
         }
