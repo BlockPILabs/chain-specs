@@ -273,7 +273,7 @@
         {
             "method": "/sui.rpc.v2.SubscriptionService/SubscribeCheckpoints",
             "calBase": 250,
-            "ruCost": 50
+            "ruCost": 5
         },
         {
             "method": "/sui.rpc.v2.TransactionExecutionService/ExecuteTransaction",
