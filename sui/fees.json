@@ -238,12 +238,12 @@
         {
             "method": "/sui.rpc.v2.LedgerService/GetCheckpoint",
             "calBase": 100000000,
-            "ruCost": 200
+            "ruCost": 50
         },
         {
             "method": "/sui.rpc.v2.LedgerService/GetEpoch",
             "calBase": 100000000,
-            "ruCost": 100
+            "ruCost": 50
         },
         {
             "method": "/sui.rpc.v2.SignatureVerificationService/VerifySignature",
@@ -253,7 +253,7 @@
         {
             "method": "/sui.rpc.v2.MovePackageService/GetPackage",
             "calBase": 100000000,
-            "ruCost": 100
+            "ruCost": 50
         },
         {
             "method": "/sui.rpc.v2.MovePackageService/GetDatatype",
@@ -273,7 +273,7 @@
         {
             "method": "/sui.rpc.v2.SubscriptionService/SubscribeCheckpoints",
             "calBase": 250,
-            "ruCost": 5
+            "ruCost": 50
         },
         {
             "method": "/sui.rpc.v2.TransactionExecutionService/ExecuteTransaction",
