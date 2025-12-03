@@ -1,3 +1,5 @@
 default_archive:
+  - seid-archive-relay
 default:
+  - seid
 
