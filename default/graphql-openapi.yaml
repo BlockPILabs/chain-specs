@@ -1,0 +1,10 @@
+openapi: 3.1.0
+info:
+  title: GraphQL
+  description: ''
+  version: 1.0.0
+tags: []
+paths:
+  /:
+    post:
+      summary: GraphQL Query
