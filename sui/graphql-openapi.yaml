@@ -7,3 +7,5 @@ paths:
   /:
     post:
       summary: GraphQL Query
+    get:
+      summary: GraphQL Query
