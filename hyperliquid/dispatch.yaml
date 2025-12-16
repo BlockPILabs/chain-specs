@@ -1,27 +1,19 @@
 methods:
   trace_block:
-    - erigon
     - reth
   trace_call:
-    - erigon
     - reth
   trace_get:
-    - erigon
     - reth
   trace_transaction:
-    - erigon
     - reth
   trace_filter:
-    - erigon
     - reth
   trace_rawTransaction:
-    - erigon
     - reth
   trace_replayTransaction:
-    - erigon
     - reth
   trace_replayBlockTransactions:
-    - erigon
     - reth
   # eth_getProof:
   #   - erigon
@@ -36,4 +28,6 @@ methods:
   "debug_traceBlockByHash":
     - reth
 default:
+  - hyperliquid
 default_archive:
+  - reth
