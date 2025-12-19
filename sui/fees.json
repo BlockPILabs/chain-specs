@@ -309,6 +309,11 @@
             "method": "/sui.rpc.v2beta2.LiveDataService/SimulateTransaction",
             "calBase": 100000000,
             "ruCost": 50
+        },
+        {
+            "method": "/graphql",
+            "calBase": 200000,
+            "ruCost": 5
         }
     ],
     "nodeTypeRate": {
