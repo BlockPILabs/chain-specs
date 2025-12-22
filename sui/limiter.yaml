@@ -4,7 +4,7 @@ methods:
   - name: "/graphql"
     maxBatchSize: 5
     limits:
-      - level: "L1"
+      - level: "L2"
         maxBatchSize: 2
-      - level: "L4"
+      - level: "L5"
         maxBatchSize: 4
