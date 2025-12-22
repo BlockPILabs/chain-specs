@@ -6,3 +6,5 @@ methods:
     limits:
       - level: "L1"
         maxBatchSize: 2
+      - level: "L4"
+        maxBatchSize: 4
