@@ -5,4 +5,4 @@ methods:
     maxBatchSize: 5
     limits:
       - level: "L1"
-        maxBatchSize: 5 
+        maxBatchSize: 2
