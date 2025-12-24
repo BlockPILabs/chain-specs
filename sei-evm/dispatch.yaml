@@ -1,28 +1,2 @@
-methods:
-  debug_traceTransaction:
-  - seid-archive-relay
-  debug_traceCall:
-  - seid-archive-relay
-  debug_traceBlockByNumber:
-  - seid-archive-relay
-  debug_traceBlockByHash:
-  - seid-archive-relay
-  trace_block:
-  - seid-archive-relay
-  trace_call:
-  - seid-archive-relay
-  trace_get:
-  - seid-archive-relay
-  trace_rawTransaction:
-  - seid-archive-relay
-  trace_replayTransaction:
-  - seid-archive-relay
-  trace_transaction:
-  - seid-archive-relay
-  trace_filter:
-  - seid-archive-relay
 default_archive:
-- seid-archive-relay
-- seid-archive-relay-stakeme
 default:
-- seid
