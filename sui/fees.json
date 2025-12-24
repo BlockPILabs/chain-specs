@@ -314,7 +314,7 @@
             "method": "/graphql",
             "calBase": 200000,
             "ruCost": 5
-        },
+        }
     ],
     "nodeTypeRate": {
         "default": 1,
