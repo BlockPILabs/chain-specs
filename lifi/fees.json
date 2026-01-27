@@ -3,8 +3,148 @@
         {
             "method": "default",
             "calBase": 250,
-            "ruCost": 5
-        } 
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/tokens",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/token",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/quote",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/quote/toAmount",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/quote/contractCall",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/quote/contractCalls",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/status",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/integrators/{integratorId}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/integrators/{integratorId}/withdraw/{chainId}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/advanced/possibilities",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/advanced/routes",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/advanced/stepTransaction",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/chains",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/connections",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/tools",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/gas/prices",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/gas/prices/{chainId}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/gas/status",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/gas/refetch",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/analytics/wallets/{wallet_address}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/gas/suggestion/{chain}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/calldata/parse",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/analytics/transfers",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v2/analytics/transfers",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/analytics/transfers/summary",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/relayer/status/{taskId}",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/relayer/quote",
+            "calBase": 100000000,
+            "ruCost": 10
+        },
+        {
+            "method": "/v1/relayer/relay",
+            "calBase": 100000000,
+            "ruCost": 10
+        }
     ],
     "nodeTypeRate": {
         "default": 1,
