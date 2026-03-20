@@ -1,0 +1,10 @@
+methods:
+  - name: "default"
+    maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法 
+  - name: "/graphql"
+    maxBatchSize: 5
+    limits:
+      - level: "L2"
+        maxBatchSize: 2
+      - level: "L5"
+        maxBatchSize: 4
