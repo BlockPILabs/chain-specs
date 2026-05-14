@@ -2,3 +2,6 @@ methods:
   - name: "debug_traceBlockByNumber"
     q: "1-S"
     ru: "300-S"
+  - name: "trace_block"
+    q: "1-S"
+    ru: "40-S"
