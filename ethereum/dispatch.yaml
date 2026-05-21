@@ -1,6 +1,7 @@
 methods:
   eth_blockNumber:
     - reth
+    - geth
   trace_block:
     - erigon
     - reth
