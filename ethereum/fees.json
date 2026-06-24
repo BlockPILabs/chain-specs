@@ -13,7 +13,8 @@
         {
             "method": "net_version",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "net_peerCount",
@@ -33,7 +34,8 @@
         {
             "method": "eth_chainId",
             "calBase": 100000000,
-            "ruCost": 5
+            "ruCost": 5,
+            "cache": true
         },
         {
             "method": "eth_syncing",
