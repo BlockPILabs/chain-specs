@@ -43,6 +43,6 @@ methods:
   # eth_getTransactionReceipt:
   #   - reth
 default:
-  - Geth
+
 default_archive:
   - reth
