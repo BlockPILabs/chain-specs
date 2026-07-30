@@ -1,0 +1,13 @@
+openapi: 3.0.1
+info:
+  title: hyperliquid
+  description: ''
+  version: 1.0.0
+tags:
+  - name: version
+#  - name: v0_7
+paths:
+  /:
+    post:
+      tags:
+        - version
