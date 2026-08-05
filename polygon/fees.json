@@ -311,6 +311,11 @@
             "ruCost": 50
         },
         {
+            "method": "mev:eth_sendRawTransaction",
+            "calBase": 100000000,
+            "ruCost": 250000
+        },
+        {
             "method": "eth_sendTransactionAsFeePayer",
             "calBase": 100000000,
             "ruCost": 200
