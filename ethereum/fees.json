@@ -292,7 +292,7 @@
         },
         {
             "method": "eth_getLogs",
-            "calBase": 200000,
+            "calBase": 50000,
             "ruCost": 50
         },
         {
