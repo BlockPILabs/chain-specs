@@ -15,6 +15,60 @@
             "ruCost": 260
         },
         {
+            "method": "getBlock",
+            "calBase": 100000000,
+            "ruCost": 260,
+            "cache": true
+        },
+        {
+            "method": "getBlocksWithLimit",
+            "calBase": 100000000,
+            "ruCost": 260,
+            "cache": true
+        },
+        {
+            "method": "getBlocks",
+            "calBase": 100000000,
+            "ruCost": 260,
+            "cache": true
+        },
+        {
+            "method": "getBlockTime",
+            "calBase": 100000000,
+            "ruCost": 260,
+            "cache": true
+        },
+        {
+            "method": "getHealth",
+            "calBase": 100000000,
+            "ruCost": 5,
+            "cache": true
+        },
+        {
+            "method": "getEpochInfo",
+            "calBase": 100000000,
+            "ruCost": 5,
+            "cache": true
+        },
+        {
+            "method": "getSlot",
+            "calBase": 100000000,
+            "ruCost": 5,
+            "cache": true
+        },
+        {
+            "method": "getLatestBlockhash",
+            "calBase": 100000000,
+            "ruCost": 5,
+            "cache": true
+        },
+        {
+            "method": "getBlockHeight",
+            "calBase": 100000000,
+            "ruCost": 5,
+            "cache": true
+        },
+        {
             "method": "accountNotification",
             "calBase": 100000000,
             "ruCost": 6
