@@ -2,31 +2,40 @@ methods:
   trace_block:
     - erigon
     - reth
+    - reth-bsc
   trace_call:
     - erigon
     - reth
+    - reth-bsc    
   trace_get:
     - erigon
     - reth
+    - reth-bsc    
   trace_transaction:
     - erigon
     - reth
+    - reth-bsc    
   trace_filter:
     - erigon
     - reth
+    - reth-bsc    
   trace_rawTransaction:
     - erigon
     - reth
+    - reth-bsc    
   trace_replayTransaction:
     - erigon
     - reth
+    - reth-bsc    
   trace_replayBlockTransactions:
     - erigon
     - reth
+    - reth-bsc    
   # geth客户端 eth_getProof 方法存在问题
   eth_getProof:
     - erigon
     - reth
+    - reth-bsc    
   # geth可能慢的方法
   # eth_newBlockFilter
   # eth_newPendingTransactionFilter
