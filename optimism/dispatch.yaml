@@ -2,27 +2,35 @@ methods:
   trace_block:
     - erigon
     - reth
+    - op-reth
   trace_call:
     - erigon
     - reth
+    - op-reth
   trace_get:
     - erigon
     - reth
+    - op-reth
   trace_transaction:
     - erigon
     - reth
+    - op-reth
   trace_filter:
     - erigon
     - reth
+    - op-reth
   trace_rawTransaction:
     - erigon
     - reth
+    - op-reth
   trace_replayTransaction:
     - erigon
     - reth
+    - op-reth
   trace_replayBlockTransactions:
     - erigon
     - reth
+    - op-reth
 
   # eth_getProof:
   #   - erigon
