@@ -1,32 +1,44 @@
 methods:
   trace_block:
     - reth
+    - reth-hl
   trace_call:
     - reth
+    - reth-hl
   trace_get:
     - reth
+    - reth-hl
   trace_transaction:
     - reth
+    - reth-hl
   trace_filter:
     - reth
+    - reth-hl
   trace_rawTransaction:
     - reth
+    - reth-hl
   trace_replayTransaction:
     - reth
+    - reth-hl
   trace_replayBlockTransactions:
     - reth
+    - reth-hl
   # eth_getProof:
   #   - erigon
   #   - reth
   # hyper evm 没有debug方法
   "debug_traceTransaction":
     - reth
+    - reth-hl
   "debug_traceCall":
     - reth
+    - reth-hl
   "debug_traceBlockByNumber":
     - reth
+    - reth-hl
   "debug_traceBlockByHash":
     - reth
+    - reth-hl
 default:
   - hyperliquid
 default_archive:
