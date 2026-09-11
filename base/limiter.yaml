@@ -1,0 +1,16 @@
+methods:
+  - name: "debug_traceBlockByHash"
+    q: "2-M"
+    ru: "2-M"
+    limits:
+      - level: "L3"
+        q: "2-M"
+        ru: "2-M"    
+
+  - name: "trace_block"
+    q: "2-M"
+    ru: "2-M"
+    limits:
+      - level: "L3"
+        q: "2-M"
+        ru: "2-M" 
