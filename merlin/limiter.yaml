@@ -4,13 +4,13 @@ methods:
     tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer"]
     limits:
       - level: "L4"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
       - level: "L5"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
       - level: "L6"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
       - level: "L7"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xNoneTracer", "xEmptyTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
   - name: "eth_getLogs"
     blockRange: 1024
     addressBlockRange: 5000
