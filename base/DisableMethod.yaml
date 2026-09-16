@@ -49,5 +49,9 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
   "debug_writeMemProfile":
   "debug_writeMutexProfile":
   "trace_callMany":
-
   "txpool_content":
+  "debug_traceBlockByHash":
+    - "0x3dd707259cc513687a00682f3f457af5d7f533fba208bbc50f2e197f503e499c" # 0x3dd707259cc513687a00682f3f457af5d7f533fba208bbc50f2e197f503e499c
+
+  "debug_traceBlockByNumber": 
+    - "0x12aa63f" 
