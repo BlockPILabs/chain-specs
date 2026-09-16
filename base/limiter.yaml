@@ -4,7 +4,7 @@ methods:
     tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
     limits:
       - level: "L1"
-        maxBatchSize: 5    
+        maxBatchSize: 5
       - level: "L4"
         tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
       - level: "L5"
