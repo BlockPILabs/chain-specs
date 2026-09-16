@@ -6,15 +6,15 @@ methods:
       - level: "L1"
         maxBatchSize: 5    
       - level: "L3"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
       - level: "L4"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
       - level: "L5"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
       - level: "L6"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
       - level: "L7"
-        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer", "xCustomTracer"]
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
   - name: "eth_getLogs"
     # V1.9 新增配置项目，当参数含有地址信息时候的限制数量
     blockRange: 1024
@@ -37,7 +37,7 @@ methods:
     # 注释后不生效 没有最大限制
     # maxRespSize: 25
     # xCustomTracer 表示的是是否支持自定义的 tracer
-    # tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "xCustomTracer"]
+    # tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer"]
     # merlin单独配置
     # allowRuledLogs:
     #   "0x8c5be1e5ebec7d5bd14f71427d1e84f3dd0314c0f7b2291e5b200ac8c7c3b925":
