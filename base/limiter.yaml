@@ -1,4 +1,19 @@
 methods:
+  - name: "default"
+    maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法
+    tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
+    limits:
+      - level: "L1"
+        maxBatchSize: 5    
+      - level: "L4"
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
+      - level: "L5"
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
+      - level: "L6"
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
+      - level: "L7"
+        tracers: ["callTracer", "prestateTracer" ,"fastCallTracer", "stylusTracer", "flatCallTracer"]
+
   - name: "debug_traceBlockByHash"
     q: "50-M"
     ru: "7650-M"
