@@ -1,0 +1,30 @@
+#
+default: # 等级(所有等级,其它等级没有配置方法时取这里方法配置)
+L1:
+  "debug_getBadBlocks":
+  "debug_storageRangeAt":
+  "debug_traceBlock":
+  "debug_traceBlockByHash":
+  "debug_traceBlockByNumber":
+  "debug_traceCall":
+  "debug_traceTransaction":
+  "trace_block":
+  "trace_filter":
+  "trace_rawTransaction":
+  "trace_replayBlockTransactions":
+  "trace_replayTransaction":
+  "trace_transaction":
+L2:
+  "debug_getBadBlocks":
+  "debug_storageRangeAt":
+  "debug_traceBlock":
+  "debug_traceBlockByHash":
+  "debug_traceBlockByNumber":
+  "debug_traceCall":
+  "debug_traceTransaction":
+  "trace_block":
+  "trace_filter":
+  "trace_rawTransaction":
+  "trace_replayBlockTransactions":
+  "trace_replayTransaction":
+  "trace_transaction":
