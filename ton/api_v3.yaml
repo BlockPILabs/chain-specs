@@ -5,9 +5,7 @@ info:
   title: TON Index (Go)
   contact: {}
   version: 1.2.6
-servers:
-  - url: 'https://toncenter.com'
-    description: Toncenter Production Environment
+host: 'https://toncenter.com'
 basePath: ''
 paths:
   /api/v3/accountStates:
