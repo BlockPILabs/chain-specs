@@ -24,6 +24,126 @@ info:
     header.
   version: 2.0.0
 paths:
+  /api/v3/messages:
+    get:
+      tags:
+        - blockchain
+      summary: Get messages
+      description: Get messages by specified filters.
+      operationId: api_v3_get_messages
+      parameters:
+        - description: Message hash. Acceptable in hex, base64 and base64url forms.
+          name: msg_hash
+          in: query
+          schema:
+            type: array
+            items:
+              type: string
+          style: form
+          explode: true
+        - description: Hash of message body.
+          name: body_hash
+          in: query
+          schema:
+            type: string
+        - description: The source account address. Can be sent in hex, base64 or base64url form. Use value
+            `null` to get external messages.
+          name: source
+          in: query
+          schema:
+            type: string
+        - description: The destination account address. Can be sent in hex, base64 or base64url form.
+            Use value `null` to get log messages.
+          name: destination
+          in: query
+          schema:
+            type: string
+        - description: Opcode of message in hex or signed 32-bit decimal form.
+          name: opcode
+          in: query
+          schema:
+            type: string
+        - description: Query messages with `created_at >= start_utime`.
+          name: start_utime
+          in: query
+          schema:
+            minimum: 0
+            type: integer
+            format: int32
+        - description: Query messages with `created_at >= start_utime`.
+          name: end_utime
+          in: query
+          schema:
+            minimum: 0
+            type: integer
+            format: int32
+        - description: Query messages with `created_lt >= start_lt`.
+          name: start_lt
+          in: query
+          schema:
+            minimum: 0
+            type: integer
+            format: int64
+        - description: Query messages with `created_lt <= end_lt`.
+          name: end_lt
+          in: query
+          schema:
+            minimum: 0
+            type: integer
+            format: int64
+        - description: Direction of message.
+          name: direction
+          in: query
+          schema:
+            enum:
+              - in
+              - out
+            type: string
+        - description: Exclude external messages.
+          name: exclude_externals
+          in: query
+          schema:
+            type: boolean
+        - description: Return only external messages.
+          name: only_externals
+          in: query
+          schema:
+            type: boolean
+        - description: Limit number of queried rows. Use with *offset* to batch read.
+          name: limit
+          in: query
+          schema:
+            maximum: 1000
+            minimum: 1
+            type: integer
+            format: int32
+            default: 10
+        - description: Skip first N rows. Use with *limit* to batch read.
+          name: offset
+          in: query
+          schema:
+            minimum: 0
+            type: integer
+            format: int32
+            default: 0
+        - description: 'Sort messages by effective LT: `created_lt` for internal/external-out messages
+            and the receiving transaction LT for external-in messages.'
+          name: sort
+          in: query
+          schema:
+            enum:
+              - asc
+              - desc
+            type: string
+            default: desc
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+      security:
+        - APIKeyHeader: [ ]
+        - APIKeyQuery: [ ]
   /getAddressInformation:
     get:
       tags:
