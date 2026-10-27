@@ -526,242 +526,242 @@
       "ruCost": 200
     },
     {
-      "method": "/api/v3/accountStates",
+      "method": "/v3/accountStates",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/actions",
+      "method": "/v3/actions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/addressBook",
+      "method": "/v3/addressBook",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/addressInformation",
+      "method": "/v3/addressInformation",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/adjacentTransactions",
+      "method": "/v3/adjacentTransactions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/blocks",
+      "method": "/v3/blocks",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/decode",
+      "method": "/v3/decode",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/dns/activeAuctions",
+      "method": "/v3/dns/activeAuctions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/dns/records",
+      "method": "/v3/dns/records",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/estimateFee",
+      "method": "/v3/estimateFee",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/jetton/burns",
+      "method": "/v3/jetton/burns",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/jetton/masters",
+      "method": "/v3/jetton/masters",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/jetton/transfers",
+      "method": "/v3/jetton/transfers",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/jetton/wallets",
+      "method": "/v3/jetton/wallets",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/masterchainBlockShardState",
+      "method": "/v3/masterchainBlockShardState",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/masterchainBlockShards",
+      "method": "/v3/masterchainBlockShards",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/masterchainInfo",
+      "method": "/v3/masterchainInfo",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/message",
+      "method": "/v3/message",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/messages",
+      "method": "/v3/messages",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/metadata",
+      "method": "/v3/metadata",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/multisig/orders",
+      "method": "/v3/multisig/orders",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/multisig/wallets",
+      "method": "/v3/multisig/wallets",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/nft/collections",
+      "method": "/v3/nft/collections",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/nft/items",
+      "method": "/v3/nft/items",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/nft/sales",
+      "method": "/v3/nft/sales",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/nft/transfers",
+      "method": "/v3/nft/transfers",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/pendingActions",
+      "method": "/v3/pendingActions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/pendingTraces",
+      "method": "/v3/pendingTraces",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/pendingTransactions",
+      "method": "/v3/pendingTransactions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/runGetMethod",
+      "method": "/v3/runGetMethod",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/nominator",
+      "method": "/v3/staking/nominatorPools/nominator",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/nominatorEvents",
+      "method": "/v3/staking/nominatorPools/nominatorEvents",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/nominatorRewards",
+      "method": "/v3/staking/nominatorPools/nominatorRewards",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/pool",
+      "method": "/v3/staking/nominatorPools/pool",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/validatorEvents",
+      "method": "/v3/staking/nominatorPools/validatorEvents",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/staking/nominatorPools/validatorRewards",
+      "method": "/v3/staking/nominatorPools/validatorRewards",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/topAccountsByBalance",
+      "method": "/v3/topAccountsByBalance",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/traces",
+      "method": "/v3/traces",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/transactions",
+      "method": "/v3/transactions",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/transactionsByMasterchainBlock",
+      "method": "/v3/transactionsByMasterchainBlock",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/transactionsByMessage",
+      "method": "/v3/transactionsByMessage",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/validators/complaints",
+      "method": "/v3/validators/complaints",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/validators/cycles",
+      "method": "/v3/validators/cycles",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/validators/elections",
+      "method": "/v3/validators/elections",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/validators/events",
+      "method": "/v3/validators/events",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/vesting",
+      "method": "/v3/vesting",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/walletInformation",
+      "method": "/v3/walletInformation",
       "calBase": 200000,
       "ruCost": 200
     },
     {
-      "method": "/api/v3/walletStates",
+      "method": "/v3/walletStates",
       "calBase": 200000,
       "ruCost": 200
     }
