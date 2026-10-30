@@ -12,6 +12,13 @@
             "ttl": 5000
         },
         {
+            "method": "getBlock",
+            "calBase": 100000000,
+            "ruCost": 10,
+            "cache": true,
+            "ttl": 5000
+        },
+        {
             "method": "getlargestaccounts",
             "calBase": 100000000,
             "ruCost": 260
