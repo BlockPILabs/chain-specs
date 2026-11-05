@@ -86,37 +86,37 @@
   fromBlock: ".body.params.[0].fromBlock"
   toBlock: ".body.params.[0].toBlock"
 
-### earliest
+### latest
 "eth_syncing":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "eth_chainId":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "web3_clientVersion":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "web3_sha3":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "net_version":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "net_listening":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_syncing":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_clientVersion":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_sha3":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_chainId":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 
 ### latest
 
