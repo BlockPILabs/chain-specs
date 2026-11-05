@@ -1,0 +1,115 @@
+## https://app.notion.com/p/blockpi/solana-RPC-40d6874f685e80ef823ddd12c763fa17
+#
+# archiveBilling:
+#   slot   - archive (2 RU) when target slot < firstAvailable + 5000, otherwise full (1 RU)
+#   always - always archive (2 RU)
+#   never  - always full (1 RU)
+
+# Archive billing methods (image scope)
+
+"getTransaction":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+  archiveBilling: "slot"
+
+"getBlock":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+  archiveBilling: "slot"
+
+"getBlockTime":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+  archiveBilling: "slot"
+
+"getBlocks":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[1]"
+  archiveBilling: "slot"
+
+"getBlocksWithLimit":
+  fromBlock: ".body.params.[0]"
+  toBlock: ".body.params.[0]"
+  archiveBilling: "slot"
+
+"getSignaturesForAddress":
+  fromBlock: ".body.params.[1].minContextSlot"
+  toBlock: ".body.params.[1].minContextSlot"
+  archiveBilling: "always"
+
+"getFirstAvailableBlock":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+  archiveBilling: "always"
+
+"getSignatureStatuses":
+  fromBlock: "earliest"
+  toBlock: "earliest"
+  archiveBilling: "slot"
+
+# Other Solana methods (full billing)
+
+# "getLeaderSchedule":
+#   fromBlock: ".body.params.[0]"
+#   toBlock: ".body.params.[0]"
+#   archiveBilling: "never"
+
+# "getBlockProduction":
+#   fromBlock: ".body.params.[0].range.firstSlot"
+#   toBlock: ".body.params.[0].range.lastSlot"
+#   archiveBilling: "never"
+
+# "getSlot":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "getEpochInfo":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "getBlockHeight":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "getAccountInfo":
+#   fromBlock: ".body.params.[1].minContextSlot"
+#   toBlock: ".body.params.[1].minContextSlot"
+#   archiveBilling: "never"
+
+# "getMultipleAccounts":
+#   fromBlock: ".body.params.[1].minContextSlot"
+#   toBlock: ".body.params.[1].minContextSlot"
+#   archiveBilling: "never"
+
+# "getProgramAccounts":
+#   fromBlock: ".body.params.[1].minContextSlot"
+#   toBlock: ".body.params.[1].minContextSlot"
+#   archiveBilling: "never"
+
+# "getTokenAccountsByOwner":
+#   fromBlock: ".body.params.[2].minContextSlot"
+#   toBlock: ".body.params.[2].minContextSlot"
+#   archiveBilling: "never"
+
+# "getTransactionCount":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "getLatestBlockhash":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "getSlotLeader":
+#   fromBlock: ".body.params.[0].minContextSlot"
+#   toBlock: ".body.params.[0].minContextSlot"
+#   archiveBilling: "never"
+
+# "isBlockhashValid":
+#   fromBlock: ".body.params.[1].minContextSlot"
+#   toBlock: ".body.params.[1].minContextSlot"
+#   archiveBilling: "never"
