@@ -1,4 +1,5 @@
 # evm methods
+# https://app.notion.com/p/blockpi/EVM-RPC-882d64f40c344181b376a17f7f87d381?source=copy_link
 #### body.params.[0]
 "eth_getBlockTransactionCountByNumber":
   fromBlock: ".body.params.[0]"
