@@ -7,10 +7,10 @@
 
 # Archive billing methods (image scope)
 
-"getTransaction":
-  fromBlock: "earliest"
-  toBlock: "earliest"
-  archiveBilling: "slot"
+# "getTransaction":
+#   fromBlock: "earliest"
+#   toBlock: "earliest"
+#   archiveBilling: "slot"
 
 "getBlock":
   fromBlock: ".body.params.[0]"
