@@ -1,0 +1,30 @@
+methods:
+  trace_block:
+    - reth
+  trace_call:
+    - reth
+  trace_get:
+    - reth
+  trace_transaction:
+    - reth
+  trace_filter:
+    - reth
+  trace_rawTransaction:
+    - reth
+  trace_replayTransaction:
+    - reth
+  trace_replayBlockTransactions:
+    - reth
+  # eth_getProof:
+  #   - reth
+  # hyper evm 没有debug方法
+  "debug_traceTransaction":
+    - reth
+  "debug_traceCall":
+    - reth
+  "debug_traceBlockByNumber":
+    - reth
+  "debug_traceBlockByHash":
+    - reth
+default:
+default_archive:
