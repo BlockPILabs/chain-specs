@@ -13,28 +13,28 @@
 #   archiveBilling: "slot"
 
 "getBlock":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
+  fromBlock: ".body.params.[0]|tostring"
+  toBlock: ".body.params.[0]|tostring"
   archiveBilling: "slot"
 
 "getBlockTime":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
+  fromBlock: ".body.params.[0]|tostring"
+  toBlock: ".body.params.[0]|tostring"
   archiveBilling: "slot"
 
 "getBlocks":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[1]"
+  fromBlock: ".body.params.[0]|tostring"
+  toBlock: ".body.params.[1]|tostring"
   archiveBilling: "slot"
 
 "getBlocksWithLimit":
-  fromBlock: ".body.params.[0]"
-  toBlock: ".body.params.[0]"
+  fromBlock: ".body.params.[0]|tostring"
+  toBlock: ".body.params.[0]|tostring"
   archiveBilling: "slot"
 
 "getSignaturesForAddress":
-  fromBlock: ".body.params.[1].minContextSlot"
-  toBlock: ".body.params.[1].minContextSlot"
+  fromBlock: ".body.params.[1].minContextSlot|tostring"
+  toBlock: ".body.params.[1].minContextSlot|tostring"
   archiveBilling: "always"
 
 "getFirstAvailableBlock":
