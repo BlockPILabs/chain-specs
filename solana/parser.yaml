@@ -8,8 +8,8 @@
 # Archive billing methods (image scope)
 
 # "getTransaction":
-#   fromBlock: "earliest"
-#   toBlock: "earliest"
+#   fromBlock: "latest"
+#   toBlock: "latest"
 #   archiveBilling: "slot"
 
 "getBlock":
@@ -38,13 +38,13 @@
   archiveBilling: "always"
 
 "getFirstAvailableBlock":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
   archiveBilling: "always"
 
 "getSignatureStatuses":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
   archiveBilling: "slot"
 
 # Other Solana methods (full billing)
