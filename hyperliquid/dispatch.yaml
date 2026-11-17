@@ -42,4 +42,3 @@ methods:
 default:
   - hyperliquid
 default_archive:
-  - reth

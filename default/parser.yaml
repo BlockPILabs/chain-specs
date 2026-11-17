@@ -117,47 +117,47 @@
 
 ### earliest
 "eth_syncing":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "eth_chainId":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "web3_clientVersion":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "web3_sha3":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "net_version":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "net_listening":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_syncing":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_clientVersion":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_sha3":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "klay_chainId":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "kaia_syncing":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "kaia_clientVersion":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "kaia_sha3":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 "kaia_chainId":
-  fromBlock: "earliest"
-  toBlock: "earliest"
+  fromBlock: "latest"
+  toBlock: "latest"
 
 
 ### latest
