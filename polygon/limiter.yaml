@@ -1,3 +1,4 @@
-# Gateway v2.0.1 GW-RL-001 fixture: method-level q limit (flat v2 format)
-eth_getLogs:
-  q: "60-M"
+# Gateway v2.0.1 GW-RL-001 fixture
+methods:
+  - name: "eth_getLogs"
+    q: "60-M"
