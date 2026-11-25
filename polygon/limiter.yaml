@@ -1,4 +1,6 @@
-# Gateway v2.0.1 GW-RL-001 fixture
+# Gateway v2.0.1 GW-RL-001 fixture: level-scoped method limit
 methods:
   - name: "eth_getLogs"
-    q: "60-M"
+    limits:
+      - level: "L7"
+        q: "60-M"
