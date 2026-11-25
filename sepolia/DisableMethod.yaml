@@ -50,3 +50,6 @@ default: # 等级(所有等级,其它等级没有配置方法时取这里方法�
   "trace_callMany":
 
   "debug_setTrieFlushInterval":
+
+L2: # 测试用：验证等级规则只影响免费档文案
+  "eth_getProof":
