@@ -28,3 +28,8 @@
 #       - level: "L7"
 #         blockRange: 10000
 #         addressBlockRange: 10000
+
+# Gateway v2.0.1 GW-RL-001 fixture: method-level q limit
+methods:
+  - name: "eth_getLogs"
+    q: "60-M"
