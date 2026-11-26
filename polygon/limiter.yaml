@@ -1,0 +1,5 @@
+# GW-RL fixture: q 与 ru 必须共存才生效；eth_blockNumber 计费 10 RU/次
+methods:
+  - name: "eth_blockNumber"
+    q: "5-M"
+    ru: "50-M"
