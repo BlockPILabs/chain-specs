@@ -1,6 +1,6 @@
 methods:
   - name: "default"
-    maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法 
+    maxBatchSize: 1000 #  batch Size 由于特殊性，并不支持到具体方法，所以请配置到默认方法
   - name: "/graphql"
     maxBatchSize: 5
     limits:
@@ -8,3 +8,14 @@ methods:
         maxBatchSize: 2
       - level: "L5"
         maxBatchSize: 4
+
+  # GW-GRPC-001 探针：gRPC 方法名的三种可能写法，q 值不同，用返回文案里的数字反推命中哪一个
+  - name: "GetServiceInfo"
+    q: "2-M"
+    ru: "1000000-D"
+  - name: "/sui.rpc.v2.LedgerService/GetServiceInfo"
+    q: "3-M"
+    ru: "1000000-D"
+  - name: "sui.rpc.v2.LedgerService/GetServiceInfo"
+    q: "4-M"
+    ru: "1000000-D"
