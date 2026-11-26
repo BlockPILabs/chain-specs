@@ -1,4 +1,0 @@
-# Gateway v2.0.1 GW-RL-001 fixture: 轻量方法 + 极低配额，用于确认限速是否生效
-methods:
-  - name: "eth_blockNumber"
-    q: "5-M"
