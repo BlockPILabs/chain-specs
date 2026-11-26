@@ -19,3 +19,6 @@ methods:
   - name: "sui.rpc.v2.LedgerService/GetServiceInfo"
     q: "4-M"
     ru: "1000000-D"
+  - name: "/sui.rpc.v2.SubscriptionService/SubscribeCheckpoints"
+    q: "2-M"
+    ru: "1000000-D"
