@@ -1,8 +1,0 @@
-# GW-ERR-001/002/003 fixture：方法级限速（q 必须与 ru 共存才生效）
-methods:
-  - name: "eth_blockNumber"
-    q: "3-M"
-    ru: "1000000-D"
-  - name: "eth_getLogs"
-    q: "3-M"
-    ru: "1000000-D"
