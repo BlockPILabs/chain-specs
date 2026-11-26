@@ -1,0 +1,8 @@
+# GW-ERR-002 复测：WS 与 HTTP 同窗口对照
+methods:
+  - name: "eth_getLogs"
+    q: "1-M"
+    ru: "1000000-D"
+  - name: "eth_blockNumber"
+    q: "1-M"
+    ru: "1000000-D"
