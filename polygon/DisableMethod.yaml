@@ -1,15 +1,7 @@
-# GW-DIS 夹具（v2.0.1，2026-11-27）第二期：覆盖 DIS-006/008/009
-# default 段保留 trace_block / txpool_content，用于验证「等级段命中的结论优先于 default」。
-default:
-  "trace_block":
-  "txpool_content":
+# GW-DIS 夹具（v2.0.1）第三期：DIS-009 多个通配符同时命中
+# debug* 条件不成立；*trace* 无条件 → debug_traceTransaction 应被 *trace* 拒绝，
+# 而只命中 debug* 的 debug_traceCall 应放行（证明不是「只认第一个通配符」）。
 L7:
-  # DIS-006：通配命中但条件不成立 → 放行，且不回退 default 的 trace_block
-  "*trace*":
-    - "NOT_PRESENT_XYZ"
-  # DIS-008：精确项条件不成立 → 放行，且不看 default 的 txpool_content
-  "txpool_content":
-    - "NOT_PRESENT_XYZ"
-  # DIS-009：多个通配符同时命中，*trace* 无条件禁用优先于 debug* 的不成立条件
   "debug*":
     - "NOT_PRESENT_XYZ"
+  "*trace*":
