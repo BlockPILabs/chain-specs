@@ -1,3 +1,8 @@
-# GW-DIS 夹具（v2.0.1）第四期：DIS-010 大小写不敏感（大写配置）
+# GW-DIS 夹具（v2.0.1）第五期：
+# DIS-010 下半：小写 sign*（与上一期大写结论应一致）
+# DIS-012：eth_call 两条条件——一条合法 jq、一条非 jq 子串
 L7:
-  "SIGN*":
+  "sign*":
+  "eth_call":
+    - '.body.params[0].data == "0xaaaabbbb"'
+    - "0xdeadbeef"
