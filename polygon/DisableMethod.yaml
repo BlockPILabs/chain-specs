@@ -1,52 +1,12 @@
-#
-default: # 等级(所有等级,其它等级没有配置方法时取这里方法配置)
-  "debug_accountRange":
-  "debug_backtraceAt":
-  "debug_blockProfile":
-  "debug_chaindbCompact":
-  "debug_chaindbProperty":
-  "debug_cpuProfile":
-  "debug_dbAncient":
-  "debug_dbAncients":
-  "debug_dbGet":
-  "debug_dumpBlock":
-  "debug_freeOSMemory":
-  "debug_freezeClient":
-  "debug_gcStats":
-  "debug_getAccessibleState":
-  "debug_getBadBlocks":
-  "debug_getBlockRlp":
-  "debug_getHeaderRlp":
-  "debug_getModifiedAccountsByHash":
-  "debug_getModifiedAccountsByNumber":
-  "debug_getRawReceipts":
-  "debug_goTrace":
-  "debug_intermediateRoots":
-  "debug_memStats":
-  "debug_mutexProfile":
-  "debug_preimage":
-  "debug_printBlock":
-  "debug_seedHash":
-  "debug_setBlockProfileRate":
-  "debug_setGCPercent":
-  "debug_setHead":
-  "debug_setMutexProfileFraction":
-  "debug_stacks":
-  "debug_standardTraceBlockToFile":
-  "debug_standardTraceBadBlockToFile":
-  "debug_startCPUProfile":
-  "debug_startGoTrace":
-  "debug_stopCPUProfile":
-  "debug_stopGoTrace":
-  "debug_storageRangeAt":
-  "debug_traceBadBlock":
-  "debug_traceBlock":
-  "debug_traceBlockFromFile":
-  "debug_traceChain":
-  "debug_verbosity":
-  "debug_vmodule":
-  "debug_writeBlockProfile":
-  "debug_writeMemProfile":
-  "debug_writeMutexProfile":
-  "trace_callMany":
-
+# GW-DIS 夹具（v2.0.1，2026-11-27）第一期：覆盖 DIS-001/002/003/004/005/007
+# 语义：精确项优先于通配符；通配命中但条件不成立时不再回退 default 方法项；
+# 等级段未命中方法时回退 default 等级段。
+default:
+  "debug*":
+  "*BlockByNumber":
+  "*trace*":
+  "txpool_content":
+L7:
+  # DIS-005：精确项 + 不成立条件 → 放行
+  "debug_traceTransaction":
+    - "NOT_PRESENT_XYZ"
