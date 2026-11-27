@@ -1,5 +1,7 @@
-# 2026-11-27 清理残留限速规则。
-# 背景：2026-11-26 的 GW-RL / GW-ERR 测试夹具（eth_blockNumber、eth_getLogs 各 1 请求/分钟）
-# 回滚删除后，网关本地 spec 缓存仍保留该规则并继续生效，重启也未清除。
-# 这里显式声明空规则集覆盖缓存，使 polygon 回到默认行为（方法级无 q/ru 限制）。
-methods: []
+# 2026-11-27 WS 限频复测夹具（v2.0.0-49）
+# 选 eth_hashrate（无历史规则、业务上极少使用），避免旧缓存规则干扰。
+# 测完会改回 methods: []。
+methods:
+  - name: "eth_hashrate"
+    q: "2-M"
+    ru: "1000000-D"
